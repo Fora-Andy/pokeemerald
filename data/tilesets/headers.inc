@@ -830,3 +830,169 @@ gTileset_UnionRoom:: @ 83DFDFC
 	.4byte gMetatiles_UnionRoom
 	.4byte gMetatileAttributes_UnionRoom
 	.4byte NULL @ animation callback
+
+	.align 2
+gTileset_AtroposOutdoorGeneral::
+	.byte TRUE @ is compressed
+	.byte FALSE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_AtroposOutdoorGeneral
+	.4byte gTilesetPalettes_AtroposOutdoorGeneral
+	.4byte gMetatiles_AtroposOutdoorGeneral
+	.4byte gMetatileAttributes_AtroposOutdoorGeneral
+	.4byte InitTilesetAnim_Atropos_Outdoor_General
+
+	.align 2
+gTileset_AtroposOutdoor_0::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_AtroposOutdoor_0
+	.4byte gTilesetPalettes_AtroposOutdoor_0
+	.4byte gMetatiles_AtroposOutdoor_0
+	.4byte gMetatileAttributes_AtroposOutdoor_0
+	.4byte NULL
+
+	.align 2
+gTileset_AtroposOutdoor_1::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_AtroposOutdoor_1
+	.4byte gTilesetPalettes_AtroposOutdoor_1
+	.4byte gMetatiles_AtroposOutdoor_1
+	.4byte gMetatileAttributes_AtroposOutdoor_1
+	.4byte NULL
+
+	.align 2
+gTileset_AtroposOutdoor_2::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_AtroposOutdoor_2
+	.4byte gTilesetPalettes_AtroposOutdoor_2
+	.4byte gMetatiles_AtroposOutdoor_2
+	.4byte gMetatileAttributes_AtroposOutdoor_2
+	.4byte NULL
+
+
+	.align 2
+gTileset_AtroposOutdoor_3::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_AtroposOutdoor_3
+	.4byte gTilesetPalettes_AtroposOutdoor_3
+	.4byte gMetatiles_AtroposOutdoor_3
+	.4byte gMetatileAttributes_AtroposOutdoor_3
+	.4byte NULL
+
+	.align 2
+gTileset_AtroposOutdoor_4::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_AtroposOutdoor_4
+	.4byte gTilesetPalettes_AtroposOutdoor_4
+	.4byte gMetatiles_AtroposOutdoor_4
+	.4byte gMetatileAttributes_AtroposOutdoor_4
+	.4byte NULL
+
+	.align 2
+gTileset_AtroposOutdoor_5::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_AtroposOutdoor_5
+	.4byte gTilesetPalettes_AtroposOutdoor_5
+	.4byte gMetatiles_AtroposOutdoor_5
+	.4byte gMetatileAttributes_AtroposOutdoor_5
+	.4byte NULL
+
+	.align 2
+gTileset_AtroposOutdoor_6::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_AtroposOutdoor_6
+	.4byte gTilesetPalettes_AtroposOutdoor_6
+	.4byte gMetatiles_AtroposOutdoor_6
+	.4byte gMetatileAttributes_AtroposOutdoor_6
+	.4byte NULL
+
+	.align 2
+gTileset_AtroposOutdoor_7::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_AtroposOutdoor_7
+	.4byte gTilesetPalettes_AtroposOutdoor_7
+	.4byte gMetatiles_AtroposOutdoor_7
+	.4byte gMetatileAttributes_AtroposOutdoor_7
+	.4byte NULL
+
+	.align 2
+gTileset_AtroposOutdoor_8::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_AtroposOutdoor_8
+	.4byte gTilesetPalettes_AtroposOutdoor_8
+	.4byte gMetatiles_AtroposOutdoor_8
+	.4byte gMetatileAttributes_AtroposOutdoor_8
+	.4byte NULL
+
+	.align 2
+gTileset_AtroposOutdoor_9::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_AtroposOutdoor_9
+	.4byte gTilesetPalettes_AtroposOutdoor_9
+	.4byte gMetatiles_AtroposOutdoor_9
+	.4byte gMetatileAttributes_AtroposOutdoor_9
+	.4byte NULL
+
+	.align 2
+gTileset_AtroposIndoor_0::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_AtroposIndoor_0
+	.4byte gTilesetPalettes_AtroposIndoor_0
+	.4byte gMetatiles_AtroposIndoor_0
+	.4byte gMetatileAttributes_AtroposIndoor_0
+	.4byte NULL
+
+	.align 2
+gTileset_AtroposIndoor_pc::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_AtroposIndoor_pc
+	.4byte gTilesetPalettes_AtroposIndoor_pc
+	.4byte gMetatiles_AtroposIndoor_pc
+	.4byte gMetatileAttributes_AtroposIndoor_pc
+	.4byte NULL
+
+	.align 2
+gTileset_AtroposIndoorGeneral::
+	.byte TRUE @ is compressed
+	.byte FALSE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_AtroposIndoorGeneral
+	.4byte gTilesetPalettes_AtroposIndoorGeneral
+	.4byte gMetatiles_AtroposIndoorGeneral
+	.4byte gMetatileAttributes_AtroposIndoorGeneral
+	.4byte NULL
+
+	.align 2
+gTileset_AtroposIndoor_lab::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_AtroposIndoor_lab
+	.4byte gTilesetPalettes_AtroposIndoor_lab
+	.4byte gMetatiles_AtroposIndoor_lab
+	.4byte gMetatileAttributes_AtroposIndoor_lab
+	.4byte NULL

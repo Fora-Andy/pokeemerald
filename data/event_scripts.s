@@ -627,17 +627,17 @@ EventScript_23B6D7:: @ 823B6D7
 	end
 
 gText_23B6E0:: @ 823B6E0
-	.string "There's a small indent in the wall.$"
+	.string "墙上有个凹洞。$"
 
 gText_23B704:: @ 823B704
-	.string "There's a small indent in the wall.\p"
-	.string "Use the SECRET POWER?$"
+	.string "墙上有个凹洞。\p"
+	.string "要使用秘密之力吗?$"
 
 gText_23B73E:: @ 823B73E
-	.string "Discovered a small cavern!$"
+	.string "发现了一个小洞穴!$"
 
 SecretBase_RedCave1_Text_23B759: @ 823B759
-	.string "Want to make your SECRET BASE here?$"
+	.string "想在这里建造秘密基地吗?$"
 
 	.include "data/maps/SingleBattleColosseum/scripts.inc"
 	.include "data/maps/TradeCenter/scripts.inc"
@@ -2497,220 +2497,220 @@ EventScript_Blueprint:: @ 8272604
 	end
 
 Text_WouldYouLikeToMixRecords: @ 827260D
-	.string "Would you like to mix records with\n"
-	.string "other TRAINERS?$"
+	.string "你想要与其他训练师\n"
+	.string "混合记录吗?$"
 
 Text_WouldNotLikeToMixRecords: @ 8272640
-	.string "We hope to see you again!$"
+	.string "欢迎下次再来!$"
 
 Text_BootUpPC: @ 827265A
-	.string "{PLAYER} booted up the PC.$"
+	.string "{PLAYER}启动了电脑。$"
 
 gText_WhichPCShouldBeAccessed:: @ 827266F
-	.string "Which PC should be accessed?$"
+	.string "要连接哪个电脑?$"
 
 gText_AccessedSomeonesPC:: @ 827268C
-	.string "Accessed SOMEONE'S PC.$"
+	.string "连接到某人的电脑。$"
 
 gText_StorageSystemOpened:: @ 82726A3
-	.string "POKéMON Storage System opened.$"
+	.string "打开宝可梦存储系统。$"
 
 gText_AccessedPlayersPC:: @ 82726C2
-	.string "Accessed {PLAYER}'s PC.$"
+	.string "连接到{PLAYER}的电脑$"
 
 gText_AccessedLanettesPC:: @ 82726D4
-	.string "Accessed LANETTE's PC.$"
+	.string "连接到真由美的电脑。$"
 
 gUnknown_082726EB:: @ 82726EB
-	.string "Hello, and welcome to\nthe POKéMON CENTER.\pWe restore your tired POKéMON\nto full health.\pWould you like to rest your POKéMON?$"
+	.string "您好,\n欢迎来到宝可梦中心，\p我们可以为疲劳的\n宝可梦恢复体力。\p要让您的宝可梦休息一下吗?$"
 
 gUnknown_08272768:: @ 8272768
-	.string "Okay, I'll take your POKéMON\nfor a few seconds.$"
+	.string "好的，\n您的宝可梦暂时由我保管。$"
 
 gUnknown_08272798:: @ 8272798
-	.string "Thank you for waiting.\pWe've restored your POKéMON\nto full health.$"
+	.string "让您久等了，\n宝可梦的体力已经都恢复了。$"
 
 gUnknown_082727DB:: @ 82727DB
-	.string "We hope to see you again!$"
+	.string "欢迎下次再来!$"
 
 gUnknown_082727F5:: @ 82727F5
-	.string "Hello, and welcome to\nthe POKéMON CENTER.\pWe restore your tired POKéMON\nto full health.\pWould you like to…$"
+	.string "您好,\n欢迎来到宝可梦中心，\p我们可以为疲劳的\n宝可梦恢复体力。\p要让您的…$"
 
 gUnknown_08272860:: @ 8272860
-	.string "Th-that card…\nCould it be… The GOLD CARD?!\pOh, the gold color is brilliant!\nThe four stars seem to sparkle!\pI've seen several TRAINERS with\na SILVER CARD before, but, {PLAYER},\lyou're the first TRAINER I've ever\lseen with a GOLD CARD!\pOkay, {PLAYER}, please allow me\nthe honor of resting your POKéMON!$"
+	.string "这个…\n这个难道是…金卡?!\p这金色好耀眼!\n上面4颗星星似乎在闪闪发光!\p我之前见过几个\n拥有银卡的训练师,但是, {PLAYER},\l你是我见过的第一个\l拥有金卡的训练师!\p {PLAYER}, 请允许我能有幸\n为您的宝可梦恢复体力!$"
 
 gUnknown_08272982:: @ 8272982
-	.string "I'm delighted to see you, {PLAYER}!\nYou want the usual, am I right?$"
+	.string "很高兴见到您, {PLAYER}!\n跟平常的一样,对吗?$"
 
 gUnknown_082729C0:: @ 82729C0
-	.string "Okay, I'll take your POKéMON\nfor a few seconds.$"
+	.string "好的，\n您的宝可梦暂时由我保管。$"
 
 gUnknown_082729F0:: @ 82729F0
-	.string "Thank you for waiting.$"
+	.string "让您久等了。$"
 
 gUnknown_08272A07:: @ 8272A07
-	.string "We hope to see you again!$"
+	.string "欢迎下次再来!$"
 
 gUnknown_08272A21:: @ 8272A21
-	.string "Welcome!\pHow may I serve you?$"
+	.string "欢迎!\p我可以为您服务吗?$"
 
 gUnknown_08272A3F:: @ 8272A3F
-	.string "Please come again!$"
+	.string "请下次再来!$"
 
 gUnknown_08272A52:: @ 8272A52
-	.string "{PLAYER}{KUN}, welcome!\pWhat can I do for you?$"
+	.string "{PLAYER}{STRING 5},欢迎!\p我可以为您服务吗?$"
 
 gUnknown_08272A78:: @ 8272A78
-	.string "Obtained the {STR_VAR_2}!$"
+	.string "获得了{STR_VAR_2}!$"
 
 gUnknown_08272A89:: @ 8272A89
-	.string "The BAG is full…$"
+	.string "背包满了…$"
 
 gText_PutItemInPocket:: @ 8272A9A
-	.string "{PLAYER} put away the {STR_VAR_2}\nin the {STR_VAR_3} POCKET.$"
+	.string "{PLAYER}将{STR_VAR_2}\n放进背包的{STR_VAR_3}口袋里。$"
 
 gText_PlayerFoundOneItem:: @ 8272ABF
-	.string "{PLAYER} found one {STR_VAR_2}!$"
+	.string "{PLAYER}发现了一个{STR_VAR_2}!$"
 
 gText_TooBadBagIsFull:: @ 8272AD0
-	.string "Too bad!\nThe BAG is full…$"
+	.string "糟糕!\n背包满了…$"
 
 gText_PlayerPutItemInBag:: @ 8272AEA
-	.string "{PLAYER} put away the {STR_VAR_2}\nin the BAG.$"
+	.string "{PLAYER}将{STR_VAR_2}\n放进背包里。$"
 
 gUnknown_08272B09:: @ 8272B09
-	.string "Obtained the {STR_VAR_2}!$"
+	.string "获得了{STR_VAR_2}!$"
 
 gText_NoRoomLeftForAnother:: @ 8272B1A
-	.string "Too bad! There's no room left for\nanother {STR_VAR_2}…$"
+	.string "糟糕! 背包没有剩余的\n空间来存放{STR_VAR_2}…$"
 
 gUnknown_08272B48:: @ 8272B48
-	.string "The {STR_VAR_2} was transferred\nto the PC.$"
+	.string "{STR_VAR_2}被传送到了\n电脑上。$"
 
 gText_PokemartSign:: @ 8272B6A
-	.string "“Selected items for your convenience!”\nPOKéMON MART$"
+	.string "“来挑选一些便利的物品吧!”\n宝可梦商店$"
 
 gText_PokemonCenterSign:: @ 8272B9E
-	.string "“Rejuvenate your tired partners!”\nPOKéMON CENTER$"
+	.string "“让您的伙伴们恢复活力!”\n宝可梦中心$"
 
 gUnknown_08272BCF:: @ 8272BCF
-	.string "{STR_VAR_1} might like this program.\n… … … … … … … … … … … … … … … …\pBetter get going!$"
+	.string "{STR_VAR_1} 可能会喜欢这个节目\n… … … … … … … … … … … … … … … …\p我得走了!$"
 
 gUnknown_08272C1D:: @ 8272C1D
-	.string "Welcome to LILYCOVE DEPARTMENT STORE.\pWhich floor would you like?$"
+	.string "欢迎来到水静百货公司。\p您想要去几楼?$"
 
 gUnknown_08272C5F:: @ 8272C5F
-	.string "The sandstorm is vicious.\nIt's impossible to keep going.$"
+	.string "沙尘暴太凶猛了，\n不能继续前行了。$"
 
 gText_SelectWithoutRegisteredItem:: @ 8272C98
-	.string "An item in the BAG can be\nregistered to SELECT for easy use.$"
+	.string "背包里的物品可以\n登录到SELECT上，方便使用。$"
 
 gUnknown_08272CD5:: @ 8272CD5
-	.string "There's an e-mail from POKéMON TRAINER\nSCHOOL.\p… … … … … …\pA POKéMON may learn up to four moves.\pA TRAINER's expertise is tested on the\nmove sets chosen for POKéMON.\p… … … … … …$"
+	.string "这里有一封来自\n宝可梦训练师学校的邮件\p… … … … … …\p一只宝可梦最多可以学习4个技能。\p在为宝可梦选择技能配置也是对\n训练师的考验。\p… … … … … …$"
 
 gText_PlayerHouseBootPC:: @ 8272D87
-	.string "{PLAYER} booted up the PC.$"
+	.string "{PLAYER}启动了电脑$"
 
 gUnknown_08272D9C:: @ 8272D9C
-	.string "The link was canceled.$"
+	.string "连接被取消了。$"
 
 gUnknown_08272DB3:: @ 8272DB3
-	.string "Want to give a nickname to\nthe {STR_VAR_2} you received?$"
+	.string "想要为您收到的\n{STR_VAR_2}取一个昵称吗?$"
 
 gUnknown_08272DE3:: @ 8272DE3
-	.string "{PLAYER} is out of usable\nPOKéMON!\p{PLAYER} whited out!$"
+	.string "{PLAYER}已经没有\n可以使用的宝可梦!\p{PLAYER}被击败了!$"
 
 gText_RegisteredTrainerinPokeNav:: @ 8272E0F
-	.string "Registered {STR_VAR_1} {STR_VAR_2}\nin the POKéNAV.$"
+	.string "将{STR_VAR_1} {STR_VAR_2}\n记录到宝可梦图鉴上。$"
 
 gUnknown_08272E30:: @ 8272E30
-	.string "Do you know the TM SECRET POWER?\pOur group, we love the TM SECRET\nPOWER.\pOne of our members will give it to you.\nCome back and show me if you get it.\pWe'll accept you as a member and sell\nyou good stuff in secrecy.$"
+	.string "你知道秘密之力吗?\p我们的团队都\n喜欢秘密之力。\p我们的一个成员会将它给你。\n如果你得到它请回来告诉我。\p我们会接受你成为团队的一员，\n并向你出售保密的好东西。$"
 
 gText_PokerusExplanation:: @ 8272F07
-	.string "Your POKéMON may be infected with\nPOKéRUS.\pLittle is known about the POKéRUS\nexcept that they are microscopic life-\lforms that attach to POKéMON.\pWhile infected, POKéMON are said to\ngrow exceptionally well.$"
+	.string "你的宝可梦可能感染了\n宝可梦病毒。\p人们对宝可病毒了解不多,\n只知道它们是寄生在宝可梦\l身上的微生物。\p据说当感染病毒时, \n宝可梦会更好地成长。$"
 
 	.include "data/text/surf.inc"
 
 gUnknown_0827301B:: @ 827301B
-	.string "It sounded as if a door opened\nsomewhere far away.$"
+	.string "听起来好像有一扇门\n在很远的地方打开了。$"
 
 gUnknown_0827304E:: @ 827304E
-	.string "There is a big hole in the wall.$"
+	.string "墙上有一个大洞。$"
 
 gUnknown_0827306F:: @ 827306F
-	.string "I'm terribly sorry.\nThe POKéMON WIRELESS CLUB is\lundergoing adjustments now.$"
+	.string "非常抱歉。\n宝可梦无线俱乐部\l系统正在调整。$"
 
 gUnknown_082730BC:: @ 82730BC
-	.string "It appears to be undergoing\nadjustments…$"
+	.string "它似乎正在进行\n调整的样子…$"
 
 gUnknown_082730E5:: @ 82730E5
-	.string "I'm terribly sorry. The TRADE CENTER\nis undergoing inspections.$"
+	.string "非常抱歉。交易中心目前\n正在接受检查。$"
 
 gUnknown_08273125:: @ 8273125
-	.string "I'm terribly sorry. The RECORD CORNER\nis under preparation.$"
+	.string "非常抱歉。报告角目前\n正在准备中。$"
 
 gUnknown_08273161:: @ 8273161
-	.string "{PLAYER} handed over the\n{STR_VAR_1}.$"
+	.string "{PLAYER}移交了\n{STR_VAR_1}.$"
 
 gUnknown_08273178:: @ 8273178
-	.string "Thank you for accessing the\nMYSTERY GIFT System.$"
+	.string "感谢您访问\n神秘礼物系统。$"
 
 gText_PlayerFoundOneItemTwoLines:: @ 82731A9
-	.string "{PLAYER} found one {STR_VAR_1}\n{STR_VAR_2}!$"
+	.string "{PLAYER}找到了一个{STR_VAR_1}\n{STR_VAR_2}!$"
 
 gText_Sudowoodo_Attacked:: @ 82731BD
-	.string "The weird tree doesn't like the\nWAILMER PAIL!\pThe weird tree attacked!$"
+	.string "奇怪的树不喜欢\n吼吼鲸喷壶!\p奇怪的树发起了攻击!$"
 
 gText_LegendaryFlewAway:: @ 8273204
-	.string "The {STR_VAR_1} flew away!$"
+	.string "{STR_VAR_1}飞走了!$"
 
 gText_PkmnTransferredSomeonesPC:: @ 8273216
-	.string "{STR_VAR_2} was transferred to\nSOMEONE'S PC.\pIt was placed in \nBOX “{STR_VAR_1}.”$"
+	.string "{STR_VAR_2}已被传送到\n某人的电脑上。\p它被放置在\n盒子 “{STR_VAR_1}中。”$"
 
 gText_PkmnTransferredLanettesPC:: @ 8273256
-	.string "{STR_VAR_2} was transferred to\nLANETTE'S PC.\pIt was placed in \nBOX “{STR_VAR_1}.”$"
+	.string "{STR_VAR_2}已被传送到\n真由美的电脑上。\p它被放置在\n盒子 “{STR_VAR_1}中。”$"
 
 gText_PkmnBoxSomeonesPCFull:: @ 8273296
-	.string "BOX “{STR_VAR_3}” on\nSOMEONE'S PC was full.\p{STR_VAR_2} was transferred to\nBOX “{STR_VAR_1}.”$"
+	.string "某人的电脑上的\n 盒子“{STR_VAR_3}” 已被装满。\p{STR_VAR_2} 已转移到\n盒子“{STR_VAR_1}中。”$"
 
 gText_PkmnBoxLanettesPCFull:: @ 82732D9
-	.string "BOX “{STR_VAR_3}” on\nLANETTE'S PC was full.\p{STR_VAR_2} was transferred to\nBOX “{STR_VAR_1}.”$"
+	.string "真由美的电脑上的\n 盒子“{STR_VAR_3}” 已被装满。\p{STR_VAR_2} 已转移到\n盒子“{STR_VAR_1}中。””$"
 
 gUnknown_0827331C:: @ 827331C
-	.string "There's no more room for POKéMON!\pThe POKéMON BOXES are full and\ncan't accept any more!$"
+	.string "盒子装满了!\p已经没有剩余的空间\n来接受宝可梦了!$"
 
 gText_NicknameThisPokemon:: @ 8273374
-	.string "Do you want to give a nickname to\nthis {STR_VAR_1}?$"
+	.string "你想要为{STR_VAR_1}\n取个昵称吗?$"
 
 gUnknown_0827339F:: @ 827339F
-	.string "There is a questionnaire.\nWould you like to fill it out?$"
+	.string "这里有份调查问卷。\n你想要填写吗?$"
 
 gUnknown_082733D8:: @ 82733D8
-	.string "Thank you for taking the time to\nfill out our questionnaire.\pYour feedback will be used for\nfuture reference.$"
+	.string "感谢您抽出时间\n来填写我们的调查问卷。\p您的反馈意见\n将用于未来的参考。$"
 
 gUnknown_08273446:: @ 8273446
-	.string "Oh, hello!\nYou know those words?\pThat means you must know about\nthe MYSTERY GIFT.\pFrom now on, you should be\nreceiving MYSTERY GIFTS!$"
+	.string "你好!\n你知道神秘礼物吗?\p你必须要先了解\n什么是神秘礼物。\p从现在起，你可以收到\n很多神秘礼物!$"
 
 gUnknown_082734CC:: @ 82734CC
-	.string "Once you save your game, you can\naccess the MYSTERY GIFT.$"
+	.string "保存游戏后，\n你可以接收神秘礼物。$"
 
 gUnknown_08273506:: @ 8273506
-	.string "Oh, hello!\nYou know those words?\pThat means you must know about\nthe MYSTERY EVENT.$"
+	.string "你好!\n你知道神秘事件吗?\p你必须要先了解\n什么是神秘事件。$"
 
 gUnknown_08273559:: @ 8273559
-	.string "Once you save your game, you can\naccess the MYSTERY EVENT.$"
+	.string "保存游戏后，\n你可以接收神秘事件。$"
 
 gUnknown_08273594:: @ 8273594
-	.string "Thank you for using the MYSTERY\nEVENT System.\pYou must be {PLAYER}.\nThere is a ticket here for you.$"
+	.string "感谢您使用\n神秘事件系统。\p您是{PLAYER}吧。\n这里有一张票给您。$"
 
 gUnknown_082735F2:: @ 82735F2
-	.string "It appears to be for use at\nthe LILYCOVE CITY port.\pWhy not give it a try and see what\nit is about?$"
+	.string "它似乎可以在水静市的\n港口使用。\p为什么不去试下，\n看看它是去哪的?$"
 
 gText_UnusualWeatherEnded_Rain:: @ 8273656
-	.string "The massive downpour appears to\nhave stopped…$"
+	.string "大暴雨似乎停止了…$"
 
 gText_UnusualWeatherEnded_Sun:: @ 8273684
-	.string "The intense sunshine appears to\nhave subsided…$"
+	.string "强烈的阳光似乎消退了…$"
 
 EventScript_SelectWithoutRegisteredItem:: @ 82736B3
 	msgbox gText_SelectWithoutRegisteredItem, MSGBOX_SIGN
@@ -3466,197 +3466,197 @@ gUnknown_0827E8CE:: @ 827E8CE
 	.string "Missed turn$"
 
 gText_LinkStandby4:: @ 827E8DA
-	.string "Link standby!$"
+	.string "连接等待中!$"
 
 gUnknown_0827E8E8:: @ 827E8E8
-	.string "The winner is {STR_VAR_1}'s {STR_VAR_2}!\n"
-	.string "Congratulations!$"
+	.string "优胜者是{STR_VAR_1}的{STR_VAR_2}!\n"
+	.string "恭喜!$"
 
 gUnknown_0827E910:: @ 827E910
-	.string "The winner is {STR_VAR_1}'s {STR_VAR_2}!{PAUSE_UNTIL_PRESS}$"
+	.string "优胜者是{STR_VAR_1}的{STR_VAR_2}!{PAUSE_UNTIL_PRESS}$"
 
 gUnknown_0827E929:: @ 827E929
-	.string "Primary judging: No. {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
+	.string "初步评判: No. {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
 
 gUnknown_0827E943:: @ 827E943
-	.string "Secondary judging: No. {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
+	.string "二级评判: No. {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
 
 gUnknown_0827E95F:: @ 827E95F
 	.string "Set event: No. {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
 
 gUnknown_0827E973:: @ 827E973
-	.string "The move used most often:\n"
+	.string "这个技能使用率最高:\n"
 	.string "{STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
 
 gUnknown_0827E992:: @ 827E992
-	.string "The most impressive POKéMON:\n"
-	.string "{STR_VAR_1}'s {STR_VAR_2}{PAUSE_UNTIL_PRESS}$"
+	.string "最引人注目的宝可梦:\n"
+	.string "{STR_VAR_1}的{STR_VAR_2}{PAUSE_UNTIL_PRESS}$"
 
 gUnknown_0827E9B9:: @ 827E9B9
 	.string "Set event: No. {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
 
 gUnknown_0827E9CD:: @ 827E9CD
-	.string "A link TV program will not be made\n"
-	.string "because the TRAINER lost.{PAUSE_UNTIL_PRESS}$"
+	.string "由于训练师失败，\n"
+	.string "将不会连接电视节目。{PAUSE_UNTIL_PRESS}$"
 
 gUnknown_0827EA0C:: @ 827EA0C
 	.string "{STR_VAR_1}\n"
-	.string "{STR_VAR_2}'s {STR_VAR_3}$"
+	.string "{STR_VAR_2}的{STR_VAR_3}$"
 
 gUnknown_0827EA17:: @ 827EA17
-	.string "CONTEST$"
+	.string "比赛$"
 
 gContestRankNormal::
-	.string "NORMAL RANK$"
+	.string "普通组$"
 
 gContestRankSuper::
-	.string "SUPER RANK$"
+	.string "超级组$"
 
 gContestRankHyper::
-	.string "HYPER RANK$"
+	.string "专家组$"
 
 gContestRankMaster::
-	.string "MASTER RANK$"
+	.string "大师组$"
 
 gContestLink::
-	.string "LINK$"
+	.string "进入$"
 
 gContestCoolness::
-	.string "COOLNESS$"
+	.string "帅气组$"
 
 gContestBeauty::
-	.string "BEAUTY$"
+	.string "美丽组$"
 
 gContestCuteness::
-	.string "CUTENESS$"
+	.string "可爱组$"
 
 gContestSmartness::
-	.string "SMARTNESS$"
+	.string "聪明组$"
 
 gContestToughness::
-	.string "TOUGHNESS$"
+	.string "强壮组$"
 
 gContestPaintingCool1::
 	.string "Nonstop supercool--\n"
 	.string "the inestimable {STR_VAR_1}$"
 
 gContestPaintingCool2::
-	.string "Hey, there!\n"
-	.string "The good-looking POKéMON {STR_VAR_1}$"
+	.string "嘿!\n"
+	.string "好看的宝可梦{STR_VAR_1}$"
 
 gContestPaintingCool3::
-	.string "The marvelous, wonderful, and\n"
-	.string "very great {STR_VAR_1}$"
+	.string "奇妙，精彩，\n"
+	.string "非常棒{STR_VAR_1}$"
 
 gContestPaintingBeauty1::
-	.string "This century's last Venus--\n"
-	.string "the beautiful {STR_VAR_1}$"
+	.string "本世纪的最后一颗新星--\n"
+	.string "美丽的{STR_VAR_1}$"
 
 gContestPaintingBeauty2::
-	.string "{STR_VAR_1}'s dazzling,\n"
-	.string "glittering smile$"
+	.string "{STR_VAR_1}的令人眼花缭乱,\n"
+	.string "闪闪发光的笑容$"
 
 gContestPaintingBeauty3::
-	.string "POKéMON CENTER's super idol--\n"
-	.string "the incomparable {STR_VAR_1}$"
+	.string "宝可梦中心的超级偶像--\n"
+	.string "无与伦比的{STR_VAR_1}$"
 
 gContestPaintingCute1::
-	.string "The lovely and sweet {STR_VAR_1}$"
+	.string "可爱又甜蜜的{STR_VAR_1}$"
 
 gContestPaintingCute2::
-	.string "The pretty {STR_VAR_1}'s\n"
-	.string "winning portrait$"
+	.string "美丽的{STR_VAR_1}的\n"
+	.string "获奖照片$"
 
 gContestPaintingCute3::
-	.string "Give us a wink!\n"
-	.string "The cutie POKéMON {STR_VAR_1}$"
+	.string "给我们眨个眼!\n"
+	.string "可爱的宝可梦{STR_VAR_1}$"
 
 gContestPaintingSmart1::
-	.string "The smartness maestro--\n"
-	.string "the wise POKéMON {STR_VAR_1}$"
+	.string "智慧大师--\n"
+	.string "聪明的宝可梦{STR_VAR_1}$"
 
 gContestPaintingSmart2::
-	.string "{STR_VAR_1}--the one chosen\n"
-	.string "above all POKéMON$"
+	.string "{STR_VAR_1}，首先\n"
+	.string "选择宝可梦$"
 
 gContestPaintingSmart3::
-	.string "The excellent {STR_VAR_1}'s\n"
-	.string "moment of elegance$"
+	.string "优秀的{STR_VAR_1}的\n"
+	.string "优雅时刻$"
 
 gContestPaintingTough1::
-	.string "The powerfully muscular\n"
-	.string "speedster {STR_VAR_1}$"
+	.string "强壮又\n"
+	.string "敏捷的{STR_VAR_1}$"
 
 gContestPaintingTough2::
 	.string "The strong, stronger, and\n"
 	.string "strongest {STR_VAR_1}$"
 
 gContestPaintingTough3::
-	.string "The mighty tough\n"
-	.string "hyper POKéMON {STR_VAR_1}$"
+	.string "强壮的\n"
+	.string "宝可梦{STR_VAR_1}$"
 
 gUnknown_0827ECBC:: @ 27ECBC
-	.string "ODDISH$"
+	.string "走路草$"
 
 gUnknown_0827ECC3:: @ 27ECC3
-	.string "POOCHYENA$"
+	.string "土狼犬$"
 
 gUnknown_0827ECCD:: @ 27ECCD
-	.string "TAILLOW$"
+	.string "傲骨燕$"
 
 gUnknown_0827ECD5:: @ 27ECD5
-	.string "AZURILL$"
+	.string "露力丽$"
 
 gUnknown_0827ECDD:: @ 27ECDD
-	.string "LOTAD$"
+	.string "莲叶童子$"
 
 gUnknown_0827ECE3:: @ 27ECE3
-	.string "WINGULL$"
+	.string "长翅鸥$"
 
 gUnknown_0827ECEB:: @ 27ECEB
-	.string "DUSTOX$"
+	.string "毒粉蛾$"
 
 gUnknown_0827ECF2:: @ 27ECF2
-	.string "ZUBAT$"
+	.string "超音蝠$"
 
 gUnknown_0827ECF8:: @ 27ECF8
-	.string "NINCADA$"
+	.string "土居忍士$"
 
 gUnknown_0827ED00:: @ 27ED00
-	.string "RALTS$"
+	.string "拉鲁拉丝$"
 
 gUnknown_0827ED06:: @ 27ED06
-	.string "ZIGZAGOON$"
+	.string "蛇纹熊$"
 
 gUnknown_0827ED10:: @ 27ED10
-	.string "SLAKOTH$"
+	.string "懒人獭$"
 
 gUnknown_0827ED18:: @ 27ED18
-	.string "POOCHYENA$"
+	.string "土狼犬$"
 
 gUnknown_0827ED22:: @ 27ED22
-	.string "SHROOMISH$"
+	.string "蘑蘑菇$"
 
 gUnknown_0827ED2C:: @ 27ED2C
-	.string "ZIGZAGOON$"
+	.string "蛇纹熊$"
 
 gUnknown_0827ED36:: @ 27ED36
-	.string "POOCHYENA$"
+	.string "土狼犬$"
 
 gUnknown_0827ED40:: @ 27ED40
-	.string "ZUBAT$"
+	.string "超音蝠$"
 
 gUnknown_0827ED46:: @ 27ED46
-	.string "CARVANHA$"
+	.string "利牙鱼$"
 
 gUnknown_0827ED4F:: @ 27ED4F
-	.string "BURN HEAL$"
+	.string "灼伤药$"
 
 gUnknown_0827ED59:: @ 27ED59
-	.string "HARBOR MAIL$"
+	.string "港口邮件$"
 
 gUnknown_0827ED65:: @ 27ED65
-	.string "Same price$"
+	.string "同样的价格$"
 
 gUnknown_0827ED70:: @ 27ED70
 	.string "¥60$"
@@ -4102,67 +4102,67 @@ EventScript_RunningShoesManual:: @ 8292DE5
 	.include "data/scripts/pokeblocks.inc"
 
 gText_SoPretty:: @ 8294295
-	.string " so pretty!$"
+	.string "真漂亮!$"
 
 gText_SoDarling:: @ 82942A1
-	.string " so darling!$"
+	.string "亲爱的!$"
 
 gText_SoRelaxed:: @ 82942AE
-	.string " so relaxed!$"
+	.string "太放松了!$"
 
 gText_SoSunny:: @ 82942BB
-	.string " so sunny!$"
+	.string "太阳光了!$"
 
 gText_SoDesirable:: @ 82942C6
-	.string " so desirable!$"
+	.string "非常可取!$"
 
 gText_SoExciting:: @ 82942D5
-	.string " so exciting!$"
+	.string "如此令人兴奋!$"
 
 gText_SoAmusing:: @ 82942E3
-	.string " so amusing!$"
+	.string "太有趣了!$"
 
 gText_SoMagical:: @ 82942F0
-	.string " so magical!$"
+	.string "太神奇了!$"
 
 gOtherText_Is:: @ 82942FD
-	.string " is$"
+	.string "是$"
 
 gOtherText_DontYouAgree:: @ 8294301
 	.string "\n"
-	.string "Don't you agree?$"
+	.string "你不同意吗?$"
 
 gMauvilleManText_ISoWantToGoOnAVacation:: @ 8294313
-	.string "I so want to go on a vacation.\n"
-	.string "Would you happen to know a nice place?$"
+	.string "我很想去度假。\n"
+	.string "你知道哪些好地方吗?$"
 
 gMauvilleManText_IBoughtCrayonsWith120Colors:: @ 8294359
-	.string "I bought crayons with 120 colors!\n"
-	.string "Don't you think that's nice?$"
+	.string "我买了120种颜色的蜡笔!\n"
+	.string "难道你不觉得这很好吗?$"
 
 gMauvilleManText_WouldntItBeNiceIfWeCouldFloat:: @ 8294398
-	.string "Wouldn't it be nice if we could float\n"
-	.string "away on a cloud of bubbles?$"
+	.string "如果我们可以漂浮在一团\n"
+	.string "泡沫上，那不是很好?$"
 
 gMauvilleManText_WhenYouWriteOnASandyBeach:: @ 82943DA
-	.string "When you write on a sandy beach,\n"
-	.string "they wash away. It makes me sad.$"
+	.string "当你在沙滩上写字时,\n"
+	.string "它们会被冲掉，这让我很难过。$"
 
 gMauvilleManText_WhatsTheBottomOfTheSeaLike:: @ 829441C
-	.string "What's the bottom of the sea like?\n"
-	.string "Just once I would so love to go!$"
+	.string "海底是什么样的呢?\n"
+	.string "我曾经看到过!$"
 
 gMauvilleManText_WhenYouSeeTheSettingSunDoesIt:: @ 8294460
-	.string "When you see the setting sun, does it\n"
-	.string "make you want to go home?$"
+	.string "当你看到夕阳时，\n"
+	.string "你会想回家吗?$"
 
 gMauvilleManText_LyingBackInTheGreenGrass:: @ 82944A0
-	.string "Lying back in the green grass…\n"
-	.string "Oh, it's so, so nice!$"
+	.string "躺在草丛中…\n"
+	.string "感觉真是太棒了!$"
 
 gMauvilleManText_SecretBasesAreSoWonderful:: @ 82944D5
-	.string "SECRET BASES are so wonderful!\n"
-	.string "Can't you feel the excitement?$"
+	.string "秘密基地太棒了!\n"
+	.string "你能感受到我的这种兴奋吗?$"
 
 	.include "data/text/trainers.inc"
 
@@ -4198,9 +4198,9 @@ EventScript_RepelWoreOff_End:
 	end
 
 Text_RepelWoreOff: @ 82A4B33
-	.string "REPEL's effect wore off…$"
+	.string "除虫喷雾的效果消失了…$"
 Text_RepelAskAnother:
-	.string "Would you like to use another one?$"
+	.string "使用另一个吗？$"
 
 	.include "data/scripts/safari_zone.inc"
 
@@ -4242,32 +4242,32 @@ MauvilleCity_GameCorner_EventScript_2A5B0D:: @ 82A5B0D
 	.include "data/text/shoal_cave.inc"
 
 Text_PictureBookShelf: @ 82A81E5
-	.string "There's a set of POKéMON picture books.$"
+	.string "这里有一套宝可梦图画书。$"
 
 Text_BookShelf: @ 82A820D
-	.string "It's filled with all sorts of books.$"
+	.string "装满了各种各样的书籍。$"
 
 Text_PokemonCenterBookShelf: @ 82A8232
-	.string "POKéMON magazines!\n"
+	.string "宝可梦杂志!\n"
 	.string "POKéMON PAL…\p"
-	.string "POKéMON HANDBOOK…\n"
-	.string "ADORABLE POKéMON…$"
+	.string "宝可梦手册…\n"
+	.string "可爱的宝可梦…$"
 
 Text_Vase: @ 82A8276
-	.string "This vase looks expensive…\n"
-	.string "Peered inside…\p"
-	.string "But, it was empty.$"
+	.string "这个花瓶看起来很贵重…\n"
+	.string "查看下里面…\p"
+	.string "它是空的。$"
 
 Text_EmptyTrashCan: @ 82A82B3
-	.string "It's empty.$"
+	.string "它是空的。$"
 
 Text_ShopShelf: @ 82A82BF
-	.string "The shelves brim with all sorts of\n"
-	.string "POKéMON merchandise.$"
+	.string "货架上摆满了各式各样的\n"
+	.string "宝可梦商品。$"
 
 Text_Blueprint: @ 82A82F7
-	.string "A blueprint of some sort?\n"
-	.string "It's too complicated!$"
+	.string "好像是某种东西的图纸?\n"
+	.string "这太复杂了!$"
 
 GraniteCave_B1F_MapScript2_2A8327: @ 82A8327
 MirageTower_2F_MapScript2_2A8327: @ 82A8327
@@ -4914,244 +4914,244 @@ LilycoveCity_PokemonCenter_1F_Text_2A8A69: @ 82A8A69
 	.string "I'm the FAVOR LADY…$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8A7D: @ 82A8A7D
-	.string "I've recently developed an obsession\n"
-	.string "for {STR_VAR_1} things…$"
+	.string "我最近很痴迷于\n"
+	.string "有关{STR_VAR_1}的事情…$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8AB1: @ 82A8AB1
-	.string "Oh…\n"
-	.string "Thank you for last time…$"
+	.string "噢…\n"
+	.string "最后再感谢你一次…$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8ACE: @ 82A8ACE
-	.string "Before, I think it was {STR_VAR_3}…\p"
-	.string "{STR_VAR_3} gave me one {STR_VAR_2},\n"
-	.string "saying it was {STR_VAR_1}.\p"
-	.string "But it wasn't {STR_VAR_1}.\n"
-	.string "Not in the least bit.$"
+	.string "以前，我认为它是{STR_VAR_3}…\p"
+	.string "后来，{STR_VAR_3}给了我{STR_VAR_2},\n"
+	.string "说它是{STR_VAR_1}。\p"
+	.string "但它不是{STR_VAR_1}。\n"
+	.string "绝对不是。$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8B36: @ 82A8B36
-	.string "Before, {STR_VAR_3} gave me a very\n"
-	.string "{STR_VAR_1} {STR_VAR_2}.\p"
-	.string "I cherish it now.$"
+	.string "以前, {STR_VAR_3}给了我一个非常\n"
+	.string "{STR_VAR_1}{STR_VAR_2}。\p"
+	.string "我现在很珍惜它。$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8B69: @ 82A8B69
-	.string "Listen, if you have anything that\n"
-	.string "is {STR_VAR_1}, will you share it\l"
-	.string "with me?$"
+	.string "如果你有任何有关于\n"
+	.string "{STR_VAR_1}的事情，你都\l"
+	.string "可以与我分享吗?$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8BAD: @ 82A8BAD
-	.string "…Really?\n"
-	.string "What will you give me?$"
+	.string "…真的吗?\n"
+	.string "你会给我什么?$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8BCD: @ 82A8BCD
-	.string "Is that so?\n"
-	.string "Then, it's good-bye…$"
+	.string "是这样吗?\n"
+	.string "那再见…$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8BEE: @ 82A8BEE
-	.string "Oh…\n"
-	.string "You're not willing to share?$"
+	.string "噢…\n"
+	.string "你不愿意分享吗?$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8C0F: @ 82A8C0F
-	.string "Oh?\n"
-	.string "That {STR_VAR_2} is {STR_VAR_1}?\p"
-	.string "…Oh, is that right?\p"
-	.string "Well, I owe you a thanks anyway.\n"
-	.string "I'll try to cherish it…$"
+	.string "哦?\n"
+	.string "{STR_VAR_2}是{STR_VAR_1}?\p"
+	.string "…哦，是这样子的吗?\p"
+	.string "好吧，无论如何我都要感谢您。\n"
+	.string "我会尽力珍惜它…$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8C6F: @ 82A8C6F
-	.string "Oh…\p"
-	.string "That's a quite {STR_VAR_1}\n"
+	.string "哦…\p"
+	.string "这是一个非常{STR_VAR_1}的\n"
 	.string "{STR_VAR_2}…\p"
-	.string "Isn't it nice?\n"
-	.string "It's so dreamy…\p"
-	.string "Thank you…\n"
-	.string "I will cherish this…$"
+	.string "它很好吗?\n"
+	.string "真是太棒了…\p"
+	.string "谢谢你…\n"
+	.string "我会珍惜它的…$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8CC8: @ 82A8CC8
-	.string "…Oh, oh, oh…\p"
-	.string "This is amazing!\n"
-	.string "This really is {STR_VAR_1}!\p"
-	.string "I never knew that one {STR_VAR_2}\n"
-	.string "could be this {STR_VAR_1}!\p"
-	.string "Thank you!\p"
-	.string "I will treasure this for the rest\n"
-	.string "of my life!$"
+	.string "…哦，哦，哦…\p"
+	.string "这简直太棒了!\n"
+	.string "这真的是{STR_VAR_1}!\p"
+	.string "我从来不知道{STR_VAR_2}\n"
+	.string "可以这样的{STR_VAR_1}!\p"
+	.string "谢谢你!\p"
+	.string "以后我会好好\n"
+	.string "珍惜它的!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8D5D: @ 82A8D5D
-	.string "I'll give you this wonderful item in\n"
-	.string "return for your fabulous gift.\p"
-	.string "I hope you will cherish it…$"
+	.string "我会给你这个神奇的道具，\n"
+	.string "用来回报你珍贵的礼物。\p"
+	.string "我希望你会珍惜它…$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8DBD: @ 82A8DBD
-	.string "Oh, you can't have it if you don't have\n"
-	.string "the space for it.\p"
-	.string "Please come see me when you get\n"
-	.string "your BAG organized…$"
+	.string "哦，你包里没有空间了，\n"
+	.string "因此你现在不能接收。\p"
+	.string "请整理完你的背包后\n"
+	.string "再来见我…$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8E2B: @ 82A8E2B
-	.string "I'm the QUIZ LADY!\n"
-	.string "I love quizzes!$"
+	.string "我是测验女士!\n"
+	.string "我喜欢测验!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8E4E: @ 82A8E4E
-	.string "Oh?\p"
-	.string "I'm waiting for a challenger to answer\n"
-	.string "the quiz you made.\p"
-	.string "We can chat another time, okay?$"
+	.string "哦?\p"
+	.string "我正在等待挑战者来\n"
+	.string "回答你所做的测验。\p"
+	.string "我们可以下次再聊，可以吗?$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8EAC: @ 82A8EAC
-	.string "I'm waiting for someone to challenge\n"
-	.string "a quiz this {STR_VAR_1} thought up!$"
+	.string "我正在等待有人来挑战\n"
+	.string "这个由{STR_VAR_1}提出的问答!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8EEC: @ 82A8EEC
-	.string "If you answer correctly, you can win\n"
-	.string "fabulous prizes!\p"
-	.string "Would you like to take the quiz\n"
-	.string "challenge?$"
+	.string "如果你可以回答正确，\n"
+	.string "你将会获得精美的奖品!\p"
+	.string "你要尝试挑战\n"
+	.string "这个问答吗?$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8F4D: @ 82A8F4D
 	.string "… … … … … …\n"
 	.string "… … … … … …$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8F65: @ 82A8F65
-	.string "Oh, how boring!\n"
-	.string "Bye-bye!$"
+	.string "哦,多么的无聊!\n"
+	.string "再见!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8F7E: @ 82A8F7E
-	.string "Awww!\n"
-	.string "You're going to quit?$"
+	.string "噢!\n"
+	.string "你要放弃吗?$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8F9A: @ 82A8F9A
-	.string "Please take the quiz challenge\n"
-	.string "another time!$"
+	.string "请下次再来接受\n"
+	.string "这个挑战!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A8FC7: @ 82A8FC7
-	.string "You're amazing! You've got it right!\n"
-	.string "You're one sharp customer!$"
+	.string "你太令人吃惊了!你回答正确了!\n"
+	.string "你真是太聪明了!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A9007: @ 82A9007
-	.string "Congratulations!\n"
-	.string "You've got the quiz right!\p"
-	.string "You've won a prize provided by\n"
-	.string "{STR_VAR_1}!$"
+	.string "恭喜!\n"
+	.string "这个问题你已经回答正确了!\p"
+	.string "你获得了这个由{STR_VAR_1}\n"
+	.string "提供的奖品!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A9056: @ 82A9056
-	.string "{STR_VAR_1} received\n"
-	.string "one {STR_VAR_2}!$"
+	.string "{STR_VAR_1}获得了\n"
+	.string "一个{STR_VAR_2}!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A906A: @ 82A906A
-	.string "Oh? Your BAG is filled up!\n"
-	.string "Come see me when you have room.$"
+	.string "哦?你的背包满了!\n"
+	.string "等你整理完背包再来找我吧。$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A90A5: @ 82A90A5
-	.string "Hmm… Wrong!\n"
-	.string "The correct answer is “{STR_VAR_3}”!$"
+	.string "嗯… 错误!\n"
+	.string "正确答案是“{STR_VAR_3}”!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A90CD: @ 82A90CD
-	.string "Too bad!\p"
-	.string "I get to keep the quiz prize\n"
-	.string "{STR_VAR_1} now!$"
+	.string "太糟糕了!\p"
+	.string "我现在只能保留测验\n"
+	.string "的奖项{STR_VAR_1}了!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A90FB: @ 82A90FB
-	.string "Listen, listen!\n"
-	.string "Would you like to make your own quiz?$"
+	.string "听好了!\n"
+	.string "你想做一个自己的测验吗?$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A9131: @ 82A9131
-	.string "Oh, I see…\n"
-	.string "Well, maybe next time!$"
+	.string "哦, 我看看…\n"
+	.string "好吧，可能得下一次了!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A9153: @ 82A9153
-	.string "Okay, the first thing you have to do\n"
-	.string "is pick the prize for the person that\l"
-	.string "answers your quiz correctly.\p"
-	.string "But beware, if the person taking\n"
-	.string "the quiz can't get it right, I get to\l"
-	.string "keep the prize!$"
+	.string "好的,首先你需要做的\n"
+	.string "事情是为正确回答你\l"
+	.string "问题的人设置奖品。\p"
+	.string "但你要注意,如果参与测验\n"
+	.string "的人都无法回答正确，\l"
+	.string "我会保留奖品!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A9212: @ 82A9212
-	.string "If you don't choose a prize,\n"
-	.string "your quiz can't be made.\p"
-	.string "Are you going to quit making\n"
-	.string "your quiz?$"
+	.string "如果你没有选择奖品,\n"
+	.string "你的测验将无法完成。\p"
+	.string "你要放弃完成你的\n"
+	.string "测验吗?$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A9270: @ 82A9270
-	.string "Oh, how nice!\n"
-	.string "That's a wonderful prize!\p"
-	.string "Next, you need to write your quiz\n"
-	.string "question and its answer.$"
+	.string "哦，真是太棒了!\n"
+	.string "这真是个很好的奖品!\p"
+	.string "接下来，你需要编辑你的\n"
+	.string "问题以及答案。$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A92D3: @ 82A92D3
-	.string "Are you going to quit writing\n"
-	.string "your quiz question?$"
+	.string "你要放弃编辑你的\n"
+	.string "测验问题吗?$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A9305: @ 82A9305
-	.string "Are you going to quit choosing\n"
-	.string "your quiz answer?$"
+	.string "你要放弃选择你的\n"
+	.string "测验答案吗?$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A9336: @ 82A9336
-	.string "Thank you!\n"
-	.string "You've put together a nice quiz.\p"
-	.string "I'll go look for someone who'll take\n"
-	.string "your quiz challenge right away.$"
+	.string "谢谢!\n"
+	.string "你已经设置完一个很好的测验。\p"
+	.string "我会去寻找一个能马上\n"
+	.string "接受你的测验挑战的人。$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A93A7: @ 82A93A7
-	.string "I'm the CONTEST LADY!\n"
-	.string "I sure do love CONTESTS!$"
+	.string "我是华丽大赛女士!\n"
+	.string "我确实很喜欢华丽大赛!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A93D6: @ 82A93D6
-	.string "Thanks for your {POKEBLOCK} before!$"
+	.string "感谢你之前的{POKEBLOCK}!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A93F4: @ 82A93F4
-	.string "This is my friend {STR_VAR_1}!\n"
-	.string "It's the epitome of {STR_VAR_2}!\p"
-	.string "But I think that it will display\n"
-	.string "even more {STR_VAR_2}!$"
+	.string "这是我的伙伴{STR_VAR_1}!\n"
+	.string "这是{STR_VAR_2}的缩影!\p"
+	.string "但我认为他会显示\n"
+	.string "更多的{STR_VAR_2}!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A9451: @ 82A9451
-	.string "So, I need your help!\p"
-	.string "Please, may I have one {POKEBLOCK}?\n"
-	.string "All I'm asking for is one!\p"
-	.string "…Oh, but…\n"
-	.string "Don't you have a {POKEBLOCK} CASE?\l"
-	.string "That's no good. Next time, then!$"
+	.string "我需要你的帮助!\p"
+	.string "拜托，我可以有一个{POKEBLOCK}吗?\n"
+	.string "我所要求的只有一个!\p"
+	.string "…哦, 但是…\n"
+	.string "你有没有一个{POKEBLOCK}盒?\l"
+	.string "那不好，下一次吧!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A94E8: @ 82A94E8
-	.string "So, I need your help!\p"
-	.string "Please, may I have one {POKEBLOCK}?\n"
-	.string "All I'm asking for is one!$"
+	.string "我需要你的帮助!\p"
+	.string "拜托，我可以有一个{POKEBLOCK}吗?\n"
+	.string "我所要求的只有一个!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A9537: @ 82A9537
-	.string "Awww!\n"
-	.string "I can't have one {POKEBLOCK}?!$"
+	.string "噢!\n"
+	.string "我不能有{POKEBLOCK}?!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A9556: @ 82A9556
-	.string "Sheesh!\n"
-	.string "What a cheapskate!$"
+	.string "啧!\n"
+	.string "太小气了!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A9571: @ 82A9571
-	.string "Yay!\n"
-	.string "Thank you!\p"
-	.string "I'll feed my POKéMON your {POKEBLOCK}\n"
-	.string "right away.$"
+	.string "耶!\n"
+	.string "谢谢你!\p"
+	.string "我会马上用你给的{POKEBLOCK}\n"
+	.string "来喂我的宝可梦。$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A95AD: @ 82A95AD
-	.string "…It doesn't seem to have changed\n"
-	.string "in any way at all…\p"
-	.string "Hmm…\p"
-	.string "Oh, well!\n"
-	.string "Thank you very much!$"
+	.string "…它似乎没有发生\n"
+	.string "任何的改变…\p"
+	.string "嗯…\p"
+	.string "那好吧!\n"
+	.string "非常感谢你!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A9605: @ 82A9605
-	.string "Oh, yay!\n"
-	.string "It's really delighted!\p"
-	.string "I think it really improved {STR_VAR_1}'s\n"
-	.string "{STR_VAR_2} quality, too.\p"
-	.string "Thank you so much!$"
+	.string "耶!\n"
+	.string "真的很高兴!\p"
+	.string "我认为它确实提高了\n"
+	.string "{STR_VAR_1}的{STR_VAR_2}。\p"
+	.string "非常感谢你!$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A9669: @ 82A9669
-	.string "Hmm…\p"
-	.string "I think we may be ready to enter\n"
-	.string "some CONTESTS.\p"
-	.string "If you see us in one somewhere,\n"
-	.string "I hope you'll cheer for us.$"
+	.string "嗯…\p"
+	.string "我想我们已经准备好\n"
+	.string "参加比赛了。\p"
+	.string "如果下次你看到我们,\n"
+	.string "我希望你可以为我们加油。$"
 
 LilycoveCity_PokemonCenter_1F_Text_2A96DA: @ 82A96DA
 	.string "{STR_VAR_1}: Guguuh!$"
@@ -5172,346 +5172,346 @@ LilycoveCity_PokemonCenter_1F_Text_2A970E: @ 82A970E
 	.include "data/scripts/apprentice.inc"
 
 gBattleDomeOpponentPotentialText1::
-	.string "The best candidate to be a champ!$"
+	.string "成为冠军的最佳人选!$"
 
 gBattleDomeOpponentPotentialText2::
-	.string "A sure-finalist team.$"
+	.string "一支确定能进决赛的队伍。$"
 
 gBattleDomeOpponentPotentialText3::
-	.string "A likely top-three finisher.$"
+	.string "可能是前三名的终结者。$"
 
 gBattleDomeOpponentPotentialText4::
-	.string "A candidate to finish first.$"
+	.string "获得第一的候选人。$"
 
 gBattleDomeOpponentPotentialText5::
-	.string "A team with top-class potential.$"
+	.string "拥有一流潜力的队伍。$"
 
 gBattleDomeOpponentPotentialText6::
-	.string "The dark horse team this tournament.$"
+	.string "这场锦标赛的黑马。$"
 
 gBattleDomeOpponentPotentialText7::
-	.string "A better-than-average team.$"
+	.string "一支平均水平以上的队伍。$"
 
 gBattleDomeOpponentPotentialText8::
-	.string "This tournament's average team.$"
+	.string "这场锦标赛的平均水平。$"
 
 gBattleDomeOpponentPotentialText9::
-	.string "A team with average potential.$"
+	.string "拥有平均水平潜力的一支队伍。$"
 
 gBattleDomeOpponentPotentialText10::
-	.string "A weaker-than-average team.$"
+	.string "弱于平均水平的队伍。$"
 
 gBattleDomeOpponentPotentialText11::
-	.string "A team looking for its first win.$"
+	.string "还在寻找第一场胜利的队伍。$"
 
 gBattleDomeOpponentPotentialText12::
-	.string "One win will make this team proud.$"
+	.string "一场胜利足以让这支队伍感到自豪。$"
 
 gBattleDomeOpponentPotentialText13::
-	.string "Overall, a weak team.$"
+	.string "总体而言，一支弱队。$"
 
 gBattleDomeOpponentPotentialText14::
-	.string "A team with very low potential.$"
+	.string "拥有非常低潜力的队伍。$"
 
 gBattleDomeOpponentPotentialText15::
-	.string "A team unlikely to win the tournament.$"
+	.string "一支不太可能赢得比赛的队伍。$"
 
 gBattleDomeOpponentPotentialText16::
-	.string "The team most unlikely to win.$"
+	.string "最不可能获胜的队伍。$"
 
 gBattleDomeOpponentPotentialText17::
-	.string "The perfect, invincible superstar!$"
+	.string "完美又无敌的超级巨星!$"
 
 gBattleDomeOpponentStyleText1::
-	.string "Willing to risk total disaster at times.$"
+	.string "有时会愿意去冒险。$"
 
 gBattleDomeOpponentStyleText2::
-	.string "Skilled at enduring long battles.$"
+	.string "熟练于长时间的战斗。$"
 
 gBattleDomeOpponentStyleText3::
-	.string "Varies tactics to suit the opponent.$"
+	.string "经常改变战略去应对不同的对手。$"
 
 gBattleDomeOpponentStyleText4::
-	.string "Has a tough winning pattern.$"
+	.string "有一场艰难的胜利。$"
 
 gBattleDomeOpponentStyleText5::
-	.string "Occasionally uses a very rare move.$"
+	.string "偶尔会使用非常少见的技能。$"
 
 gBattleDomeOpponentStyleText6::
-	.string "Uses startling and disruptive moves.$"
+	.string "使用破坏力惊人的技能。$"
 
 gBattleDomeOpponentStyleText7::
-	.string "Constantly watches HP in battle.$"
+	.string "在战斗过程中会盯着HP。$"
 
 gBattleDomeOpponentStyleText8::
-	.string "Good at storing then loosing power.$"
+	.string "擅于先储存然后再释放力量。$"
 
 gBattleDomeOpponentStyleText9::
-	.string "Skilled at enfeebling foes.$"
+	.string "能够熟练的与对手战斗。$"
 
 gBattleDomeOpponentStyleText10::
-	.string "Prefers tactics that rely on luck.$"
+	.string "更喜欢使用依靠运气的战术。$"
 
 gBattleDomeOpponentStyleText11::
-	.string "Attacks with a regal atmosphere.$"
+	.string "使用华丽的技能攻击。$"
 
 gBattleDomeOpponentStyleText12::
-	.string "Attacks with powerful, low-PP moves.$"
+	.string "使用PP值低威力大的技能攻击。$"
 
 gBattleDomeOpponentStyleText13::
-	.string "Skilled at enfeebling, then attacking.$"
+	.string "擅长先进行蓄力然后在攻击。$"
 
 gBattleDomeOpponentStyleText14::
-	.string "Battles while enduring all attacks.$"
+	.string "会在忍受所有攻击的同时进行战斗。$"
 
 gBattleDomeOpponentStyleText15::
-	.string "Skilled at upsetting foes emotionally.$"
+	.string "擅于扰乱对手的情绪。$"
 
 gBattleDomeOpponentStyleText16::
-	.string "Uses strong and straightforward moves.$"
+	.string "使用强大而又直接的技能。$"
 
 gBattleDomeOpponentStyleText17::
-	.string "Aggressively uses strong moves.$"
+	.string "经常使用强大的技能。$"
 
 gBattleDomeOpponentStyleText18::
-	.string "Battles while cleverly dodging attacks.$"
+	.string "在巧妙地躲避对手攻击的同时进行战斗。$"
 
 gBattleDomeOpponentStyleText19::
-	.string "Skilled at using upsetting attacks.$"
+	.string "擅于使用干扰对手的攻击。$"
 
 gBattleDomeOpponentStyleText20::
-	.string "Uses many popular moves.$"
+	.string "会使用许多受欢迎的技能。$"
 
 gBattleDomeOpponentStyleText21::
-	.string "Has moves for powerful combinations.$"
+	.string "有强大的技能组合。$"
 
 gBattleDomeOpponentStyleText22::
-	.string "Uses high-probability attacks.$"
+	.string "使用命中率高的技能攻击。$"
 
 gBattleDomeOpponentStyleText23::
-	.string "Aggressively uses spectacular moves.$"
+	.string "经常使用看起来很壮观的技能。$"
 
 gBattleDomeOpponentStyleText24::
-	.string "Emphasizes offense over defense.$"
+	.string "比起防守更注重于进攻。$"
 
 gBattleDomeOpponentStyleText25::
-	.string "Emphasizes defense over offense.$"
+	.string "比起进攻更注重于防守。$"
 
 gBattleDomeOpponentStyleText26::
-	.string "Attacks quickly with strong moves.$"
+	.string "使用强大的技能快速地进攻。$"
 
 gBattleDomeOpponentStyleText27::
-	.string "Often uses moves with added effects.$"
+	.string "经常使用带有特效的技能。$"
 
 gBattleDomeOpponentStyleText28::
-	.string "Uses a well-balanced mix of moves.$"
+	.string "使用均衡的技能配置。$"
 
 gBattleDomeOpponentStyleTextUnused1::
-	.string "This is sample message 1.$"
+	.string "这是消息示例1.$"
 
 gBattleDomeOpponentStyleTextUnused2::
-	.string "This is sample message 2.$"
+	.string "这是消息示例2.$"
 
 gBattleDomeOpponentStyleTextUnused3::
-	.string "This is sample message 3.$"
+	.string "这是消息示例3.$"
 
 gBattleDomeOpponentStyleTextUnused4::
-	.string "This is sample message 4.$"
+	.string "这是消息示例4.$"
 
 gBattleDomeOpponentStatsText1::
-	.string "Emphasizes HP and ATTACK.$"
+	.string "注重HP和物攻。$"
 
 gBattleDomeOpponentStatsText2::
-	.string "Emphasizes HP and DEFENSE.$"
+	.string "注重HP和物防。$"
 
 gBattleDomeOpponentStatsText3::
-	.string "Emphasizes HP and SPEED.$"
+	.string "注重HP和速度。$"
 
 gBattleDomeOpponentStatsText4::
-	.string "Emphasizes HP and SP. ATTACK.$"
+	.string "注重HP和特攻。$"
 
 gBattleDomeOpponentStatsText5::
-	.string "Emphasizes HP and SP. DEFENSE.$"
+	.string "注重HP和特防。$"
 
 gBattleDomeOpponentStatsText6::
-	.string "Emphasizes ATTACK and DEFENSE.$"
+	.string "注重物攻和物防。$"
 
 gBattleDomeOpponentStatsText7::
-	.string "Emphasizes ATTACK and SPEED.$"
+	.string "注重物攻和速度。$"
 
 gBattleDomeOpponentStatsText8::
-	.string "Emphasizes ATTACK and SP. ATTACK.$"
+	.string "注重物攻和特攻。$"
 
 gBattleDomeOpponentStatsText9::
-	.string "Emphasizes ATTACK and SP. DEFENSE.$"
+	.string "注重物攻和特防。$"
 
 gBattleDomeOpponentStatsText10::
-	.string "Emphasizes DEFENSE and SPEED.$"
+	.string "注重物防和速度。$"
 
 gBattleDomeOpponentStatsText11::
-	.string "Emphasizes DEFENSE and SP. ATTACK.$"
+	.string "注重物防和特攻。$"
 
 gBattleDomeOpponentStatsText12::
-	.string "Emphasizes DEFENSE and SP. DEFENSE.$"
+	.string "注重物防和特防。$"
 
 gBattleDomeOpponentStatsText13::
-	.string "Emphasizes SPEED and SP. ATTACK.$"
+	.string "注重速度和特攻。$"
 
 gBattleDomeOpponentStatsText14::
-	.string "Emphasizes SPEED and SP. DEFENSE.$"
+	.string "注重速度和特防。$"
 
 gBattleDomeOpponentStatsText15::
-	.string "Emphasizes SP. ATTACK and SP. DEFENSE.$"
+	.string "注重特攻和特防。$"
 
 gBattleDomeOpponentStatsText16::
-	.string "Emphasizes HP.$"
+	.string "注重HP。$"
 
 gBattleDomeOpponentStatsText17::
-	.string "Emphasizes ATTACK.$"
+	.string "注重物攻。$"
 
 gBattleDomeOpponentStatsText18::
-	.string "Emphasizes DEFENSE.$"
+	.string "注重物防。$"
 
 gBattleDomeOpponentStatsText19::
-	.string "Emphasizes SPEED.$"
+	.string "注重速度。$"
 
 gBattleDomeOpponentStatsText20::
-	.string "Emphasizes SP. ATTACK.$"
+	.string "注重特攻。$"
 
 gBattleDomeOpponentStatsText21::
-	.string "Emphasizes SP. DEFENSE.$"
+	.string "注重特防。$"
 
 gBattleDomeOpponentStatsText22::
-	.string "Neglects HP and ATTACK.$"
+	.string "忽视HP和物攻。$"
 
 gBattleDomeOpponentStatsText23::
-	.string "Neglects HP and DEFENSE.$"
+	.string "忽视HP和物防。$"
 
 gBattleDomeOpponentStatsText24::
-	.string "Neglects HP and SPEED.$"
+	.string "忽视HP和速度。$"
 
 gBattleDomeOpponentStatsText25::
-	.string "Neglects HP and SP. ATTACK.$"
+	.string "忽视HP和特攻。$"
 
 gBattleDomeOpponentStatsText26::
-	.string "Neglects HP and SP. DEFENSE.$"
+	.string "忽视HP和特防。$"
 
 gBattleDomeOpponentStatsText27::
-	.string "Neglects ATTACK and DEFENSE.$"
+	.string "忽视物攻和物防。$"
 
 gBattleDomeOpponentStatsText28::
-	.string "Neglects ATTACK and SPEED.$"
+	.string "忽视物攻和速度。$"
 
 gBattleDomeOpponentStatsText29::
-	.string "Neglects ATTACK and SP. ATTACK.$"
+	.string "忽视物攻和特攻。$"
 
 gBattleDomeOpponentStatsText30::
-	.string "Neglects ATTACK and SP. DEFENSE.$"
+	.string "忽视物攻和特防。$"
 
 gBattleDomeOpponentStatsText31::
-	.string "Neglects DEFENSE and SPEED.$"
+	.string "忽视物防和速度。$"
 
 gBattleDomeOpponentStatsText32::
-	.string "Neglects DEFENSE and SP. ATTACK.$"
+	.string "忽视物防和特攻。$"
 
 gBattleDomeOpponentStatsText33::
-	.string "Neglects DEFENSE and SP. DEFENSE.$"
+	.string "忽视物防和特防。$"
 
 gBattleDomeOpponentStatsText34::
-	.string "Neglects SPEED and SP. ATTACK.$"
+	.string "忽视速度和特攻。$"
 
 gBattleDomeOpponentStatsText35::
-	.string "Neglects SPEED and SP. DEFENSE.$"
+	.string "忽视速度和特防。$"
 
 gBattleDomeOpponentStatsText36::
-	.string "Neglects SP. ATTACK and SP. DEFENSE.$"
+	.string "忽视特攻和特防。$"
 
 gBattleDomeOpponentStatsText37::
-	.string "Neglects HP.$"
+	.string "忽视HP。$"
 
 gBattleDomeOpponentStatsText38::
-	.string "Neglects ATTACK.$"
+	.string "忽视物攻。$"
 
 gBattleDomeOpponentStatsText39::
-	.string "Neglects DEFENSE.$"
+	.string "忽视物防。$"
 
 gBattleDomeOpponentStatsText40::
-	.string "Neglects SPEED.$"
+	.string "忽视速度。$"
 
 gBattleDomeOpponentStatsText41::
-	.string "Neglects SP. ATTACK.$"
+	.string "忽视特攻。$"
 
 gBattleDomeOpponentStatsText42::
-	.string "Neglects SP. DEFENSE.$"
+	.string "忽视特防。$"
 
 gBattleDomeOpponentStatsText43::
-	.string "Raises POKéMON in a well-balanced way.$"
+	.string "以均衡的方式培养宝可梦。$"
 
 gBattleDomeWinText1::
-	.string "Let the battle begin!$"
+	.string "让我们开始战斗吧!$"
 
 gBattleDomeWinText2::
-	.string "{STR_VAR_1} won using {STR_VAR_2}!$"
+	.string "{STR_VAR_1}使用{STR_VAR_2}赢得胜利!$"
 
 gBattleDomeWinText3::
-	.string "{STR_VAR_1} became the champ!$"
+	.string "{STR_VAR_1}成为冠军$"
 
 gBattleDomeWinText4::
-	.string "{STR_VAR_1} won by default!$"
+	.string "{STR_VAR_1}默认获得胜利!$"
 
 gBattleDomeWinText5::
-	.string "{STR_VAR_1} won outright by default!$"
+	.string "{STR_VAR_1}默认情况完全赢得胜利!$"
 
 gBattleDomeWinText6::
-	.string "{STR_VAR_1} won without using a move!$"
+	.string "{STR_VAR_1}没有使用技能赢了!$"
 
 gBattleDomeWinText7::
-	.string "{STR_VAR_1} won outright with no moves!$"
+	.string "{STR_VAR_1}没有行动就获得完全胜利!$"
 
 gBattleDomeMatchNumberText1::
-	.string "Round 1, Match 1$"
+	.string "第1轮,第1场比赛$"
 
 gBattleDomeMatchNumberText2::
-	.string "Round 1, Match 2$"
+	.string "第1轮,第2场比赛$"
 
 gBattleDomeMatchNumberText3::
-	.string "Round 1, Match 3$"
+	.string "第1轮,第3场比赛$"
 
 gBattleDomeMatchNumberText4::
-	.string "Round 1, Match 4$"
+	.string "第1轮,第4场比赛$"
 
 gBattleDomeMatchNumberText5::
-	.string "Round 1, Match 5$"
+	.string "第1轮,第5场比赛$"
 
 gBattleDomeMatchNumberText6::
-	.string "Round 1, Match 6$"
+	.string "第1轮,第6场比赛$"
 
 gBattleDomeMatchNumberText7::
-	.string "Round 1, Match 7$"
+	.string "第1轮,第7场比赛$"
 
 gBattleDomeMatchNumberText8::
-	.string "Round 1, Match 8$"
+	.string "第1轮,第8场比赛$"
 
 gBattleDomeMatchNumberText9::
-	.string "Round 2, Match 1$"
+	.string "第2轮,第1场比赛$"
 
 gBattleDomeMatchNumberText10::
-	.string "Round 2, Match 2$"
+	.string "第2轮,第2场比赛$"
 
 gBattleDomeMatchNumberText11::
-	.string "Round 2, Match 3$"
+	.string "第2轮,第3场比赛$"
 
 gBattleDomeMatchNumberText12::
-	.string "Round 2, Match 4$"
+	.string "第2轮,第4场比赛$"
 
 gBattleDomeMatchNumberText13::
-	.string "Semifinal Match 1$"
+	.string "半决赛第1场$"
 
 gBattleDomeMatchNumberText14::
-	.string "Semifinal Match 2$"
+	.string "半决赛第2场$"
 
 gBattleDomeMatchNumberText15::
-	.string "Final Match$"
+	.string "决赛$"
 
 BattleFrontier_BattlePikeRandomRoom1_MapScripts_2C3E1B: @ 82C3E1B
 	map_script MAP_SCRIPT_ON_TRANSITION, BattleFrontier_BattlePikeRandomRoom1_MapScript1_2C3E25
@@ -5827,581 +5827,581 @@ BattleFrontier_BattlePikeThreePathRoom_Movement_2C427A: @ 82C427A
 	step_end
 
 LilycoveCity_ContestLobby_Text_2C427C: @ 82C427C
-	.string "BLEND MASTER: Indeed I am!\n"
-	.string "The BLEND MASTER am I!\p"
-	.string "Blend with me, and you shall witness\n"
-	.string "the mastery I bring to blending!$"
+	.string "混合大师: 我确实是!\n"
+	.string "我是混合大师!\p"
+	.string "与我一起混合树果，你将\n"
+	.string "见证我对混合树果的精通!$"
 
 LilycoveCity_ContestLobby_Text_2C42F4: @ 82C42F4
-	.string "BLEND MASTER: Hmmm! So, you wish to\n"
-	.string "see my mastery in action?$"
+	.string "混合大师: 嗯! 所以你是想\n"
+	.string "看我在混合时的动作吗?$"
 
 LilycoveCity_ContestLobby_Text_2C4332: @ 82C4332
-	.string "Hmmm!\p"
-	.string "So, you are too busy now, I see!\p"
-	.string "But fear not!\n"
-	.string "I shall be here all day!\l"
-	.string "Hurry back from your errand!$"
+	.string "嗯!\p"
+	.string "所以，你现在太忙了，我明白了！!\p"
+	.string "但不要担心!\n"
+	.string "我会待在这里一整天!\l"
+	.string "快点完成你的事情吧!$"
 
 LilycoveCity_ContestLobby_Text_2C439D: @ 82C439D
-	.string "Hmmm!\p"
-	.string "You haven't got a single BERRY!\p"
-	.string "I shall be here all day!\n"
-	.string "Hurry back with some BERRIES!$"
+	.string "嗯!\p"
+	.string "你没有树果!\p"
+	.string "我会待在这里一整天!\n"
+	.string "快带一些树果过来!$"
 
 LilycoveCity_ContestLobby_Text_2C43FA: @ 82C43FA
-	.string "Of course!\n"
-	.string "Of course!\p"
-	.string "Incidentally…\n"
-	.string "You do know how to blend {POKEBLOCK}S\l"
-	.string "from BERRIES?$"
+	.string "嗯!\n"
+	.string "很好!\p"
+	.string "顺便问下…\n"
+	.string "你现在知道如何用树果来\l"
+	.string "混合{POKEBLOCK}吗?$"
 
 LilycoveCity_ContestLobby_Text_2C444C: @ 82C444C
-	.string "Hmmm!\p"
-	.string "Ah, but it is a simple process!\p"
-	.string "When the BLENDER's arrow comes to\n"
-	.string "your marker, just press the A Button.\p"
-	.string "That's all you have to do.\p"
-	.string "When you see how precisely I press\n"
-	.string "the A Button, you will understand.$"
+	.string "嗯!\p"
+	.string "啊，但这是一个简单的过程!\p"
+	.string "当混合的箭头指向你的标记时，\n"
+	.string "只需要按下A键就可以。\p"
+	.string "这就是所有你需要做的事情。\p"
+	.string "当你看到我按下A键的\n"
+	.string "精确程度时，你会明白的的。$"
 
 LilycoveCity_ContestLobby_Text_2C451B: @ 82C451B
-	.string "Fine!\p"
-	.string "Let's get started, then!\p"
-	.string "All together with the BLEND MASTER,\n"
-	.string "let's BERRY BLENDER!$"
+	.string "很好!\p"
+	.string "那我们开始吧!\p"
+	.string "与树果混合大师一起,\n"
+	.string "开始树果混合!$"
 
 LilycoveCity_ContestLobby_Text_2C4573: @ 82C4573
-	.string "Hmmm!\p"
-	.string "You don't appear to have gotten\n"
-	.string "the {POKEBLOCK} CASE!\p"
-	.string "I shall be here all day!\n"
-	.string "Obtain the {POKEBLOCK} CASE and hurry back!$"
+	.string "嗯!\p"
+	.string "你似乎还没有得到\n"
+	.string "{POKEBLOCK}盒!\p"
+	.string "我会待在这里一整天!\n"
+	.string "去取得{POKEBLOCK}盒然后快点回来!$"
 
 LilycoveCity_ContestLobby_Text_2C45E8: @ 82C45E8
-	.string "Hmmm!\p"
-	.string "Your {POKEBLOCK} CASE appears to be full!\p"
-	.string "I shall be here all day!\n"
-	.string "Use some {POKEBLOCK}S and hurry back!$"
+	.string "嗯!\p"
+	.string "你的{POKEBLOCK}盒似乎已经满了!\p"
+	.string "我会待在这里一整天!\n"
+	.string "去用掉一些{POKEBLOCK}然后快点回来!$"
 
 LilycoveCity_ContestLobby_Text_2C464B: @ 82C464B
-	.string "Whoa!\n"
-	.string "Awesome!$"
+	.string "哇!\n"
+	.string "真棒!$"
 
 LilycoveCity_ContestLobby_Text_2C465A: @ 82C465A
-	.string "Wickedly fast!$"
+	.string "坏透了!$"
 
 LilycoveCity_ContestLobby_Text_2C4669: @ 82C4669
-	.string "What an expert!$"
+	.string "真是个专家!$"
 
 LilycoveCity_ContestLobby_Text_2C4679: @ 82C4679
-	.string "When I blended with the MASTER,\n"
-	.string "we made amazing {POKEBLOCK}S!$"
+	.string "当我与大师一起混合时，\n"
+	.string "我们做出了惊人的{POKEBLOCK}!$"
 
 LilycoveCity_ContestLobby_Text_2C46B1: @ 82C46B1
-	.string "Eyes that track the arrow with\n"
-	.string "machinelike intensity…\p"
-	.string "A hand that taps the A Button\n"
-	.string "with clockwork-like precision…\p"
-	.string "Possessing these qualities makes\n"
-	.string "the BLEND MASTER truly great.$"
+	.string "机器般跟踪箭头\n"
+	.string "的眼睛…\p"
+	.string "按下A键的手拥有着\n"
+	.string "犹如钟表般的精确度…\p"
+	.string "拥有这些品质的混合大师\n"
+	.string "真是太了不起了。$"
 
 LilycoveCity_ContestLobby_Text_2C4763: @ 82C4763
-	.string "The BLEND MASTER's supposed to work\n"
-	.string "on his skills deep in the mountains.\p"
-	.string "Sometimes, he comes to LILYCOVE\n"
-	.string "to blend BERRIES all day long.$"
+	.string "混合大师应该在\n"
+	.string "练习他的技能。\p"
+	.string "有时候，他会来到水静市，\n"
+	.string "并待上一整天混合树果。$"
 
 FallarborTown_BattleTentLobby_Text_2C47EB: @ 82C47EB
-	.string "I welcome you to the BATTLE TENT\n"
-	.string "FALLARBOR SITE!\p"
-	.string "I am your guide to the Set KO Tourney!$"
+	.string "欢迎来到对战帐篷\n"
+	.string "秋叶镇分址!\p"
+	.string "由我向您说明比赛的相关!$"
 
 FallarborTown_BattleTentLobby_Text_2C4843: @ 82C4843
-	.string "Now, do you wish to take the challenge\n"
-	.string "of a Set KO Tourney?$"
+	.string "现在，您想要挑战\n"
+	.string "这个比赛了吗?$"
 
 FallarborTown_BattleTentLobby_Text_2C487F: @ 82C487F
-	.string "We await your challenge on\n"
-	.string "another occasion!$"
+	.string "我们期待您下次\n"
+	.string "前来挑战!$"
 
 FallarborTown_BattleTentLobby_Text_2C48AC: @ 82C48AC
-	.string "In the FALLARBOR BATTLE TENT,\n"
-	.string "we undertake the Set KO Tourney.\p"
-	.string "All participants enter with a team of\n"
-	.string "three POKéMON.\p"
-	.string "The three POKéMON must be lined up\n"
-	.string "in the order that they are to appear in.\p"
-	.string "During battle, the POKéMON will appear\n"
-	.string "one at a time in the preset order.\p"
-	.string "Once a POKéMON enters battle, it must\n"
-	.string "remain out until the match is decided.\p"
-	.string "If a match remains undecided in\n"
-	.string "three turns, it goes to judging.\p"
-	.string "If you wish to interrupt your challenge,\n"
-	.string "please save the game.\p"
-	.string "If you don't save, you will not be able\n"
-	.string "to continue with your challenge.\p"
-	.string "If you pull off the feat of beating\n"
-	.string "three TRAINERS in succession,\l"
-	.string "we will present you with a fine prize.$"
+	.string "在对战帐篷秋叶镇分址,\n"
+	.string "我们采取的是淘汰KO赛。\p"
+	.string "所有的参赛队伍\n"
+	.string "由3只宝可梦组成。\p"
+	.string "3只宝可梦必须按照\n"
+	.string "它们的出场顺序排列。\p"
+	.string "在战斗中,宝可梦将按照\n"
+	.string "预先设定好的顺序依次出场。\p"
+	.string "宝可梦出场后,直到比赛\n"
+	.string "结束前它必须一直战斗。\p"
+	.string "如果比赛在3回合内未能分出\n"
+	.string "胜负，将由裁判来判定输赢。\p"
+	.string "如果您想要发起挑战,\n"
+	.string "请先保存游戏进度，\p"
+	.string "如果您不保存游戏，\n"
+	.string "就无法继续挑战。\p"
+	.string "如果您连续战胜\n"
+	.string "3名训练师的话，\l"
+	.string "我们将给您精美的礼品。$"
 
 FallarborTown_BattleTentLobby_Text_2C4B35: @ 82C4B35
-	.string "Before showing you to the BATTLE\n"
-	.string "TENT, I must save. Is that okay?$"
+	.string "在您挑战对战帐篷之前，必须\n"
+	.string "保存游戏进度，现在记录吗?$"
 
 FallarborTown_BattleTentLobby_Text_2C4B77: @ 82C4B77
-	.string "We offer two levels of challenge,\n"
-	.string "Level 50 and Open Level.\l"
-	.string "Which is your choice?$"
+	.string "我们提供了两个级别的挑战,\n"
+	.string "分别是50级和自由级别。\l"
+	.string "您想要挑战那个级别?$"
 
 FallarborTown_BattleTentLobby_Text_2C4BC8: @ 82C4BC8
-	.string "Very well, now select your\n"
-	.string "three POKéMON, please.$"
+	.string "好的,现在请您挑选\n"
+	.string "3只宝可梦。$"
 
 FallarborTown_BattleTentLobby_Text_2C4BFA: @ 82C4BFA
-	.string "My dear challenger!\p"
-	.string "You do not have the three POKéMON\n"
-	.string "required for entry.\p"
-	.string "They also must not hold the same\n"
-	.string "kinds of items.\p"
-	.string "EGGS{STR_VAR_1} ineligible.\p"
-	.string "When you have made your preparations,\n"
-	.string "please do return.$"
+	.string "亲爱的挑战者!\p"
+	.string "您没有挑战所要求\n"
+	.string "的3只宝可梦。\p"
+	.string "同时，它们不能携带\n"
+	.string "相同的道具。\p"
+	.string "不允许携带蛋{STR_VAR_1}。\p"
+	.string "请在做好相关准备后,\n"
+	.string "再回来挑战。$"
 
 FallarborTown_BattleTentLobby_Text_2C4CC0: @ 82C4CC0
-	.string "My dear challenger!\p"
-	.string "You do not have the three POKéMON\n"
-	.string "required for entry.\p"
-	.string "To qualify, you must bring three\n"
-	.string "different kinds of POKéMON.\p"
-	.string "They also must not hold the same\n"
-	.string "kinds of items.\p"
-	.string "EGGS{STR_VAR_1} ineligible.\p"
-	.string "When you have made your preparations,\n"
-	.string "please do return.$"
+	.string "亲爱的挑战者!\p"
+	.string "您没有挑战所要求\n"
+	.string "的3只宝可梦。\p"
+	.string "您必须要携带3只\n"
+	.string "不同种类的宝可梦。\p"
+	.string "同时，它们不能携带\n"
+	.string "相同的道具。\p"
+	.string "不允许携带蛋{STR_VAR_1}。\p"
+	.string "请在做好相关准备后,\n"
+	.string "再回来挑战。$"
 
 FallarborTown_BattleTentLobby_Text_2C4DC3: @ 82C4DC3
-	.string "I shall now guide you to\n"
-	.string "the BATTLE TENT.$"
+	.string "我现在将指引您\n"
+	.string "进入对战帐篷。$"
 
 FallarborTown_BattleTentLobby_Text_2C4DED: @ 82C4DED
-	.string "My dear challenger!\p"
-	.string "You did not save the game before\n"
-	.string "shutting down, did you?\p"
-	.string "It is unfortunate, but that has\n"
-	.string "resulted in your disqualification\l"
-	.string "from your challenge.\p"
-	.string "You may, of course, start with a fresh\n"
-	.string "challenge.$"
+	.string "亲爱的挑战者!\p"
+	.string "在关闭游戏之前您没有\n"
+	.string "保存游戏进度,是吗?\p"
+	.string "很不幸,因为这导致\n"
+	.string "您被取消继续挑战\l"
+	.string "的资格了。\p"
+	.string "当然,您可以选择重新\n"
+	.string "开始挑战。$"
 
 FallarborTown_BattleTentLobby_Text_2C4EC3: @ 82C4EC3
-	.string "How splendid! You have beaten\n"
-	.string "three TRAINERS in succession!$"
+	.string "真是太棒了!您已经连续\n"
+	.string "战胜了3名训练师!$"
 
 FallarborTown_BattleTentLobby_Text_2C4EFF: @ 82C4EFF
-	.string "Please wait while I save the game.$"
+	.string "请稍等下，需要保存下游戏记录。$"
 
 FallarborTown_BattleTentLobby_Text_2C4F22: @ 82C4F22
-	.string "In commemoration of your 3-win streak,\n"
-	.string "we present you with this prize.$"
+	.string "为了奖励您达成3连胜,\n"
+	.string "我们将为您颁发礼品。$"
 
 FallarborTown_BattleTentLobby_Text_2C4F69: @ 82C4F69
-	.string "{PLAYER} received the prize\n"
-	.string "{STR_VAR_1}.$"
+	.string "{PLAYER}收到了奖品\n"
+	.string "{STR_VAR_1}。$"
 
 FallarborTown_BattleTentLobby_Text_2C4F83: @ 82C4F83
-	.string "Oh?\n"
-	.string "Your BAG seems to be full.\p"
-	.string "I urge you to clear space and\n"
-	.string "return for your prize.$"
+	.string "哦?\n"
+	.string "您的背包好像装满了。\p"
+	.string "希望您清理下背包，\n"
+	.string "然后返回领取奖品。$"
 
 FallarborTown_BattleTentLobby_Text_2C4FD7: @ 82C4FD7
-	.string "Thank you so much for participating!\p"
-	.string "Please wait while I save the game.$"
+	.string "非常感谢您的参与!\p"
+	.string "请稍等下，需要保存下游戏记录。$"
 
 FallarborTown_BattleTentLobby_Text_2C501F: @ 82C501F
-	.string "We await your challenge on\n"
-	.string "another occasion!$"
+	.string "我们期待您的\n"
+	.string "下次挑战!$"
 
 FallarborTown_BattleTentLobby_Text_2C504C: @ 82C504C
-	.string "We have been looking forward to\n"
-	.string "your arrival.\p"
-	.string "Before I show you to the BATTLE TENT,\n"
-	.string "I must save the game. Please wait.$"
+	.string "我们一直在期待着\n"
+	.string "您的到来。\p"
+	.string "在您开始挑战对战帐篷之前,\n"
+	.string "必须要保存下游戏记录，请稍等。$"
 
 VerdanturfTown_BattleTentLobby_Text_2C50C3: @ 82C50C3
-	.string "I welcome you to the BATTLE TENT\n"
-	.string "VERDANTURF SITE!\p"
-	.string "Here, the TRAINER's trust toward\n"
-	.string "POKéMON is tested.$"
+	.string "欢迎来到对战帐篷\n"
+	.string "绿荫镇分址!\p"
+	.string "在这里,将考验训练师与\n"
+	.string "宝可梦之间的默契。$"
 
 VerdanturfTown_BattleTentLobby_Text_2C5129: @ 82C5129
-	.string "Do you wish to take the VERDANTURF\n"
-	.string "BATTLE TENT challenge?$"
+	.string "您现在想要参与绿荫镇\n"
+	.string "对战帐篷的挑战吗?$"
 
 VerdanturfTown_BattleTentLobby_Text_2C5163: @ 82C5163
-	.string "In the VERDANTURF BATTLE TENT,\n"
-	.string "there is one crucial rule that must\l"
-	.string "be obeyed.\p"
-	.string "TRAINERS are permitted only to switch\n"
-	.string "their POKéMON in and out.\p"
-	.string "TRAINERS are otherwise forbidden to\n"
-	.string "command their POKéMON.\p"
-	.string "The POKéMON are to behave according\n"
-	.string "to their nature and battle on their own.\p"
-	.string "You must put your trust in your\n"
-	.string "POKéMON and watch over them.\p"
-	.string "If you achieve the honor of beating\n"
-	.string "three TRAINERS in succession,\l"
-	.string "we will present you with a prize.\p"
-	.string "If you want to interrupt your\n"
-	.string "challenge, please save the game.\p"
-	.string "If you don't save before interrupting,\n"
-	.string "you will be disqualified.$"
+	.string "在挑战绿荫镇对战帐篷\n"
+	.string "时,有一条规则必须要\l"
+	.string "遵守。\p"
+	.string "参赛的训练师只允许\n"
+	.string "收回或者放出宝可梦。\p"
+	.string "训练师不能对他们的\n"
+	.string "宝可梦下其他指令。\p"
+	.string "而宝可梦仅会根据自己的性格，\n"
+	.string "并且凭自己的力量战斗。\p"
+	.string "您必须要十分信任您的\n"
+	.string "宝可梦，并在旁守护它。\p"
+	.string "如果您连续战胜\n"
+	.string "3名训练师的话，\l"
+	.string "我们将给您精美的礼品。\p"
+	.string "如果您想要中断您的挑战，\n"
+	.string "请先保存游戏进度。\p"
+	.string "如果您在保存之前中断的话,\n"
+	.string "您将失去这场比赛的资格。$"
 
 VerdanturfTown_BattleTentLobby_Text_2C539A: @ 82C539A
-	.string "When you have fortified your heart\n"
-	.string "and POKéMON, you must return.$"
+	.string "当您与您的宝可梦之间的\n"
+	.string "羁绊加深时，你再回来。$"
 
 VerdanturfTown_BattleTentLobby_Text_2C53DB: @ 82C53DB
-	.string "There are two levels of difficulty,\n"
-	.string "Level 50 and Open Level.\l"
-	.string "Which is your choice of a challenge?$"
+	.string "这里有两个难度级别,\n"
+	.string "50级和自由级别。\l"
+	.string "您想要参加哪个级别的挑战?$"
 
 VerdanturfTown_BattleTentLobby_Text_2C543D: @ 82C543D
-	.string "Sigh…\p"
-	.string "You do not have the three POKéMON\n"
-	.string "required for the challenge.\p"
-	.string "To enter, you must provide three\n"
-	.string "different kinds of POKéMON.\p"
-	.string "They also must not be holding\n"
-	.string "the same kinds of items.\p"
-	.string "EGGS{STR_VAR_1} ineligible.\p"
-	.string "Come back when you have made\n"
-	.string "your preparations.$"
+	.string "唉…\p"
+	.string "您没有挑战所要求\n"
+	.string "的3只宝可梦。\p"
+	.string "您必须要携带3只\n"
+	.string "不同种类的宝可梦。\p"
+	.string "同时，它们不能携带\n"
+	.string "相同的道具。\p"
+	.string "不允许携带蛋{STR_VAR_1}。\p"
+	.string "在您组织好队伍后\n"
+	.string "再回来挑战吧。$"
 
 VerdanturfTown_BattleTentLobby_Text_2C5538: @ 82C5538
-	.string "Sigh…\p"
-	.string "You do not have the three POKéMON\n"
-	.string "required for the challenge.\p"
-	.string "To enter, you must provide three\n"
-	.string "different kinds of POKéMON.\p"
-	.string "They also must not be holding\n"
-	.string "the same kinds of items.\p"
-	.string "EGGS{STR_VAR_1} ineligible.\p"
-	.string "Come back when you have made\n"
-	.string "your preparations.$"
+	.string "唉…\p"
+	.string "您没有挑战所要求\n"
+	.string "的3只宝可梦。\p"
+	.string "您必须要携带3只\n"
+	.string "不同种类的宝可梦。\p"
+	.string "同时，它们不能携带\n"
+	.string "相同的道具。\p"
+	.string "不允许携带蛋{STR_VAR_1}。\p"
+	.string "在您组织好队伍后\n"
+	.string "再回来挑战吧。$"
 
 VerdanturfTown_BattleTentLobby_Text_2C5633: @ 82C5633
-	.string "Good. Now, you must select your\n"
-	.string "three POKéMON.$"
+	.string "好的,现在请您挑选\n"
+	.string "3只宝可梦。$"
 
 VerdanturfTown_BattleTentLobby_Text_2C5662: @ 82C5662
-	.string "I must save before I show you to\n"
-	.string "the BATTLE TENT. Is that okay?$"
+	.string "在您挑战对战帐篷之前，必须\n"
+	.string "保存游戏进度，现在记录吗?$"
 
 VerdanturfTown_BattleTentLobby_Text_2C56A2: @ 82C56A2
-	.string "Good.\n"
-	.string "Now, follow me.$"
+	.string "好的，\n"
+	.string "现在跟我来。$"
 
 VerdanturfTown_BattleTentLobby_Text_2C56B8: @ 82C56B8
-	.string "I feel privileged for having seen\n"
-	.string "your POKéMON's exploits.\p"
-	.string "The results will be recorded.\n"
-	.string "I must ask you to briefly wait.$"
+	.string "我感到很荣幸可以见证您的\n"
+	.string "宝可梦取得如此好的成绩。\p"
+	.string "请您稍等一下，我需要\n"
+	.string "记录一下这个结果。$"
 
 VerdanturfTown_BattleTentLobby_Text_2C5731: @ 82C5731
-	.string "To achieve a 3-win streak…\p"
-	.string "The bonds that bind your heart with\n"
-	.string "your POKéMON seem firm and true.$"
+	.string "取得了3连胜…\p"
+	.string "您与宝可梦之间的羁绊\n"
+	.string "似乎更加坚定和真实。$"
 
 VerdanturfTown_BattleTentLobby_Text_2C5791: @ 82C5791
-	.string "Your feat will be recorded.\n"
-	.string "I must ask you to briefly wait.$"
+	.string "请您稍微等一下，\n"
+	.string "我需要记录一下您的成绩。$"
 
 VerdanturfTown_BattleTentLobby_Text_2C57CD: @ 82C57CD
-	.string "For the feat of your 3-win streak,\n"
-	.string "we present you with this prize.$"
+	.string "为了奖励您达成3连胜,\n"
+	.string "我们将为您颁发礼品。$"
 
 SlateportCity_BattleTentLobby_Text_2C5810: @ 82C5810
-	.string "Welcome to the BATTLE TENT\n"
-	.string "SLATEPORT SITE!\p"
-	.string "I am your guide to the Battle Swap\n"
-	.string "Tournament.$"
+	.string "欢迎来到对战帐篷\n"
+	.string "凯那市分址!\p"
+	.string "我将向您介绍交换对战\n"
+	.string "锦标赛的相关事宜。$"
 
 SlateportCity_BattleTentLobby_Text_2C586A: @ 82C586A
-	.string "Would you like to take the Battle\n"
-	.string "Swap challenge?$"
+	.string "你现在想要挑战交换对战\n"
+	.string "锦标赛的相关事宜?$"
 
 SlateportCity_BattleTentLobby_Text_2C589C: @ 82C589C
-	.string "Here at the SLATEPORT BATTLE TENT,\n"
-	.string "we hold Battle Swap events\l"
-	.string "using rental POKéMON.\p"
-	.string "First, you will be loaned three\n"
-	.string "POKéMON specifically for this event.\p"
-	.string "Using the supplied rental POKéMON,\n"
-	.string "you must conduct a SINGLE BATTLE.\p"
-	.string "If you win, you are permitted to trade\n"
-	.string "one of your rental POKéMON.\p"
-	.string "Repeat this cycle of battling and\n"
-	.string "trading--if you win three times in\l"
-	.string "a row, you will earn a fine prize.\p"
-	.string "If you want to interrupt your\n"
-	.string "challenge, please save the game.\p"
-	.string "If you don't save before interrupting,\n"
-	.string "you will be disqualified.$"
+	.string "这里是对战帐篷凯那市分址,\n"
+	.string "我们使用租借的宝可梦\l"
+	.string "进行交换对战。\p"
+	.string "首先,您将租借专门为此\n"
+	.string "活动提供的3只宝可梦。\p"
+	.string "您需要使用租借的宝可梦\n"
+	.string "进行单人对战。\p"
+	.string "如果您获得胜利,您可以交换\n"
+	.string "其中1只租借的宝可梦。\p"
+	.string "重复这样战斗和交换的循环--\n"
+	.string "如果您连续获得3次胜利， \l"
+	.string "您将可以获得精美的礼品。\p"
+	.string "如果您想要中断您的挑战，\n"
+	.string "请先保存游戏进度。\p"
+	.string "如果您在保存之前中断的话,\n"
+	.string "您将失去这场比赛的资格。$"
 
 SlateportCity_BattleTentLobby_Text_2C5AA5: @ 82C5AA5
-	.string "We look forward to your next visit.$"
+	.string "我们期待您的下次光临。$"
 
 SlateportCity_BattleTentLobby_Text_2C5AC9: @ 82C5AC9
-	.string "Which level do you wish to challenge?\n"
-	.string "Level 50 or Level 100?$"
+	.string "您想要挑战哪个级别?\n"
+	.string "50级的还是100级?$"
 
 SlateportCity_BattleTentLobby_Text_2C5B06: @ 82C5B06
-	.string "Before you begin your challenge,\n"
-	.string "I need to save data. Is that okay?$"
+	.string "在您挑战对战帐篷之前，必须\n"
+	.string "保存游戏进度，现在记录吗?$"
 
 SlateportCity_BattleTentLobby_Text_2C5B4A: @ 82C5B4A
-	.string "Okay, I will hold your POKéMON for\n"
-	.string "safekeeping while you compete.$"
+	.string "好的,在您的比赛期间，\n"
+	.string "我将会暂时保管您的宝可梦。$"
 
 SlateportCity_BattleTentLobby_Text_2C5B8C: @ 82C5B8C
-	.string "Please step this way.$"
+	.string "请走这边。$"
 
 SlateportCity_BattleTentLobby_Text_2C5BA2: @ 82C5BA2
-	.string "Thank you for participating!\p"
-	.string "I will return your POKéMON in exchange\n"
-	.string "for our rental POKéMON.\p"
-	.string "I must also save your event results.\n"
-	.string "Please wait.$"
+	.string "感谢您的参与!\p"
+	.string "我将把保管的宝可梦归还给您，\n"
+	.string "同时收回租借的宝可梦。\p"
+	.string "我还必须要记录这次比赛结果，\n"
+	.string "请您稍等一下。$"
 
 SlateportCity_BattleTentLobby_Text_2C5C30: @ 82C5C30
-	.string "I will return your POKéMON in exchange\n"
-	.string "for our rental POKéMON.$"
+	.string "我将把保管的宝可梦归还给您，\n"
+	.string "同时收回租借的宝可梦。$"
 
 SlateportCity_BattleTentLobby_Text_2C5C6F: @ 82C5C6F
-	.string "Congratulations!\n"
-	.string "You've won three straight matches!\p"
-	.string "I will return your POKéMON in exchange\n"
-	.string "for our rental POKéMON.\p"
-	.string "I must also save your event results.\n"
-	.string "Please wait.$"
+	.string "恭喜!\n"
+	.string "您已经连续取得了3场胜利!\p"
+	.string "我将把保管的宝可梦归还给您，\n"
+	.string "同时收回租借的宝可梦。\p"
+	.string "我还必须要记录这次比赛结果，\n"
+	.string "请您稍等一下。$"
 
 SlateportCity_BattleTentLobby_Text_2C5D14: @ 82C5D14
-	.string "In recognition of your 3-win streak,\n"
-	.string "we award you this prize.$"
+	.string "为了奖励您达成3连胜,\n"
+	.string "我们将为您颁发礼品。$"
 
 SlateportCity_BattleTentLobby_Text_2C5D52: @ 82C5D52
-	.string "Oh?\n"
-	.string "You seem to have no room for this.\p"
-	.string "Please make room in your BAG and\n"
-	.string "let me know.$"
+	.string "哦?\n"
+	.string "您似乎没有空间来装这个了。\p"
+	.string "请先为您的背包腾出空间，\n"
+	.string "然后再来领取礼品。$"
 
 SlateportCity_BattleTentLobby_Text_2C5DA7: @ 82C5DA7
-	.string "We've been waiting for you!\p"
-	.string "Before we resume your challenge,\n"
-	.string "I must save the game.$"
+	.string "我们一直在等您!\p"
+	.string "在您开始挑战之前,\n"
+	.string "必须保存游戏进度。$"
 
 SlateportCity_BattleTentLobby_Text_2C5DFA: @ 82C5DFA
-	.string "I'm sorry to say this, but you didn't\n"
-	.string "save before you quit playing last time.\p"
-	.string "As a result, you have been disqualified\n"
-	.string "from your challenge.$"
+	.string "很抱歉的告诉您,由于您在关闭\n"
+	.string "游戏之前没有保存游戏进度，\p "
+	.string "因此，您被取消继续挑战的\n"
+	.string "资格了。$"
 
 SlateportCity_BattleTentLobby_Text_2C5E85: @ 82C5E85
-	.string "We'll return your personal POKéMON.$"
+	.string "我们将把您的宝可梦归还给您。$"
 
 SlateportCity_BattleTentLobby_Text_2C5EA9: @ 82C5EA9
-	.string "{PLAYER} received the prize\n"
-	.string "{STR_VAR_1}.$"
+	.string "{PLAYER}获得了奖品\n"
+	.string "{STR_VAR_1}。$"
 
 SlateportCity_BattleTentLobby_Text_2C5EC3: @ 82C5EC3
-	.string "The Battle Swap rules are listed.$"
+	.string "列出了交换对战的规则。$"
 
 SlateportCity_BattleTentLobby_Text_2C5EE5: @ 82C5EE5
-	.string "Which heading do you want to read?$"
+	.string "您想阅读哪个部分?$"
 
 SlateportCity_BattleTentLobby_Text_2C5F08: @ 82C5F08
-	.string "In a Battle Swap event, you may use\n"
-	.string "only three POKéMON.\p"
-	.string "Whether you are renting or swapping,\n"
-	.string "your team may not have two or more\l"
-	.string "of the same POKéMON.$"
+	.string "在交换对战比赛中,您只能\n"
+	.string "使用3只宝可梦。\p"
+	.string "无论您是租借还是交换,\n"
+	.string "您的队伍中都不能同时有\l"
+	.string "两只或以上相同的宝可梦。$"
 
 SlateportCity_BattleTentLobby_Text_2C5F9D: @ 82C5F9D
-	.string "You may swap POKéMON only with\n"
-	.string "the TRAINER you have just defeated.\p"
-	.string "You may swap for only those POKéMON\n"
-	.string "used by the beaten TRAINER.$"
+	.string "您仅能与刚才战胜的训练师\n"
+	.string "交换租借的宝可梦。\p"
+	.string "您所能交换到的宝可梦为\n"
+	.string "该训练师使用的宝可梦。$"
 
 SlateportCity_BattleTentLobby_Text_2C6020: @ 82C6020
-	.string "After every battle you win, you may\n"
-	.string "swap for one of your defeated\l"
-	.string "opponent's POKéMON.\p"
-	.string "You will not be able to swap POKéMON\n"
-	.string "with the third TRAINER in the event.$"
+	.string "在您赢得每场胜利后, \n"
+	.string "您可以与您战胜的\l"
+	.string "训练师交换宝可梦。\p"
+	.string "您无法与第三名训练师\n"
+	.string "交换宝可梦。$"
 
 SlateportCity_BattleTentLobby_Text_2C60C0: @ 82C60C0
-	.string "There are two key points to be aware\n"
-	.string "of when swapping POKéMON.\p"
-	.string "First, when swapping, you can't check\n"
-	.string "the stats of the POKéMON you are\l"
-	.string "about to receive.\p"
-	.string "Second, the POKéMON on your team\n"
-	.string "are lined up in sequence, depending on\l"
-	.string "the order in which you rented them.\p"
-	.string "This sequence remains unchanged\n"
-	.string "even when swaps are made.$"
+	.string "在交换宝可梦时，\n"
+	.string "有两点需要注意的。\p"
+	.string "首先,在交换过程中, \n"
+	.string "您无法查看要交换的\l"
+	.string "宝可梦的状态\p"
+	.string "第二,您队伍中的宝可梦\n"
+	.string "将按照您租用它们时的\l"
+	.string "顺序排列。\p"
+	.string "即使进行宝可梦的交换，\n"
+	.string "该顺序也不会改变。$"
 
 SlateportCity_BattleTentLobby_Text_2C61FE: @ 82C61FE
-	.string "The POKéMON of the SLATEPORT\n"
-	.string "BATTLE TENT are all rentals.\p"
-	.string "All rental POKéMON are kept at\n"
-	.string "Level 30.$"
+	.string "凯那市对战帐篷使用\n"
+	.string "的宝可梦都是租借的。\p"
+	.string "所有租借的宝可梦的\n"
+	.string "等级都为30级。$"
 
 VerdanturfTown_BattleTentLobby_Text_2C6261: @ 82C6261
-	.string "The VERDANTURF BATTLE TENT\n"
-	.string "rules are listed.$"
+	.string "这里列出了绿荫镇\n"
+	.string "对战帐篷的规则。$"
 
 VerdanturfTown_BattleTentLobby_Text_2C628E: @ 82C628E
-	.string "Which heading do you want to read?$"
+	.string "您想要阅读哪个部分?$"
 
 VerdanturfTown_BattleTentLobby_Text_2C62B1: @ 82C62B1
-	.string "Here at the VERDANTURF BATTLE TENT,\n"
-	.string "POKéMON are required to think and\l"
-	.string "battle by themselves.\p"
-	.string "Unlike in the wild, POKéMON that live\n"
-	.string "with people behave differently\l"
-	.string "depending on their nature.$"
+	.string "这里是绿荫镇对战帐篷,\n"
+	.string "宝可梦在这里将会自己\l"
+	.string "思考以及对战。\p"
+	.string "不同于在野外生活的宝可梦, \n"
+	.string "与人生活的宝可梦会依据它们\l"
+	.string "的性格展现出不同的行为。$"
 
 VerdanturfTown_BattleTentLobby_Text_2C636D: @ 82C636D
-	.string "Depending on its nature, a POKéMON\n"
-	.string "may prefer to attack no matter what.\p"
-	.string "Another POKéMON may prefer to protect\n"
-	.string "itself from any harm.\p"
-	.string "Yet another may enjoy vexing or\n"
-	.string "confounding its foes.\p"
-	.string "Depending on its nature, a POKéMON\n"
-	.string "will have favorite moves that it is good\l"
-	.string "at using.\p"
-	.string "It may also dislike certain moves that\n"
-	.string "it has trouble using.$"
+	.string "依据它们的性格,一些宝可梦\n"
+	.string "可能更喜欢战斗。\p"
+	.string "另一些宝可梦更喜欢躲避起来\n"
+	.string "防止受到伤害。\p"
+	.string "还有一些宝可梦可能会使它们\n"
+	.string "的对手混乱或者发怒。\p"
+	.string "依据它们的性格, 宝可梦\n"
+	.string "会有喜欢或者很擅长\l"
+	.string "使用的技能。\p"
+	.string "同时可能会有不擅长或者\n"
+	.string "不喜欢使用的技能。$"
 
 VerdanturfTown_BattleTentLobby_Text_2C64BA: @ 82C64BA
-	.string "There are offensive moves that inflict\n"
-	.string "direct damage on the foe.\p"
-	.string "There are defensive moves that are\n"
-	.string "used to prepare for enemy attacks or\l"
-	.string "used to heal HP and so on.\p"
-	.string "There are also other somewhat-odd\n"
-	.string "moves that may enfeeble the foes with\l"
-	.string "stat problems including poison and \l"
-	.string "paralysis.\p"
-	.string "POKéMON will consider using moves in\n"
-	.string "these three categories.$"
+	.string "有可以对敌人直接造成\n"
+	.string "伤害的攻击技能。\p"
+	.string "也有可以用来抵抗对手\n"
+	.string "攻击的防守技能，或者\l"
+	.string "恢复HP的技能。\p"
+	.string "还有一些具有特殊效果\n"
+	.string "的技能，会让对手陷入\l"
+	.string "异常状态，比如中毒或者\l"
+	.string "麻痹等。\p"
+	.string "宝可梦将会考虑使用\n"
+	.string "这3个类别的技能。$"
 
 VerdanturfTown_BattleTentLobby_Text_2C6612: @ 82C6612
-	.string "When not under command by its TRAINER,\n"
-	.string "a POKéMON may be unable to effectively\l"
-	.string "use certain moves.\p"
-	.string "A POKéMON is not good at using any\n"
-	.string "move that it dislikes.\p"
-	.string "If a POKéMON only knows moves that\n"
-	.string "do not match its nature, it will often\l"
-	.string "be unable to live up to its potential.$"
+	.string "如果没有训练师下达指令,\n"
+	.string "宝可梦可能无法很好地\l"
+	.string "使用某些技能。\p"
+	.string "宝可梦不擅长使用自己\n"
+	.string "不喜欢的技能。\p"
+	.string "如果宝可梦学会的技能\n"
+	.string "不符合自己的性格，那么\l"
+	.string "它将无法发回出潜力。$"
 
 VerdanturfTown_BattleTentLobby_Text_2C671E: @ 82C671E
-	.string "Depending on its nature, a POKéMON may\n"
-	.string "start using moves that don't match its\l"
-	.string "nature when it is in trouble.\p"
-	.string "If a POKéMON begins behaving oddly\n"
-	.string "in a pinch, watch it carefully.$"
+	.string "根据它们的性格,在遇到麻烦后，\n"
+	.string "宝可梦可能会使用与其性格\l"
+	.string "不相符的技能。\p"
+	.string "如果宝可梦开始有奇怪的行为，\n"
+	.string "请注意观察它的状态。$"
 
 FallarborTown_BattleTentLobby_Text_2C67CD: @ 82C67CD
 VerdanturfTown_BattleTentLobby_Text_2C67CD: @ 82C67CD
-	.string "At this BATTLE TENT, the levels of\n"
-	.string "your opponents will be adjusted to\l"
-	.string "match the levels of your POKéMON.\p"
-	.string "However, no TRAINER you face will\n"
-	.string "have any POKéMON below Level 30.$"
+	.string "在这个对战帐篷中,对手使用的\n"
+	.string "宝可梦的等级将根据您的宝可梦\l"
+	.string "等级来调整。\p"
+	.string "然而,您所遇到的训练师宝可梦\n"
+	.string "等级不会低于30级。$"
 
 VerdanturfTown_BattleTentLobby_Text_2C6878: @ 82C6878
-	.string "The VERDANTURF BATTLE TENT\n"
-	.string "rules are listed.$"
+	.string "这里列出了绿荫镇\n"
+	.string "对战帐篷的规则。$"
 
 LilycoveCity_Harbor_Text_2C68A5: @ 82C68A5
-	.string "What's up, youngster?\p"
-	.string "What, it's you who's supposed to have\n"
-	.string "a tattered old map?\p"
-	.string "Let's have a look.\n"
+	.string "有什么事吗,年轻人?\p"
+	.string "什么,你有一张破旧\n"
+	.string "的航海图?\p"
+	.string "让我看下。\n"
 	.string "… … … … … …\p"
-	.string "Boy, this is quite a ways away.\n"
-	.string "I'm afraid I can't help you…$"
+	.string "孩子,这我恐怕帮不了你，\n"
+	.string "这太远了…$"
 
 LilycoveCity_Harbor_Text_2C6951: @ 82C6951
-	.string "BRINEY: Hold on a second!\p"
-	.string "What's the idea of turning down\n"
-	.string "someone that I owe so much to?$"
+	.string "哈奇老人: 请稍等下!\p"
+	.string "为什么要拒绝帮我\n"
+	.string "那么多的人?$"
 
 LilycoveCity_Harbor_Text_2C69AA: @ 82C69AA
-	.string "{PLAYER}{KUN}, I'm terribly sorry.\p"
-	.string "You came to me seeking my help,\n"
-	.string "and we almost turned you away.\p"
-	.string "Well, let me make things right.\p"
-	.string "We'll sail right away, of course!\p"
-	.string "Let's find this island on\n"
-	.string "this OLD SEA MAP!$"
+	.string "{PLAYER}{KUN},我真的很抱歉。\p"
+	.string "你来寻求我的帮助,\n"
+	.string "我却几乎把你拒之门外。\p"
+	.string "来吧,让我来帮助你一次。\p"
+	.string "我的意思是我们马上开航!\p"
+	.string "让我们去这张古航海图上\n"
+	.string "的岛屿吧!$"
 
 LilycoveCity_Harbor_Text_2C6A71: @ 82C6A71
-	.string "Is it you who brought that odd\n"
-	.string "ticket?\p"
-	.string "Where you're trying to go is an island\n"
-	.string "that's far, far away.\p"
-	.string "No one knows what awaits there…\p"
-	.string "The very thought excites my blood\n"
-	.string "as a sailing man!\p"
-	.string "Get on board, youngster!$"
+	.string "是谁带过来了那张\n"
+	.string "奇怪的船票?\p"
+	.string "你要去的地方是一个\n"
+	.string "遥远的岛屿。\p"
+	.string "没人知道那里有什么等待我们…\p"
+	.string "这燃起了我身为一名水手\n"
+	.string "的激情!\p"
+	.string "出发吧,年轻人!$"
 
 FarawayIsland_Entrance_Text_2C6B42: @ 82C6B42
-	.string "CAPT. BRINEY can be so maddeningly\n"
-	.string "fickle…\p"
-	.string "Do you want to return to LILYCOVE?$"
+	.string "哈奇老人可以如此\n"
+	.string "变幻无常…\p"
+	.string "你要返回水静市吗?$"
 
 BirthIsland_Harbor_Text_2C6B90: @ 82C6B90
-	.string "What an oddly shaped island, eh?\n"
-	.string "Do you want to return to LILYCOVE?$"
+	.string "真是奇怪的岛屿，嗯?\n"
+	.string "你想要返回水静市吗?$"
 
 LilycoveCity_Harbor_Text_2C6BD4: @ 82C6BD4
-	.string "Is it you who brought those\n"
-	.string "odd tickets?\p"
-	.string "… … …Hm.\p"
-	.string "These tickets will get you to islands\n"
-	.string "that are far, far away.\p"
-	.string "No one knows what awaits there,\n"
-	.string "or what may happen there.\p"
-	.string "The very thought excites my blood\n"
-	.string "as a sailing man!\p"
-	.string "Get on board, youngster!\n"
-	.string "Where shall we sail first?$"
+	.string "是谁带过来了那些\n"
+	.string "奇怪的船票?\p"
+	.string "… … …嗯.\p"
+	.string "这些船票会带领你前往\n"
+	.string "很遥远的岛屿。\p"
+	.string "没有人知道那里有什么,\n"
+	.string "或者会发生什么。\p"
+	.string "这燃起了我身为一名水手\n"
+	.string "的激情!\p"
+	.string "出发吧,年轻人!\n"
+	.string "你想要先去那里呢?$"
 
 NavelRock_Harbor_Text_2C6CE6: @ 82C6CE6
-	.string "Did… Did you hear that?\n"
-	.string "That low growling from deep in there.\p"
-	.string "Are you sure it's safe?\n"
-	.string "Do you think we should leave?$"
+	.string "你…你听到了那个声音吗?\n"
+	.string "我好像听到了深处传来了声音。\p"
+	.string "你确定这里安全吗?\n"
+	.string "你认为我们应该离开吗?$"
 
 FarawayIsland_Entrance_Text_2C6D5A: @ 82C6D5A
-	.string "The writing is fading as if it was\n"
-	.string "written a long time ago…\p"
-	.string "“…ber, 6th day\n"
-	.string "If any human…sets foot here…\l"
-	.string "again…et it be a kindhearted pers…\l"
-	.string "…ith that hope, I depar…”$"
+	.string "好像是很久远之前留下\n"
+	.string "的字迹，看不太清楚…\p"
+	.string "“…月6日\n"
+	.string "如果有…再次踏足…里，\l"
+	.string "我希…他是个…善…\l"
+	.string "的人…”$"
 
 FarawayIsland_Interior_Text_2C6DFF: @ 82C6DFF
-	.string "Myuu…$"
+	.string "嗯…$"
 
 MauvilleCity_Text_2C6E05: @ 82C6E05
 	.string "This move can be learned only\n"
@@ -6590,56 +6590,56 @@ MossdeepCity_Text_2C7B0D: @ 82C7B0D
 	.string "Which POKéMON should I teach?$"
 
 MossdeepCity_Text_2C7B4F: @ 82C7B4F
-	.string "I want you to win at the MOSSDEEP GYM\n"
-	.string "using that DYNAMICPUNCH!$"
+	.string "我希望你使用爆裂拳\n"
+	.string "来赢得绿岭道馆!$"
 
 SootopolisCity_PokemonCenter_1F_Text_2C7B8E: @ 82C7B8E
-	.string "Sigh…\p"
-	.string "SOOTOPOLIS's GYM LEADER is really\n"
-	.string "lovably admirable.\p"
-	.string "But that also means I have many\n"
-	.string "rivals for his attention.\p"
-	.string "He's got appeal with a DOUBLE-EDGE.\n"
-	.string "I couldn't even catch his eye.\p"
-	.string "Please, let me teach your POKéMON\n"
-	.string "the move DOUBLE-EDGE!$"
+	.string "唉…\p"
+	.string "琉璃市道馆馆主真是\n"
+	.string "太令人钦佩了。\p"
+	.string "但这也意味着，要引起\n"
+	.string "他的注意，我会有很多竞争对手。\p"
+	.string "他之前对舍身冲撞感兴趣，\n"
+	.string "而我完全不能引起他的注意。\p"
+	.string "拜托了，让我教你的宝可梦\n"
+	.string "学会舍身冲撞。$"
 
 SootopolisCity_PokemonCenter_1F_Text_2C7C7E: @ 82C7C7E
-	.string "Oh…\n"
-	.string "Even you rejected me…$"
+	.string "哦…\n"
+	.string "你竟然拒绝了我…$"
 
 SootopolisCity_PokemonCenter_1F_Text_2C7C98: @ 82C7C98
-	.string "Okay, which POKéMON should I teach\n"
-	.string "DOUBLE-EDGE?$"
+	.string "好的，你要让哪只宝可梦学\n"
+	.string "舍身冲撞呢?$"
 
 SootopolisCity_PokemonCenter_1F_Text_2C7CC8: @ 82C7CC8
-	.string "I won't live for love anymore!\n"
-	.string "I'll become tough!$"
+	.string "我不会再为爱而活!\n"
+	.string "我会变得更坚强!$"
 
 PacifidlogTown_PokemonCenter_1F_Text_2C7CFA: @ 82C7CFA
-	.string "I don't intend to be going nowhere\n"
-	.string "fast in the sticks like this forever.\p"
-	.string "You watch me, I'll get out to the city\n"
-	.string "and become a huge hit.\p"
-	.string "Seriously, I'm going to cause\n"
-	.string "a huge EXPLOSION of popularity!\p"
-	.string "If you overheard that, I'll happily\n"
-	.string "teach EXPLOSION to your POKéMON!$"
+	.string "我根本就没打算一直\n"
+	.string "待在这乡下。\p"
+	.string "等着瞧吧，总有一天\n"
+	.string "我会离开这去大干一番。\p"
+	.string "说真的,到时候我会到城里面，\n"
+	.string "而且会引起爆炸性的轰动!\p"
+	.string "如果你相信我,我会很乐意\n"
+	.string "教你的宝可梦学会大爆炸!$"
 
 PacifidlogTown_PokemonCenter_1F_Text_2C7E04: @ 82C7E04
-	.string "Gaah! You're turning me down because\n"
-	.string "I live in the country?$"
+	.string "什么!因为我住在乡下， \n"
+	.string "所以你拒绝我?$"
 
 PacifidlogTown_PokemonCenter_1F_Text_2C7E40: @ 82C7E40
-	.string "Fine! An EXPLOSION it is!\n"
-	.string "Which POKéMON wants to blow up?$"
+	.string "很好!这是大爆炸!\n"
+	.string "你的哪只宝可梦想要爆炸?$"
 
 PacifidlogTown_PokemonCenter_1F_Text_2C7E7A: @ 82C7E7A
-	.string "For a long time, I've taught POKéMON\n"
-	.string "how to use EXPLOSION, but I've yet\l"
-	.string "to ignite my own EXPLOSION…\p"
-	.string "Maybe it's because deep down,\n"
-	.string "I would rather stay here…$"
+	.string "我已经教宝可梦如何使用\n"
+	.string "大爆炸很长一段时间了，\l"
+	.string "但我自己还没有使用过…\p"
+	.string "可能在我的内心深处,\n"
+	.string "我宁愿留在这里…$"
 
 SlateportCity_PokemonFanClub_EventScript_2C7F16:: @ 82C7F16
 	lock
@@ -7038,54 +7038,54 @@ EventScript_2C83F0:: @ 82C83F0
 	end
 
 Text_ThisIsATestSignpostMsg:: @ 82C840A
-	.string "This is a test message.\n"
-	.string "This is a signpost.$"
+	.string "这是一条用来测试的消息。\n"
+	.string "这是一个标牌。$"
 
 EventScript_TestSignpostMsg:: @ 82C8436
 	msgbox Text_ThisIsATestSignpostMsg, MSGBOX_SIGN
 	end
 
 gText_082C843F:: @ 82C843F
-	.string "It's very disappointing…$"
+	.string "这真的是太遗憾了…$"
 
 gText_082C8458:: @ 82C8458
-	.string "Okay, I understand…$"
+	.string "好的,我明白了…$"
 
 gText_082C846C:: @ 82C846C
-	.string "I'm terribly sorry…$"
+	.string "我真的很抱歉…$"
 
 gText_082C8480:: @ 82C8480
-	.string "Thank you…$"
+	.string "谢谢…$"
 
 gText_082C848B:: @ 82C848B
-	.string "Ahahaha! Aren't you embarrassed?\n"
-	.string "Everyone's watching!$"
+	.string "啊哈哈!你觉得尴尬吗?\n"
+	.string "大家都在看我们!$"
 
 gText_082C84C1:: @ 82C84C1
-	.string "Grr…\n"
-	.string "What the…$"
+	.string "嗯…\n"
+	.string "这是…$"
 
 gText_082C84D0:: @ 82C84D0
-	.string "My DOME ACE title isn't just for show!$"
+	.string "我巨蛋超级巨星的称号可不只是用来唬人的!$"
 
 gText_082C84F7:: @ 82C84F7
-	.string "Ahahaha!\n"
-	.string "You're inspiring!$"
+	.string "啊哈哈!\n"
+	.string "你太振奋人心了!$"
 
 gText_082C8512:: @ 82C8512
-	.string "Way to work!\n"
-	.string "That was a good lesson, eh?$"
+	.string "上班的路上!\n"
+	.string "上了一堂好课,嗯?$"
 
 gText_082C853B:: @ 82C853B
-	.string "Good job!\n"
-	.string "You know what you're doing!$"
+	.string "干得好!\n"
+	.string "你很清楚自己在做什么!$"
 
 gText_082C8561:: @ 82C8561
-	.string "Hey, hey, hey!\n"
-	.string "You're finished already?$"
+	.string "嘿,嘿,嘿!\n"
+	.string "你已经完成了吗?$"
 
 gText_082C8589:: @ 82C8589
-	.string "What happened here?$"
+	.string "这里发生了什么?$"
 
 gText_082C859D:: @ 82C859D
 	.string "Humph…$"
@@ -7100,53 +7100,135 @@ gText_082C85AE:: @ 82C85AE
 	.string "Darn!$"
 
 gText_082C85B4:: @ 82C85B4
-	.string "Oh, come on!\n"
-	.string "You have to try harder than that!$"
+	.string "哦!\n"
+	.string "你必须更加努力才行!$"
 
 gText_082C85E3:: @ 82C85E3
-	.string "No way!\n"
-	.string "Good job!$"
+	.string "没门!\n"
+	.string "干得好!$"
 
 gText_082C85F5:: @ 82C85F5
-	.string "Heheh!\n"
-	.string "What did you expect?$"
+	.string "呵呵呵!\n"
+	.string "你在期待什么?$"
 
 gText_082C8611:: @ 82C8611
-	.string "Huh?\n"
-	.string "Are you serious?!$"
+	.string "哈?\n"
+	.string "你是认真的吗?!$"
 
 gText_082C8628:: @ 82C8628
-	.string "Your POKéMON are wimpy because\n"
-	.string "you're wimpy as a TRAINER!$"
+	.string "你的宝可梦很弱，\n"
+	.string "因为它的训练师很弱!$"
 
 gText_082C8662:: @ 82C8662
-	.string "Ah…\n"
-	.string "Now this is something else…$"
+	.string "啊…\n"
+	.string "现在这是另外一回事…$"
 
 gText_082C8682:: @ 82C8682
-	.string "Gwahahaha!\n"
-	.string "My brethren, we have nothing to fear!$"
+	.string "哈哈哈!\n"
+	.string "我的弟兄们,我们没有什么可担心的!$"
 
 gText_082C86B3:: @ 82C86B3
-	.string "Gwah!\n"
-	.string "Hahahaha!$"
+	.string "哇!\n"
+	.string "哈哈哈!$"
 
 gText_082C86C3:: @ 82C86C3
-	.string "Hey! What's wrong with you!\n"
-	.string "Let's see some effort! Get up!$"
+	.string "嘿! 你怎么了!\n"
+	.string "让我们看看! 继续努力!$"
 
 gText_082C86FE:: @ 82C86FE
-	.string "That's it! You've done great!\n"
-	.string "You've worked hard for this!$"
+	.string "你做的很棒!\n"
+	.string "你有为此努力了吧!$"
 
 gText_082C8739:: @ 82C8739
-	.string "Hey! Don't you give up now!\n"
-	.string "Get up! Don't lose faith in yourself!$"
+	.string "嘿!现在不要放弃!\n"
+	.string "振作点!不要对自己失去信心!$"
 
 gText_082C877B:: @ 82C877B
-	.string "That's it! You've done it!\n"
-	.string "You kept working for this!$"
+	.string "你已经完成它了!\n"
+	.string "你一直在为这个好好努力了吧!$"
 
 	.align 2
 	.include "data/text/save.inc"
 	.include "data/text/birch_speech.inc"
+
+	.include "data/maps/AtroposKohlrabiGarden/scripts.inc"
+
+	.include "data/maps/AtroposQuiteTown/scripts.inc"
+
+	.include "data/maps/AtroposGinkgoCity/scripts.inc"
+
+	.include "data/maps/AtroposMacarangaTown/scripts.inc"
+
+	.include "data/maps/AtroposCurvifoliaTown/scripts.inc"
+
+	.include "data/maps/AtroposCycasCity/scripts.inc"
+
+	.include "data/maps/AtroposTheGoldenBay/scripts.inc"
+
+	.include "data/maps/AtroposBanabaTown/scripts.inc"
+
+	.include "data/maps/AtroposPlatiniumCity/scripts.inc"
+
+	.include "data/maps/AtroposHuperTown/scripts.inc"
+
+	.include "data/maps/AtroposDavidiaCity/scripts.inc"
+
+	.include "data/maps/AtroposBubbleIsland/scripts.inc"
+
+	.include "data/maps/AtroposDidaVillage/scripts.inc"
+
+	.include "data/maps/AtroposRouteAlpha/scripts.inc"
+
+	.include "data/maps/AtroposRouteBeta/scripts.inc"
+
+	.include "data/maps/AtroposRouteGamma/scripts.inc"
+
+	.include "data/maps/AtroposRouteDelta/scripts.inc"
+
+	.include "data/maps/AtroposRouteEpsilon/scripts.inc"
+
+	.include "data/maps/AtroposRouteZeta/scripts.inc"
+
+	.include "data/maps/AtroposRouteEta/scripts.inc"
+
+	.include "data/maps/AtroposRouteTheta/scripts.inc"
+
+	.include "data/maps/AtroposRouteIota/scripts.inc"
+
+	.include "data/maps/AtroposRouteKappa/scripts.inc"
+
+	.include "data/maps/AtroposPrideRoad/scripts.inc"
+
+	.include "data/maps/AtroposKohlrabiBeach/scripts.inc"
+
+	.include "data/maps/AtroposKohlrabiSecretGarden/scripts.inc"
+
+	.include "data/maps/AtroposVivianHouse1F/scripts.inc"
+
+	.include "data/maps/AtroposVivianHouse2F/scripts.inc"
+
+	.include "data/maps/AtroposKohlrabiIndoor1/scripts.inc"
+
+	.include "data/maps/LachesisBattleDome/scripts.inc"
+
+	.include "data/maps/AtroposQuitePC/scripts.inc"
+
+	.include "data/maps/AtroposQuitePC2/scripts.inc"
+
+	.include "data/maps/Darkness/scripts.inc"
+
+	.include "data/maps/LachesisBattleDomeHouse/scripts.inc"
+
+	.include "data/maps/AtroposQuiteIndoor1/scripts.inc"
+
+	.include "data/maps/AtroposProfTuckersLab/scripts.inc"
+
+	.include "data/maps/AtroposGinkgoIndoor1/scripts.inc"
+
+	.include "data/maps/AtroposGinkgoIndoor2/scripts.inc"
+
+	.include "data/maps/AtroposGinkgoIndoor3/scripts.inc"
+
+	.include "data/maps/AtroposGinkgoPC/scripts.inc"
+
+	.include "data/maps/AtroposGinkgoPC2/scripts.inc"

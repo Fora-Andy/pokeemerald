@@ -57,6 +57,7 @@
 #include "constants/weather.h"
 #include "constants/metatile_labels.h"
 #include "palette.h"
+#include "naming_screen.h"
 
 EWRAM_DATA bool8 gBikeCyclingChallenge = FALSE;
 EWRAM_DATA u8 gBikeCollisions = 0;
@@ -88,7 +89,7 @@ void sub_813BF60(void);
 u16 GetNumMovedLilycoveFanClubMembers(void);
 
 static void RecordCyclingRoadResults(u32, u8);
-static void LoadLinkPartnerEventObjectSpritePalette(u8 graphicsId, u8 localEventId, u8 paletteNum);
+static void LoadLinkPartnerEventObjectSpritePalette(u16 graphicsId, u8 localEventId, u8 paletteNum);
 static void Task_PetalburgGym(u8);
 static void PetalburgGymFunc(u8, u16);
 static void Task_PCTurnOnEffect(u8);
@@ -525,7 +526,7 @@ void SpawnLinkPartnerEventObject(void)
     };
     u8 myLinkPlayerNumber;
     u8 playerFacingDirection;
-    u8 linkSpriteId;
+    u16 linkSpriteId;
     u8 i;
 
     myLinkPlayerNumber = GetMultiplayerId();
@@ -588,7 +589,7 @@ void SpawnLinkPartnerEventObject(void)
     }
 }
 
-static void LoadLinkPartnerEventObjectSpritePalette(u8 graphicsId, u8 localEventId, u8 paletteNum)
+static void LoadLinkPartnerEventObjectSpritePalette(u16 graphicsId, u8 localEventId, u8 paletteNum)
 {
     u8 adjustedPaletteNum;
     // Note: This temp var is necessary; paletteNum += 6 doesn't match.
@@ -1077,7 +1078,7 @@ static void PCTurnOnEffect_0(struct Task *task)
     task->data[3]++;
 }
 
-// enum pc location, 
+// enum pc location,
 static void PCTurnOnEffect_1(s16 flag, s8 dx, s8 dy)
 {
     u16 tileId = 0;
@@ -4197,3 +4198,123 @@ u8 sub_813BF7C(void)
 {
     return sub_813BADC(gSpecialVar_0x8004);
 }
+
+void CreateWhiteSkuldParty(void)
+{
+    u16 monData;
+    CreateMon(&gPlayerParty[0], SPECIES_BEWEAR, 45, 0x20, FALSE, 0, FALSE, 0);
+    CreateMon(&gPlayerParty[1], SPECIES_SABLEYE, 48, 0x20, FALSE, 0, FALSE, 0);
+    CreateMon(&gPlayerParty[2], SPECIES_ALTARIA, 58, 0x20, FALSE, 0, FALSE, 0);
+    CreateMon(&gPlayerParty[3], SPECIES_AMOONGUSS, 52, 0x20, FALSE, 0, FALSE, 0);
+    CreateMon(&gPlayerParty[4], SPECIES_KROOKODILE, 55, 0x20, FALSE, 0, FALSE, 0);
+//SPECIES_BEWEAR
+    monData = 0;
+    SetMonData(&gPlayerParty[0], MON_DATA_ABILITY_NUM, &monData);
+    monData = MOVE_PROTECT;
+    SetMonData(&gPlayerParty[0], MON_DATA_MOVE1, &monData);
+    SetMonData(&gPlayerParty[0], MON_DATA_PP1, &gBattleMoves[monData].pp);
+    monData = MOVE_HAMMER_ARM;
+    SetMonData(&gPlayerParty[0], MON_DATA_MOVE2, &monData);
+    SetMonData(&gPlayerParty[0], MON_DATA_PP2, &gBattleMoves[monData].pp);
+    monData = MOVE_THUNDER_PUNCH;
+    SetMonData(&gPlayerParty[0], MON_DATA_MOVE3, &monData);
+    SetMonData(&gPlayerParty[0], MON_DATA_PP3, &gBattleMoves[monData].pp);
+    monData = MOVE_STOMPING_TANTRUM;
+    SetMonData(&gPlayerParty[0], MON_DATA_MOVE4, &monData);
+    SetMonData(&gPlayerParty[0], MON_DATA_PP4, &gBattleMoves[monData].pp);
+	//SABLEYE
+    monData = 1;
+    SetMonData(&gPlayerParty[1], MON_DATA_ABILITY_NUM, &monData);
+	  monData = ITEM_SABLENITE;
+	  SetMonData(&gPlayerParty[1], MON_DATA_HELD_ITEM , &monData);
+    monData = MOVE_MEAN_LOOK;
+    SetMonData(&gPlayerParty[1], MON_DATA_MOVE1, &monData);
+    SetMonData(&gPlayerParty[1], MON_DATA_PP1, &gBattleMoves[monData].pp);
+    monData = MOVE_DETECT;
+    SetMonData(&gPlayerParty[1], MON_DATA_MOVE2, &monData);
+    SetMonData(&gPlayerParty[1], MON_DATA_PP2, &gBattleMoves[monData].pp);
+    monData = MOVE_AERIAL_ACE;
+    SetMonData(&gPlayerParty[1], MON_DATA_MOVE3, &monData);
+    SetMonData(&gPlayerParty[1], MON_DATA_PP3, &gBattleMoves[monData].pp);
+    monData = MOVE_SWAGGER;
+    SetMonData(&gPlayerParty[1], MON_DATA_MOVE4, &monData);
+    SetMonData(&gPlayerParty[1], MON_DATA_PP4, &gBattleMoves[monData].pp);
+
+//ALTARIA
+    monData = 1;
+    SetMonData(&gPlayerParty[2], MON_DATA_ABILITY_NUM, &monData);
+	monData = ITEM_ALTARIANITE;
+	SetMonData(&gPlayerParty[2], MON_DATA_HELD_ITEM , &monData);
+    monData = MOVE_DRAGON_DANCE;
+    SetMonData(&gPlayerParty[2], MON_DATA_MOVE1, &monData);
+    SetMonData(&gPlayerParty[2], MON_DATA_PP1, &gBattleMoves[monData].pp);
+    monData = MOVE_DRAGON_CLAW;
+    SetMonData(&gPlayerParty[2], MON_DATA_MOVE2, &monData);
+    SetMonData(&gPlayerParty[2], MON_DATA_PP2, &gBattleMoves[monData].pp);
+    monData = MOVE_FLY;
+    SetMonData(&gPlayerParty[2], MON_DATA_MOVE3, &monData);
+    SetMonData(&gPlayerParty[2], MON_DATA_PP3, &gBattleMoves[monData].pp);
+    monData = MOVE_ROOST;
+    SetMonData(&gPlayerParty[2], MON_DATA_MOVE4, &monData);
+    SetMonData(&gPlayerParty[2], MON_DATA_PP4, &gBattleMoves[monData].pp);
+
+//AMOONGUSS
+    monData = 0;
+    SetMonData(&gPlayerParty[3], MON_DATA_ABILITY_NUM, &monData);
+	  monData = ITEM_CELL_BATTERY;
+	  SetMonData(&gPlayerParty[3], MON_DATA_HELD_ITEM , &monData);
+    monData = MOVE_ASTONISH;
+    SetMonData(&gPlayerParty[3], MON_DATA_MOVE1, &monData);
+    SetMonData(&gPlayerParty[3], MON_DATA_PP1, &gBattleMoves[monData].pp);
+    monData = MOVE_SOLAR_BEAM;
+    SetMonData(&gPlayerParty[3], MON_DATA_MOVE2, &monData);
+    SetMonData(&gPlayerParty[3], MON_DATA_PP2, &gBattleMoves[monData].pp);
+    monData = MOVE_CLEAR_SMOG;
+    SetMonData(&gPlayerParty[3], MON_DATA_MOVE3, &monData);
+    SetMonData(&gPlayerParty[3], MON_DATA_PP3, &gBattleMoves[monData].pp);
+    monData = MOVE_ATTRACT;
+    SetMonData(&gPlayerParty[3], MON_DATA_MOVE4, &monData);
+    SetMonData(&gPlayerParty[3], MON_DATA_PP4, &gBattleMoves[monData].pp);
+
+	//KROOKODILE
+    monData = TRUE;
+    SetMonData(&gPlayerParty[4], MON_DATA_ABILITY_NUM, &monData);
+	  monData = ITEM_FLAME_ORB;
+	  SetMonData(&gPlayerParty[4], MON_DATA_HELD_ITEM , &monData);
+    monData = MOVE_SAND_ATTACK;
+    SetMonData(&gPlayerParty[4], MON_DATA_MOVE1, &monData);
+    SetMonData(&gPlayerParty[4], MON_DATA_PP1, &gBattleMoves[monData].pp);
+    monData = MOVE_FACADE;
+    SetMonData(&gPlayerParty[4], MON_DATA_MOVE2, &monData);
+    SetMonData(&gPlayerParty[4], MON_DATA_PP2, &gBattleMoves[monData].pp);
+    monData = MOVE_BITE;
+    SetMonData(&gPlayerParty[4], MON_DATA_MOVE3, &monData);
+    SetMonData(&gPlayerParty[4], MON_DATA_PP3, &gBattleMoves[monData].pp);
+    monData = MOVE_REST;
+    SetMonData(&gPlayerParty[4], MON_DATA_MOVE4, &monData);
+    SetMonData(&gPlayerParty[4], MON_DATA_PP4, &gBattleMoves[monData].pp);
+}
+
+const u8 gText_DefaultNameGrey[] = _("格雷");
+
+void NamingScreen(void)
+{
+	const u8* name;
+  u8 i;
+
+  name = gText_DefaultNameGrey;
+  for (i = 0; i < 7; i++)
+      gSaveBlock2Ptr->playerName[i] = name[i];
+  gSaveBlock2Ptr->playerName[7] = 0xFF;
+	DoNamingScreen(0, gSaveBlock2Ptr->playerName, gSaveBlock2Ptr->playerGender, 0, 0, CB2_ReturnToFieldContinueScriptPlayMapMusic);
+
+}
+/*
+void GenerateSeedFirstTime(void)
+{
+  int i;
+  for (i = 0; i < 6; i++)
+      gSaveBlock2Ptr->SeedID[i] = Random() % 255;
+
+}
+*/

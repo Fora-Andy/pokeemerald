@@ -1,0 +1,101 @@
+{
+    "allow_bike": true,
+    "allow_escape_rope": false,
+    "allow_running": true,
+    "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+    "bg_events": [
+    ],
+    "connections": [
+        {
+            "direction": "down",
+            "map": "MAP_ATROPOS_QUITE_TOWN",
+            "offset": 0
+        },
+        {
+            "direction": "up",
+            "map": "MAP_ATROPOS_GINKGO_CITY",
+            "offset": 0
+        }
+    ],
+    "coord_events": [
+    ],
+    "id": "MAP_ATROPOS_ROUTE_BETA",
+    "layout": "LAYOUT_ATROPOS_ROUTE_BETA",
+    "map_type": "MAP_TYPE_ROUTE",
+    "music": "MUS_DAN02",
+    "name": "AtroposRouteBeta",
+    "object_events": [
+        {
+            "elevation": 3,
+            "flag": "0",
+            "graphics_id": "EVENT_OBJ_GFX_BOY_1",
+            "movement_range_x": 0,
+            "movement_range_y": 0,
+            "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+            "script": "NULL",
+            "trainer_sight_or_berry_tree_id": "0",
+            "trainer_type": "0",
+            "x": 13,
+            "y": 31
+        },
+        {
+            "elevation": 3,
+            "flag": "0",
+            "graphics_id": "EVENT_OBJ_GFX_BUG_CATCHER",
+            "movement_range_x": 0,
+            "movement_range_y": 0,
+            "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+            "script": "NULL",
+            "trainer_sight_or_berry_tree_id": "3",
+            "trainer_type": "3",
+            "x": 3,
+            "y": 12
+        },
+        {
+            "elevation": 3,
+            "flag": "0",
+            "graphics_id": "EVENT_OBJ_GFX_LASS",
+            "movement_range_x": 0,
+            "movement_range_y": 0,
+            "movement_type": "MOVEMENT_TYPE_FACE_DOWN_AND_LEFT",
+            "script": "NULL",
+            "trainer_sight_or_berry_tree_id": "2",
+            "trainer_type": "3",
+            "x": 11,
+            "y": 6
+        },
+        {
+            "elevation": 3,
+            "flag": "0",
+            "graphics_id": "EVENT_OBJ_GFX_WOMAN_2",
+            "movement_range_x": 0,
+            "movement_range_y": 0,
+            "movement_type": "MOVEMENT_TYPE_NONE",
+            "script": "NULL",
+            "trainer_sight_or_berry_tree_id": "0",
+            "trainer_type": "0",
+            "x": 8,
+            "y": 20
+        }
+    ],
+    "region_map_section": "MAPSEC_ATROPOS_ROUTE_BETA",
+    "requires_flash": false,
+    "show_map_name": true,
+    "warp_events": [
+        {
+            "dest_map": "MAP_ATROPOS_ROUTE_BETA",
+            "dest_warp_id": 0,
+            "elevation": 0,
+            "x": 14,
+            "y": 27
+        },
+        {
+            "dest_map": "MAP_ATROPOS_ROUTE_BETA",
+            "dest_warp_id": 0,
+            "elevation": 0,
+            "x": 17,
+            "y": 23
+        }
+    ],
+    "weather": "WEATHER_SUNNY"
+}

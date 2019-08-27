@@ -8,6 +8,7 @@
 #include "field_effect_helpers.h"
 #include "field_player_avatar.h"
 #include "fieldmap.h"
+#include "follow_me.h"
 #include "menu.h"
 #include "metatile_behavior.h"
 #include "overworld.h"
@@ -225,7 +226,7 @@ static bool8 (*const sArrowWarpMetatileBehaviorChecks[])(u8) =
     MetatileBehavior_IsEastArrowWarp,
 };
 
-static const u8 sRivalAvatarGfxIds[][2] =
+static const u16 sRivalAvatarGfxIds[][2] =
 {
     {EVENT_OBJ_GFX_RIVAL_BRENDAN_NORMAL,     EVENT_OBJ_GFX_RIVAL_MAY_NORMAL},
     {EVENT_OBJ_GFX_RIVAL_BRENDAN_MACH_BIKE,  EVENT_OBJ_GFX_RIVAL_MAY_MACH_BIKE},
@@ -237,7 +238,7 @@ static const u8 sRivalAvatarGfxIds[][2] =
     {EVENT_OBJ_GFX_BRENDAN_WATERING,         EVENT_OBJ_GFX_MAY_WATERING}
 };
 
-static const u8 sPlayerAvatarGfxIds[][2] =
+static const u16 sPlayerAvatarGfxIds[][2] =
 {
     {EVENT_OBJ_GFX_BRENDAN_NORMAL,     EVENT_OBJ_GFX_MAY_NORMAL},
     {EVENT_OBJ_GFX_BRENDAN_MACH_BIKE,  EVENT_OBJ_GFX_MAY_MACH_BIKE},
@@ -249,11 +250,11 @@ static const u8 sPlayerAvatarGfxIds[][2] =
     {EVENT_OBJ_GFX_BRENDAN_WATERING,   EVENT_OBJ_GFX_MAY_WATERING},
 };
 
-static const u8 sFRLGAvatarGfxIds[] = {EVENT_OBJ_GFX_RED, EVENT_OBJ_GFX_LEAF};
+static const u16 sFRLGAvatarGfxIds[] = {EVENT_OBJ_GFX_RED, EVENT_OBJ_GFX_LEAF};
 
-static const u8 sRSAvatarGfxIds[] = {EVENT_OBJ_GFX_LINK_RS_BRENDAN, EVENT_OBJ_GFX_LINK_RS_MAY};
+static const u16 sRSAvatarGfxIds[] = {EVENT_OBJ_GFX_LINK_RS_BRENDAN, EVENT_OBJ_GFX_LINK_RS_MAY};
 
-static const u8 gUnknown_0849750C[2][5][2] =
+static const u16 gUnknown_0849750C[2][5][2] =
 {
     //male
     {
@@ -651,6 +652,10 @@ static void PlayerNotOnBikeMoving(u8 direction, u16 heldKeys)
     }
     else
     {
+        if(CanSpawnFollower() == 1)
+        {
+            SpawnFollower(gEventObjects[gPlayerAvatar.eventObjectId].currentCoords.x , gEventObjects[gPlayerAvatar.eventObjectId].currentCoords.y, direction);
+        }
         PlayerGoSpeed1(direction);
     }
 }
@@ -871,6 +876,7 @@ static void PlayerAvatarTransition_Surfing(struct EventObject *eventObj)
     spriteId = FieldEffectStart(FLDEFF_SURF_BLOB);
     eventObj->fieldEffectSpriteId = spriteId;
     sub_81555AC(spriteId, 1);
+    DeleteFollower();
 }
 
 static void PlayerAvatarTransition_Underwater(struct EventObject *eventObj)
@@ -953,7 +959,7 @@ static void sub_808B6BC(u8 a)
 
 void PlayerSetAnimId(u8 movementActionId, u8 copyableMovement)
 {
-    if (!PlayerIsAnimActive())
+    if (!PlayerIsAnimActive() && EventObjectClearHeldMovementIfFinished(&gEventObjects[gFollower.eventObjectId]))
     {
         PlayerSetCopyableMovement(copyableMovement);
         EventObjectSetHeldMovement(&gEventObjects[gPlayerAvatar.eventObjectId], movementActionId);
@@ -1221,32 +1227,32 @@ void sub_808BCF4(void)
     }
 }
 
-u8 GetRivalAvatarGraphicsIdByStateIdAndGender(u8 state, u8 gender)
+u16 GetRivalAvatarGraphicsIdByStateIdAndGender(u8 state, u8 gender)
 {
     return sRivalAvatarGfxIds[state][gender];
 }
 
-u8 GetPlayerAvatarGraphicsIdByStateIdAndGender(u8 state, u8 gender)
+u16 GetPlayerAvatarGraphicsIdByStateIdAndGender(u8 state, u8 gender)
 {
     return sPlayerAvatarGfxIds[state][gender];
 }
 
-u8 GetFRLGAvatarGraphicsIdByGender(u8 gender)
+u16 GetFRLGAvatarGraphicsIdByGender(u8 gender)
 {
     return sFRLGAvatarGfxIds[gender];
 }
 
-u8 GetRSAvatarGraphicsIdByGender(u8 gender)
+u16 GetRSAvatarGraphicsIdByGender(u8 gender)
 {
     return sRSAvatarGfxIds[gender];
 }
 
-u8 GetPlayerAvatarGraphicsIdByStateId(u8 state)
+u16 GetPlayerAvatarGraphicsIdByStateId(u8 state)
 {
     return GetPlayerAvatarGraphicsIdByStateIdAndGender(state, gPlayerAvatar.gender);
 }
 
-u8 unref_GetRivalAvatarGenderByGraphicsId(u8 gfxId)
+u8 unref_GetRivalAvatarGenderByGraphicsId(u16 gfxId)
 {
     switch (gfxId)
     {
@@ -1264,7 +1270,7 @@ u8 unref_GetRivalAvatarGenderByGraphicsId(u8 gfxId)
     }
 }
 
-u8 GetPlayerAvatarGenderByGraphicsId(u8 gfxId)
+u8 GetPlayerAvatarGenderByGraphicsId(u16 gfxId)
 {
     switch (gfxId)
     {
@@ -1332,7 +1338,7 @@ void SetPlayerAvatarStateMask(u8 flags)
     gPlayerAvatar.flags |= flags;
 }
 
-static u8 GetPlayerAvatarStateTransitionByGraphicsId(u8 graphicsId, u8 gender)
+static u16 GetPlayerAvatarStateTransitionByGraphicsId(u16 graphicsId, u8 gender)
 {
     u8 i;
 
@@ -1344,7 +1350,7 @@ static u8 GetPlayerAvatarStateTransitionByGraphicsId(u8 graphicsId, u8 gender)
     return 1;
 }
 
-u8 GetPlayerAvatarGraphicsIdByCurrentState(void)
+u16 GetPlayerAvatarGraphicsIdByCurrentState(void)
 {
     u8 i;
     u8 r5 = gPlayerAvatar.flags;
@@ -1357,7 +1363,7 @@ u8 GetPlayerAvatarGraphicsIdByCurrentState(void)
     return 0;
 }
 
-void SetPlayerAvatarExtraStateTransition(u8 graphicsId, u8 b)
+void SetPlayerAvatarExtraStateTransition(u16 graphicsId, u8 b)
 {
     u8 unk = GetPlayerAvatarStateTransitionByGraphicsId(graphicsId, gPlayerAvatar.gender);
 

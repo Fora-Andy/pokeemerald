@@ -20,6 +20,7 @@
 #include "field_weather.h"
 #include "fieldmap.h"
 #include "fldeff.h"
+#include "follow_me.h"
 #include "gpu_regs.h"
 #include "heal_location.h"
 #include "link.h"
@@ -1543,7 +1544,7 @@ void CB2_NewGame(void)
     PlayTimeCounter_Start();
     ScriptContext1_Init();
     ScriptContext2_Disable();
-    gFieldCallback = ExecuteTruckSequence;
+    //gFieldCallback = ExecuteTruckSequence;
     gFieldCallback2 = NULL;
     do_load_map_stuff_loop(&gMain.state);
     SetFieldVBlankCallback();
@@ -1641,10 +1642,16 @@ void CB2_ReturnToField(void)
 
 void CB2_ReturnToFieldLocal(void)
 {
+    if(CanSpawnFollower() == 2)
+    {
+        SwapFollower();
+    }
+
     if (sub_8086638(&gMain.state))
     {
         SetFieldVBlankCallback();
         SetMainCallback2(CB2_Overworld);
+
     }
 }
 
@@ -2141,11 +2148,7 @@ static void sub_8086988(u32 a1)
     ResetAllPicSprites();
     ResetCameraUpdateInfo();
     InstallCameraPanAheadCallback();
-    if (!a1)
-        InitEventObjectPalettes(0);
-    else
-        InitEventObjectPalettes(1);
-
+    FreeAllSpritePalettes();
     FieldEffectActiveListClear();
     StartWeather();
     ResumePausedWeather();
@@ -2249,10 +2252,10 @@ static void CB1_UpdateLinkState(void)
 
         // Note: Because guestId is between 0 and 4, while the smallest key code is
         // LINK_KEY_CODE_EMPTY, this is functionally equivalent to `sPlayerKeyInterceptCallback(0)`.
-        // It is expecting the callback to be KeyInterCB_SelfIdle, and that will 
+        // It is expecting the callback to be KeyInterCB_SelfIdle, and that will
         // completely ignore any input parameters.
         //
-        // UpdateHeldKeyCode performs a sanity check on its input; if 
+        // UpdateHeldKeyCode performs a sanity check on its input; if
         // sPlayerKeyInterceptCallback echoes back the argument, which is selfId, then
         // it'll use LINK_KEY_CODE_EMPTY instead.
         //
@@ -3058,7 +3061,7 @@ static void SetPlayerFacingDirection(u8 linkPlayerId, u8 facing)
             #define TEMP gLinkPlayerMovementModes[linkPlayerEventObj->movementMode](linkPlayerEventObj, eventObj, facing)
 
             gMovementStatusHandler[TEMP](linkPlayerEventObj, eventObj);
-            
+
             // Clean up the hack.
             #undef TEMP
         }

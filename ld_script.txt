@@ -119,6 +119,7 @@ SECTIONS {
         src/clock.o(.text);
         src/reset_rtc_screen.o(.text);
         src/start_menu.o(.text);
+        src/debug.o(.text);
         src/tileset_anims.o(.text);
         src/palette.o(.text);
         src/sound.o(.text);
@@ -326,6 +327,7 @@ SECTIONS {
         src/unk_transition.o(.text);
         src/international_string_util.o(.text);
         src/field_pic.o(.text);
+        src/follow_me.o(.text);
     } =0
 
     script_data :
@@ -480,6 +482,7 @@ SECTIONS {
         src/field_tasks.o(.rodata);
         src/reset_rtc_screen.o(.rodata);
         src/start_menu.o(.rodata);
+		src/debug.o(.rodata);
         src/tileset_anims.o(.rodata);
         src/palette.o(.rodata);
         src/sound.o(.rodata);
@@ -674,6 +677,7 @@ SECTIONS {
         data/mystery_event_msg.o(.rodata);
         src/m4a_tables.o(.rodata);
         data/sound_data.o(.rodata);
+		src/follow_me.o(.rodata);
     } =0
 
     song_data :

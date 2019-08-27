@@ -1,251 +1,3 @@
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BrendanNormal;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BrendanMachBike;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BrendanSurfing;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BrendanFieldMove;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_QuintyPlump;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_NinjaBoy;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Twin;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Boy1;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Girl1;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Boy2;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Girl2;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_LittleBoy;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_LittleGirl;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Boy3;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Girl3;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_RichBoy;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Woman1;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_FatMan;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_PokefanF;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Man1;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Woman2;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_ExpertM;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_ExpertF;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Man2;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Woman3;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_PokefanM;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Woman4;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Cook;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_LinkReceptionist;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_OldMan;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_OldWoman;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Camper;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Picnicker;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Man3;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Woman5;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Youngster;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BugCatcher;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_PsychicM;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_SchoolKidM;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Maniac;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_HexManiac;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Rayquaza1;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_SwimmerM;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_SwimmerF;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BlackBelt;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Beauty;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Scientist1;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Lass;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Gentleman;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Sailor;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Fisherman;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_RunningTriathleteM;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_RunningTriathleteF;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_TuberF;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_TuberM;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Hiker;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_CyclingTriathleteM;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_CyclingTriathleteF;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Nurse;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_ItemBall;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BerryTree;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BerryTreeEarlyStages;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BerryTreeLateStages;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BrendanAcroBike;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_ProfBirch;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Man4;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Man5;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_ReporterM;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_ReporterF;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Bard;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Anabel;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Tucker;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Greta;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Spenser;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Noland;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Lucy;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_UnusedNatuDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_UnusedMagnemiteDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_UnusedSquirtleDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_UnusedWooperDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_UnusedPikachuDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_UnusedPorygon2Doll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_CuttableTree;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_MartEmployee;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_RooftopSaleWoman;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Teala;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BreakableRock;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_PushableBoulder;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_MrBrineysBoat;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_MayNormal;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_MayMachBike;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_MayAcroBike;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_MaySurfing;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_MayFieldMove;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Truck;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_VigorothCarryingBox;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_VigorothFacingAway;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BirchsBag;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_EnemyZigzagoon;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Artist;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_RivalBrendanNormal;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_RivalBrendanMachBike;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_RivalBrendanAcroBike;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_RivalBrendanSurfing;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_RivalBrendanFieldMove;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_RivalMayNormal;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_RivalMayMachBike;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_RivalMayAcroBike;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_RivalMaySurfing;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_RivalMayFieldMove;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Cameraman;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BrendanUnderwater;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_MayUnderwater;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_MovingBox;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_CableCar;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Scientist2;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_DevonEmployee;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_AquaMemberM;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_AquaMemberF;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_MagmaMemberM;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_MagmaMemberF;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Sidney;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Phoebe;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Glacia;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Drake;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Roxanne;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Brawly;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Wattson;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Flannery;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Norman;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Winona;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Liza;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Tate;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Wallace;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Steven;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Wally;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_RubySapphireLittleBoy;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BrendanFishing;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_MayFishing;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_HotSpringsOldWoman;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_SSTidal;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_SubmarineShadow;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_PichuDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_PikachuDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_MarillDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_TogepiDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_CyndaquilDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_ChikoritaDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_TotodileDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_JigglypuffDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_MeowthDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_ClefairyDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_DittoDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_SmoochumDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_TreeckoDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_TorchicDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_MudkipDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_DuskullDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_WynautDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BaltoyDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_KecleonDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_AzurillDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_SkittyDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_SwabluDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_GulpinDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_LotadDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_SeedotDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_PikaCushion;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_RoundCushion;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_KissCushion;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_ZigzagCushion;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_SpinCushion;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_DiamondCushion;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BallCushion;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_GrassCushion;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_FireCushion;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_WaterCushion;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BigSnorlaxDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BigRhydonDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BigLaprasDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BigVenusaurDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BigCharizardDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BigBlastoiseDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BigWailmerDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BigRegirockDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BigRegiceDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BigRegisteelDoll;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Latias;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Latios;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_GameboyKid;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_ContestJudge;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BrendanWatering;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_MayWatering;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BrendanDecorating;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_MayDecorating;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Archie;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Maxie;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Kyogre1;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Groudon1;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Fossil;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Regirock;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Regice;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Registeel;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Skitty;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Kecleon1;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Kyogre2;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Groudon2;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Rayquaza2;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Zigzagoon;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Pikachu;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Azumarill;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Wingull;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Kecleon2;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_TuberMSwimming;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Azurill;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Mom;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_LinkBrendan;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_LinkMay;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Juan;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Scott;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Poochyena;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Kyogre3;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Groudon3;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_MysteryEventDeliveryman;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Statue;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Kirlia;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Dusclops;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_UnionRoomAttendant;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Sudowoodo;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Mew;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Red;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Leaf;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Deoxys;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_BirthIslandStone;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Brandon;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_RubySapphireBrendan;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_RubySapphireMay;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Lugia;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_HoOh;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Bard;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Hipster;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Trader;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Storyteller;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_Giddy;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_UnusedMauvilleOldMan1;
-const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_UnusedMauvilleOldMan2;
-
-
 const struct EventObjectGraphicsInfo *const gEventObjectGraphicsInfoPointers[] = {
     &gEventObjectGraphicsInfo_BrendanNormal,
     &gEventObjectGraphicsInfo_BrendanMachBike,
@@ -486,6 +238,813 @@ const struct EventObjectGraphicsInfo *const gEventObjectGraphicsInfoPointers[] =
     &gEventObjectGraphicsInfo_RubySapphireMay,
     &gEventObjectGraphicsInfo_Lugia,
     &gEventObjectGraphicsInfo_HoOh,
+    &gEventObjectGraphicsInfo_pkmn_1,
+    &gEventObjectGraphicsInfo_pkmn_2,
+    &gEventObjectGraphicsInfo_pkmn_3,
+    &gEventObjectGraphicsInfo_pkmn_4,
+    &gEventObjectGraphicsInfo_pkmn_5,
+    &gEventObjectGraphicsInfo_pkmn_6,
+    &gEventObjectGraphicsInfo_pkmn_7,
+    &gEventObjectGraphicsInfo_pkmn_8,
+    &gEventObjectGraphicsInfo_pkmn_9,
+    &gEventObjectGraphicsInfo_pkmn_10,
+    &gEventObjectGraphicsInfo_pkmn_11,
+    &gEventObjectGraphicsInfo_pkmn_12,
+    &gEventObjectGraphicsInfo_pkmn_13,
+    &gEventObjectGraphicsInfo_pkmn_14,
+    &gEventObjectGraphicsInfo_pkmn_15,
+    &gEventObjectGraphicsInfo_pkmn_16,
+    &gEventObjectGraphicsInfo_pkmn_17,
+    &gEventObjectGraphicsInfo_pkmn_18,
+    &gEventObjectGraphicsInfo_pkmn_19,
+    &gEventObjectGraphicsInfo_pkmn_20,
+    &gEventObjectGraphicsInfo_pkmn_21,
+    &gEventObjectGraphicsInfo_pkmn_22,
+    &gEventObjectGraphicsInfo_pkmn_23,
+    &gEventObjectGraphicsInfo_pkmn_24,
+    &gEventObjectGraphicsInfo_pkmn_25,
+    &gEventObjectGraphicsInfo_pkmn_26,
+    &gEventObjectGraphicsInfo_pkmn_27,
+    &gEventObjectGraphicsInfo_pkmn_28,
+    &gEventObjectGraphicsInfo_pkmn_29,
+    &gEventObjectGraphicsInfo_pkmn_30,
+    &gEventObjectGraphicsInfo_pkmn_31,
+    &gEventObjectGraphicsInfo_pkmn_32,
+    &gEventObjectGraphicsInfo_pkmn_33,
+    &gEventObjectGraphicsInfo_pkmn_34,
+    &gEventObjectGraphicsInfo_pkmn_35,
+    &gEventObjectGraphicsInfo_pkmn_36,
+    &gEventObjectGraphicsInfo_pkmn_37,
+    &gEventObjectGraphicsInfo_pkmn_38,
+    &gEventObjectGraphicsInfo_pkmn_39,
+    &gEventObjectGraphicsInfo_pkmn_40,
+    &gEventObjectGraphicsInfo_pkmn_41,
+    &gEventObjectGraphicsInfo_pkmn_42,
+    &gEventObjectGraphicsInfo_pkmn_43,
+    &gEventObjectGraphicsInfo_pkmn_44,
+    &gEventObjectGraphicsInfo_pkmn_45,
+    &gEventObjectGraphicsInfo_pkmn_46,
+    &gEventObjectGraphicsInfo_pkmn_47,
+    &gEventObjectGraphicsInfo_pkmn_48,
+    &gEventObjectGraphicsInfo_pkmn_49,
+    &gEventObjectGraphicsInfo_pkmn_50,
+    &gEventObjectGraphicsInfo_pkmn_51,
+    &gEventObjectGraphicsInfo_pkmn_52,
+    &gEventObjectGraphicsInfo_pkmn_53,
+    &gEventObjectGraphicsInfo_pkmn_54,
+    &gEventObjectGraphicsInfo_pkmn_55,
+    &gEventObjectGraphicsInfo_pkmn_56,
+    &gEventObjectGraphicsInfo_pkmn_57,
+    &gEventObjectGraphicsInfo_pkmn_58,
+    &gEventObjectGraphicsInfo_pkmn_59,
+    &gEventObjectGraphicsInfo_pkmn_60,
+    &gEventObjectGraphicsInfo_pkmn_61,
+    &gEventObjectGraphicsInfo_pkmn_62,
+    &gEventObjectGraphicsInfo_pkmn_63,
+    &gEventObjectGraphicsInfo_pkmn_64,
+    &gEventObjectGraphicsInfo_pkmn_65,
+    &gEventObjectGraphicsInfo_pkmn_66,
+    &gEventObjectGraphicsInfo_pkmn_67,
+    &gEventObjectGraphicsInfo_pkmn_68,
+    &gEventObjectGraphicsInfo_pkmn_69,
+    &gEventObjectGraphicsInfo_pkmn_70,
+    &gEventObjectGraphicsInfo_pkmn_71,
+    &gEventObjectGraphicsInfo_pkmn_72,
+    &gEventObjectGraphicsInfo_pkmn_73,
+    &gEventObjectGraphicsInfo_pkmn_74,
+    &gEventObjectGraphicsInfo_pkmn_75,
+    &gEventObjectGraphicsInfo_pkmn_76,
+    &gEventObjectGraphicsInfo_pkmn_77,
+    &gEventObjectGraphicsInfo_pkmn_78,
+    &gEventObjectGraphicsInfo_pkmn_79,
+    &gEventObjectGraphicsInfo_pkmn_80,
+    &gEventObjectGraphicsInfo_pkmn_81,
+    &gEventObjectGraphicsInfo_pkmn_82,
+    &gEventObjectGraphicsInfo_pkmn_83,
+    &gEventObjectGraphicsInfo_pkmn_84,
+    &gEventObjectGraphicsInfo_pkmn_85,
+    &gEventObjectGraphicsInfo_pkmn_86,
+    &gEventObjectGraphicsInfo_pkmn_87,
+    &gEventObjectGraphicsInfo_pkmn_88,
+    &gEventObjectGraphicsInfo_pkmn_89,
+    &gEventObjectGraphicsInfo_pkmn_90,
+    &gEventObjectGraphicsInfo_pkmn_91,
+    &gEventObjectGraphicsInfo_pkmn_92,
+    &gEventObjectGraphicsInfo_pkmn_93,
+    &gEventObjectGraphicsInfo_pkmn_94,
+    &gEventObjectGraphicsInfo_pkmn_95,
+    &gEventObjectGraphicsInfo_pkmn_96,
+    &gEventObjectGraphicsInfo_pkmn_97,
+    &gEventObjectGraphicsInfo_pkmn_98,
+    &gEventObjectGraphicsInfo_pkmn_99,
+    &gEventObjectGraphicsInfo_pkmn_100,
+    &gEventObjectGraphicsInfo_pkmn_101,
+    &gEventObjectGraphicsInfo_pkmn_102,
+    &gEventObjectGraphicsInfo_pkmn_103,
+    &gEventObjectGraphicsInfo_pkmn_104,
+    &gEventObjectGraphicsInfo_pkmn_105,
+    &gEventObjectGraphicsInfo_pkmn_106,
+    &gEventObjectGraphicsInfo_pkmn_107,
+    &gEventObjectGraphicsInfo_pkmn_108,
+    &gEventObjectGraphicsInfo_pkmn_109,
+    &gEventObjectGraphicsInfo_pkmn_110,
+    &gEventObjectGraphicsInfo_pkmn_111,
+    &gEventObjectGraphicsInfo_pkmn_112,
+    &gEventObjectGraphicsInfo_pkmn_113,
+    &gEventObjectGraphicsInfo_pkmn_114,
+    &gEventObjectGraphicsInfo_pkmn_115,
+    &gEventObjectGraphicsInfo_pkmn_116,
+    &gEventObjectGraphicsInfo_pkmn_117,
+    &gEventObjectGraphicsInfo_pkmn_118,
+    &gEventObjectGraphicsInfo_pkmn_119,
+    &gEventObjectGraphicsInfo_pkmn_120,
+    &gEventObjectGraphicsInfo_pkmn_121,
+    &gEventObjectGraphicsInfo_pkmn_122,
+    &gEventObjectGraphicsInfo_pkmn_123,
+    &gEventObjectGraphicsInfo_pkmn_124,
+    &gEventObjectGraphicsInfo_pkmn_125,
+    &gEventObjectGraphicsInfo_pkmn_126,
+    &gEventObjectGraphicsInfo_pkmn_127,
+    &gEventObjectGraphicsInfo_pkmn_128,
+    &gEventObjectGraphicsInfo_pkmn_129,
+    &gEventObjectGraphicsInfo_pkmn_130,
+    &gEventObjectGraphicsInfo_pkmn_131,
+    &gEventObjectGraphicsInfo_pkmn_132,
+    &gEventObjectGraphicsInfo_pkmn_133,
+    &gEventObjectGraphicsInfo_pkmn_134,
+    &gEventObjectGraphicsInfo_pkmn_135,
+    &gEventObjectGraphicsInfo_pkmn_136,
+    &gEventObjectGraphicsInfo_pkmn_137,
+    &gEventObjectGraphicsInfo_pkmn_138,
+    &gEventObjectGraphicsInfo_pkmn_139,
+    &gEventObjectGraphicsInfo_pkmn_140,
+    &gEventObjectGraphicsInfo_pkmn_141,
+    &gEventObjectGraphicsInfo_pkmn_142,
+    &gEventObjectGraphicsInfo_pkmn_143,
+    &gEventObjectGraphicsInfo_pkmn_144,
+    &gEventObjectGraphicsInfo_pkmn_145,
+    &gEventObjectGraphicsInfo_pkmn_146,
+    &gEventObjectGraphicsInfo_pkmn_147,
+    &gEventObjectGraphicsInfo_pkmn_148,
+    &gEventObjectGraphicsInfo_pkmn_149,
+    &gEventObjectGraphicsInfo_pkmn_150,
+    &gEventObjectGraphicsInfo_pkmn_151,
+    &gEventObjectGraphicsInfo_pkmn_152,
+    &gEventObjectGraphicsInfo_pkmn_153,
+    &gEventObjectGraphicsInfo_pkmn_154,
+    &gEventObjectGraphicsInfo_pkmn_155,
+    &gEventObjectGraphicsInfo_pkmn_156,
+    &gEventObjectGraphicsInfo_pkmn_157,
+    &gEventObjectGraphicsInfo_pkmn_158,
+    &gEventObjectGraphicsInfo_pkmn_159,
+    &gEventObjectGraphicsInfo_pkmn_160,
+    &gEventObjectGraphicsInfo_pkmn_161,
+    &gEventObjectGraphicsInfo_pkmn_162,
+    &gEventObjectGraphicsInfo_pkmn_163,
+    &gEventObjectGraphicsInfo_pkmn_164,
+    &gEventObjectGraphicsInfo_pkmn_165,
+    &gEventObjectGraphicsInfo_pkmn_166,
+    &gEventObjectGraphicsInfo_pkmn_167,
+    &gEventObjectGraphicsInfo_pkmn_168,
+    &gEventObjectGraphicsInfo_pkmn_169,
+    &gEventObjectGraphicsInfo_pkmn_170,
+    &gEventObjectGraphicsInfo_pkmn_171,
+    &gEventObjectGraphicsInfo_pkmn_172,
+    &gEventObjectGraphicsInfo_pkmn_173,
+    &gEventObjectGraphicsInfo_pkmn_174,
+    &gEventObjectGraphicsInfo_pkmn_175,
+    &gEventObjectGraphicsInfo_pkmn_176,
+    &gEventObjectGraphicsInfo_pkmn_177,
+    &gEventObjectGraphicsInfo_pkmn_178,
+    &gEventObjectGraphicsInfo_pkmn_179,
+    &gEventObjectGraphicsInfo_pkmn_180,
+    &gEventObjectGraphicsInfo_pkmn_181,
+    &gEventObjectGraphicsInfo_pkmn_182,
+    &gEventObjectGraphicsInfo_pkmn_183,
+    &gEventObjectGraphicsInfo_pkmn_184,
+    &gEventObjectGraphicsInfo_pkmn_185,
+    &gEventObjectGraphicsInfo_pkmn_186,
+    &gEventObjectGraphicsInfo_pkmn_187,
+    &gEventObjectGraphicsInfo_pkmn_188,
+    &gEventObjectGraphicsInfo_pkmn_189,
+    &gEventObjectGraphicsInfo_pkmn_190,
+    &gEventObjectGraphicsInfo_pkmn_191,
+    &gEventObjectGraphicsInfo_pkmn_192,
+    &gEventObjectGraphicsInfo_pkmn_193,
+    &gEventObjectGraphicsInfo_pkmn_194,
+    &gEventObjectGraphicsInfo_pkmn_195,
+    &gEventObjectGraphicsInfo_pkmn_196,
+    &gEventObjectGraphicsInfo_pkmn_197,
+    &gEventObjectGraphicsInfo_pkmn_198,
+    &gEventObjectGraphicsInfo_pkmn_199,
+    &gEventObjectGraphicsInfo_pkmn_200,
+    &gEventObjectGraphicsInfo_pkmn_201,
+    &gEventObjectGraphicsInfo_pkmn_202,
+    &gEventObjectGraphicsInfo_pkmn_203,
+    &gEventObjectGraphicsInfo_pkmn_204,
+    &gEventObjectGraphicsInfo_pkmn_205,
+    &gEventObjectGraphicsInfo_pkmn_206,
+    &gEventObjectGraphicsInfo_pkmn_207,
+    &gEventObjectGraphicsInfo_pkmn_208,
+    &gEventObjectGraphicsInfo_pkmn_209,
+    &gEventObjectGraphicsInfo_pkmn_210,
+    &gEventObjectGraphicsInfo_pkmn_211,
+    &gEventObjectGraphicsInfo_pkmn_212,
+    &gEventObjectGraphicsInfo_pkmn_213,
+    &gEventObjectGraphicsInfo_pkmn_214,
+    &gEventObjectGraphicsInfo_pkmn_215,
+    &gEventObjectGraphicsInfo_pkmn_216,
+    &gEventObjectGraphicsInfo_pkmn_217,
+    &gEventObjectGraphicsInfo_pkmn_218,
+    &gEventObjectGraphicsInfo_pkmn_219,
+    &gEventObjectGraphicsInfo_pkmn_220,
+    &gEventObjectGraphicsInfo_pkmn_221,
+    &gEventObjectGraphicsInfo_pkmn_222,
+    &gEventObjectGraphicsInfo_pkmn_223,
+    &gEventObjectGraphicsInfo_pkmn_224,
+    &gEventObjectGraphicsInfo_pkmn_225,
+    &gEventObjectGraphicsInfo_pkmn_226,
+    &gEventObjectGraphicsInfo_pkmn_227,
+    &gEventObjectGraphicsInfo_pkmn_228,
+    &gEventObjectGraphicsInfo_pkmn_229,
+    &gEventObjectGraphicsInfo_pkmn_230,
+    &gEventObjectGraphicsInfo_pkmn_231,
+    &gEventObjectGraphicsInfo_pkmn_232,
+    &gEventObjectGraphicsInfo_pkmn_233,
+    &gEventObjectGraphicsInfo_pkmn_234,
+    &gEventObjectGraphicsInfo_pkmn_235,
+    &gEventObjectGraphicsInfo_pkmn_236,
+    &gEventObjectGraphicsInfo_pkmn_237,
+    &gEventObjectGraphicsInfo_pkmn_238,
+    &gEventObjectGraphicsInfo_pkmn_239,
+    &gEventObjectGraphicsInfo_pkmn_240,
+    &gEventObjectGraphicsInfo_pkmn_241,
+    &gEventObjectGraphicsInfo_pkmn_242,
+    &gEventObjectGraphicsInfo_pkmn_243,
+    &gEventObjectGraphicsInfo_pkmn_244,
+    &gEventObjectGraphicsInfo_pkmn_245,
+    &gEventObjectGraphicsInfo_pkmn_246,
+    &gEventObjectGraphicsInfo_pkmn_247,
+    &gEventObjectGraphicsInfo_pkmn_248,
+    &gEventObjectGraphicsInfo_pkmn_249,
+    &gEventObjectGraphicsInfo_pkmn_250,
+    &gEventObjectGraphicsInfo_pkmn_251,
+    &gEventObjectGraphicsInfo_pkmn_252,
+    &gEventObjectGraphicsInfo_pkmn_253,
+    &gEventObjectGraphicsInfo_pkmn_254,
+    &gEventObjectGraphicsInfo_pkmn_255,
+    &gEventObjectGraphicsInfo_pkmn_256,
+    &gEventObjectGraphicsInfo_pkmn_257,
+    &gEventObjectGraphicsInfo_pkmn_258,
+    &gEventObjectGraphicsInfo_pkmn_259,
+    &gEventObjectGraphicsInfo_pkmn_260,
+    &gEventObjectGraphicsInfo_pkmn_261,
+    &gEventObjectGraphicsInfo_pkmn_262,
+    &gEventObjectGraphicsInfo_pkmn_263,
+    &gEventObjectGraphicsInfo_pkmn_264,
+    &gEventObjectGraphicsInfo_pkmn_265,
+    &gEventObjectGraphicsInfo_pkmn_266,
+    &gEventObjectGraphicsInfo_pkmn_267,
+    &gEventObjectGraphicsInfo_pkmn_268,
+    &gEventObjectGraphicsInfo_pkmn_269,
+    &gEventObjectGraphicsInfo_pkmn_270,
+    &gEventObjectGraphicsInfo_pkmn_271,
+    &gEventObjectGraphicsInfo_pkmn_272,
+    &gEventObjectGraphicsInfo_pkmn_273,
+    &gEventObjectGraphicsInfo_pkmn_274,
+    &gEventObjectGraphicsInfo_pkmn_275,
+    &gEventObjectGraphicsInfo_pkmn_276,
+    &gEventObjectGraphicsInfo_pkmn_277,
+    &gEventObjectGraphicsInfo_pkmn_278,
+    &gEventObjectGraphicsInfo_pkmn_279,
+    &gEventObjectGraphicsInfo_pkmn_280,
+    &gEventObjectGraphicsInfo_pkmn_281,
+    &gEventObjectGraphicsInfo_pkmn_282,
+    &gEventObjectGraphicsInfo_pkmn_283,
+    &gEventObjectGraphicsInfo_pkmn_284,
+    &gEventObjectGraphicsInfo_pkmn_285,
+    &gEventObjectGraphicsInfo_pkmn_286,
+    &gEventObjectGraphicsInfo_pkmn_287,
+    &gEventObjectGraphicsInfo_pkmn_288,
+    &gEventObjectGraphicsInfo_pkmn_289,
+    &gEventObjectGraphicsInfo_pkmn_290,
+    &gEventObjectGraphicsInfo_pkmn_291,
+    &gEventObjectGraphicsInfo_pkmn_292,
+    &gEventObjectGraphicsInfo_pkmn_293,
+    &gEventObjectGraphicsInfo_pkmn_294,
+    &gEventObjectGraphicsInfo_pkmn_295,
+    &gEventObjectGraphicsInfo_pkmn_296,
+    &gEventObjectGraphicsInfo_pkmn_297,
+    &gEventObjectGraphicsInfo_pkmn_298,
+    &gEventObjectGraphicsInfo_pkmn_299,
+    &gEventObjectGraphicsInfo_pkmn_300,
+    &gEventObjectGraphicsInfo_pkmn_301,
+    &gEventObjectGraphicsInfo_pkmn_302,
+    &gEventObjectGraphicsInfo_pkmn_303,
+    &gEventObjectGraphicsInfo_pkmn_304,
+    &gEventObjectGraphicsInfo_pkmn_305,
+    &gEventObjectGraphicsInfo_pkmn_306,
+    &gEventObjectGraphicsInfo_pkmn_307,
+    &gEventObjectGraphicsInfo_pkmn_308,
+    &gEventObjectGraphicsInfo_pkmn_309,
+    &gEventObjectGraphicsInfo_pkmn_310,
+    &gEventObjectGraphicsInfo_pkmn_311,
+    &gEventObjectGraphicsInfo_pkmn_312,
+    &gEventObjectGraphicsInfo_pkmn_313,
+    &gEventObjectGraphicsInfo_pkmn_314,
+    &gEventObjectGraphicsInfo_pkmn_315,
+    &gEventObjectGraphicsInfo_pkmn_316,
+    &gEventObjectGraphicsInfo_pkmn_317,
+    &gEventObjectGraphicsInfo_pkmn_318,
+    &gEventObjectGraphicsInfo_pkmn_319,
+    &gEventObjectGraphicsInfo_pkmn_320,
+    &gEventObjectGraphicsInfo_pkmn_321,
+    &gEventObjectGraphicsInfo_pkmn_322,
+    &gEventObjectGraphicsInfo_pkmn_323,
+    &gEventObjectGraphicsInfo_pkmn_324,
+    &gEventObjectGraphicsInfo_pkmn_325,
+    &gEventObjectGraphicsInfo_pkmn_326,
+    &gEventObjectGraphicsInfo_pkmn_327,
+    &gEventObjectGraphicsInfo_pkmn_328,
+    &gEventObjectGraphicsInfo_pkmn_329,
+    &gEventObjectGraphicsInfo_pkmn_330,
+    &gEventObjectGraphicsInfo_pkmn_331,
+    &gEventObjectGraphicsInfo_pkmn_332,
+    &gEventObjectGraphicsInfo_pkmn_333,
+    &gEventObjectGraphicsInfo_pkmn_334,
+    &gEventObjectGraphicsInfo_pkmn_335,
+    &gEventObjectGraphicsInfo_pkmn_336,
+    &gEventObjectGraphicsInfo_pkmn_337,
+    &gEventObjectGraphicsInfo_pkmn_338,
+    &gEventObjectGraphicsInfo_pkmn_339,
+    &gEventObjectGraphicsInfo_pkmn_340,
+    &gEventObjectGraphicsInfo_pkmn_341,
+    &gEventObjectGraphicsInfo_pkmn_342,
+    &gEventObjectGraphicsInfo_pkmn_343,
+    &gEventObjectGraphicsInfo_pkmn_344,
+    &gEventObjectGraphicsInfo_pkmn_345,
+    &gEventObjectGraphicsInfo_pkmn_346,
+    &gEventObjectGraphicsInfo_pkmn_347,
+    &gEventObjectGraphicsInfo_pkmn_348,
+    &gEventObjectGraphicsInfo_pkmn_349,
+    &gEventObjectGraphicsInfo_pkmn_350,
+    &gEventObjectGraphicsInfo_pkmn_351,
+    &gEventObjectGraphicsInfo_pkmn_352,
+    &gEventObjectGraphicsInfo_pkmn_353,
+    &gEventObjectGraphicsInfo_pkmn_354,
+    &gEventObjectGraphicsInfo_pkmn_355,
+    &gEventObjectGraphicsInfo_pkmn_356,
+    &gEventObjectGraphicsInfo_pkmn_357,
+    &gEventObjectGraphicsInfo_pkmn_358,
+    &gEventObjectGraphicsInfo_pkmn_359,
+    &gEventObjectGraphicsInfo_pkmn_360,
+    &gEventObjectGraphicsInfo_pkmn_361,
+    &gEventObjectGraphicsInfo_pkmn_362,
+    &gEventObjectGraphicsInfo_pkmn_363,
+    &gEventObjectGraphicsInfo_pkmn_364,
+    &gEventObjectGraphicsInfo_pkmn_365,
+    &gEventObjectGraphicsInfo_pkmn_366,
+    &gEventObjectGraphicsInfo_pkmn_367,
+    &gEventObjectGraphicsInfo_pkmn_368,
+    &gEventObjectGraphicsInfo_pkmn_369,
+    &gEventObjectGraphicsInfo_pkmn_370,
+    &gEventObjectGraphicsInfo_pkmn_371,
+    &gEventObjectGraphicsInfo_pkmn_372,
+    &gEventObjectGraphicsInfo_pkmn_373,
+    &gEventObjectGraphicsInfo_pkmn_374,
+    &gEventObjectGraphicsInfo_pkmn_375,
+    &gEventObjectGraphicsInfo_pkmn_376,
+    &gEventObjectGraphicsInfo_pkmn_377,
+    &gEventObjectGraphicsInfo_pkmn_378,
+    &gEventObjectGraphicsInfo_pkmn_379,
+    &gEventObjectGraphicsInfo_pkmn_380,
+    &gEventObjectGraphicsInfo_pkmn_381,
+    &gEventObjectGraphicsInfo_pkmn_382,
+    &gEventObjectGraphicsInfo_pkmn_383,
+    &gEventObjectGraphicsInfo_pkmn_384,
+    &gEventObjectGraphicsInfo_pkmn_385,
+    &gEventObjectGraphicsInfo_pkmn_386,
+    &gEventObjectGraphicsInfo_pkmn_387,
+    &gEventObjectGraphicsInfo_pkmn_388,
+    &gEventObjectGraphicsInfo_pkmn_389,
+    &gEventObjectGraphicsInfo_pkmn_390,
+    &gEventObjectGraphicsInfo_pkmn_391,
+    &gEventObjectGraphicsInfo_pkmn_392,
+    &gEventObjectGraphicsInfo_pkmn_393,
+    &gEventObjectGraphicsInfo_pkmn_394,
+    &gEventObjectGraphicsInfo_pkmn_395,
+    &gEventObjectGraphicsInfo_pkmn_396,
+    &gEventObjectGraphicsInfo_pkmn_397,
+    &gEventObjectGraphicsInfo_pkmn_398,
+    &gEventObjectGraphicsInfo_pkmn_399,
+    &gEventObjectGraphicsInfo_pkmn_400,
+    &gEventObjectGraphicsInfo_pkmn_401,
+    &gEventObjectGraphicsInfo_pkmn_402,
+    &gEventObjectGraphicsInfo_pkmn_403,
+    &gEventObjectGraphicsInfo_pkmn_404,
+    &gEventObjectGraphicsInfo_pkmn_405,
+    &gEventObjectGraphicsInfo_pkmn_406,
+    &gEventObjectGraphicsInfo_pkmn_407,
+    &gEventObjectGraphicsInfo_pkmn_408,
+    &gEventObjectGraphicsInfo_pkmn_409,
+    &gEventObjectGraphicsInfo_pkmn_410,
+    &gEventObjectGraphicsInfo_pkmn_411,
+    &gEventObjectGraphicsInfo_pkmn_412,
+    &gEventObjectGraphicsInfo_pkmn_413,
+    &gEventObjectGraphicsInfo_pkmn_414,
+    &gEventObjectGraphicsInfo_pkmn_415,
+    &gEventObjectGraphicsInfo_pkmn_416,
+    &gEventObjectGraphicsInfo_pkmn_417,
+    &gEventObjectGraphicsInfo_pkmn_418,
+    &gEventObjectGraphicsInfo_pkmn_419,
+    &gEventObjectGraphicsInfo_pkmn_420,
+    &gEventObjectGraphicsInfo_pkmn_421,
+    &gEventObjectGraphicsInfo_pkmn_422,
+    &gEventObjectGraphicsInfo_pkmn_423,
+    &gEventObjectGraphicsInfo_pkmn_424,
+    &gEventObjectGraphicsInfo_pkmn_425,
+    &gEventObjectGraphicsInfo_pkmn_426,
+    &gEventObjectGraphicsInfo_pkmn_427,
+    &gEventObjectGraphicsInfo_pkmn_428,
+    &gEventObjectGraphicsInfo_pkmn_429,
+    &gEventObjectGraphicsInfo_pkmn_430,
+    &gEventObjectGraphicsInfo_pkmn_431,
+    &gEventObjectGraphicsInfo_pkmn_432,
+    &gEventObjectGraphicsInfo_pkmn_433,
+    &gEventObjectGraphicsInfo_pkmn_434,
+    &gEventObjectGraphicsInfo_pkmn_435,
+    &gEventObjectGraphicsInfo_pkmn_436,
+    &gEventObjectGraphicsInfo_pkmn_437,
+    &gEventObjectGraphicsInfo_pkmn_438,
+    &gEventObjectGraphicsInfo_pkmn_439,
+    &gEventObjectGraphicsInfo_pkmn_440,
+    &gEventObjectGraphicsInfo_pkmn_441,
+    &gEventObjectGraphicsInfo_pkmn_442,
+    &gEventObjectGraphicsInfo_pkmn_443,
+    &gEventObjectGraphicsInfo_pkmn_444,
+    &gEventObjectGraphicsInfo_pkmn_445,
+    &gEventObjectGraphicsInfo_pkmn_446,
+    &gEventObjectGraphicsInfo_pkmn_447,
+    &gEventObjectGraphicsInfo_pkmn_448,
+    &gEventObjectGraphicsInfo_pkmn_449,
+    &gEventObjectGraphicsInfo_pkmn_450,
+    &gEventObjectGraphicsInfo_pkmn_451,
+    &gEventObjectGraphicsInfo_pkmn_452,
+    &gEventObjectGraphicsInfo_pkmn_453,
+    &gEventObjectGraphicsInfo_pkmn_454,
+    &gEventObjectGraphicsInfo_pkmn_455,
+    &gEventObjectGraphicsInfo_pkmn_456,
+    &gEventObjectGraphicsInfo_pkmn_457,
+    &gEventObjectGraphicsInfo_pkmn_458,
+    &gEventObjectGraphicsInfo_pkmn_459,
+    &gEventObjectGraphicsInfo_pkmn_460,
+    &gEventObjectGraphicsInfo_pkmn_461,
+    &gEventObjectGraphicsInfo_pkmn_462,
+    &gEventObjectGraphicsInfo_pkmn_463,
+    &gEventObjectGraphicsInfo_pkmn_464,
+    &gEventObjectGraphicsInfo_pkmn_465,
+    &gEventObjectGraphicsInfo_pkmn_466,
+    &gEventObjectGraphicsInfo_pkmn_467,
+    &gEventObjectGraphicsInfo_pkmn_468,
+    &gEventObjectGraphicsInfo_pkmn_469,
+    &gEventObjectGraphicsInfo_pkmn_470,
+    &gEventObjectGraphicsInfo_pkmn_471,
+    &gEventObjectGraphicsInfo_pkmn_472,
+    &gEventObjectGraphicsInfo_pkmn_473,
+    &gEventObjectGraphicsInfo_pkmn_474,
+    &gEventObjectGraphicsInfo_pkmn_475,
+    &gEventObjectGraphicsInfo_pkmn_476,
+    &gEventObjectGraphicsInfo_pkmn_477,
+    &gEventObjectGraphicsInfo_pkmn_478,
+    &gEventObjectGraphicsInfo_pkmn_479,
+    &gEventObjectGraphicsInfo_pkmn_480,
+    &gEventObjectGraphicsInfo_pkmn_481,
+    &gEventObjectGraphicsInfo_pkmn_482,
+    &gEventObjectGraphicsInfo_pkmn_483,
+    &gEventObjectGraphicsInfo_pkmn_484,
+    &gEventObjectGraphicsInfo_pkmn_485,
+    &gEventObjectGraphicsInfo_pkmn_486,
+    &gEventObjectGraphicsInfo_pkmn_487,
+    &gEventObjectGraphicsInfo_pkmn_488,
+    &gEventObjectGraphicsInfo_pkmn_489,
+    &gEventObjectGraphicsInfo_pkmn_490,
+    &gEventObjectGraphicsInfo_pkmn_491,
+    &gEventObjectGraphicsInfo_pkmn_492,
+    &gEventObjectGraphicsInfo_pkmn_493,
+    &gEventObjectGraphicsInfo_pkmn_494,
+    &gEventObjectGraphicsInfo_pkmn_495,
+    &gEventObjectGraphicsInfo_pkmn_496,
+    &gEventObjectGraphicsInfo_pkmn_497,
+    &gEventObjectGraphicsInfo_pkmn_498,
+    &gEventObjectGraphicsInfo_pkmn_499,
+    &gEventObjectGraphicsInfo_pkmn_500,
+    &gEventObjectGraphicsInfo_pkmn_501,
+    &gEventObjectGraphicsInfo_pkmn_502,
+    &gEventObjectGraphicsInfo_pkmn_503,
+    &gEventObjectGraphicsInfo_pkmn_504,
+    &gEventObjectGraphicsInfo_pkmn_505,
+    &gEventObjectGraphicsInfo_pkmn_506,
+    &gEventObjectGraphicsInfo_pkmn_507,
+    &gEventObjectGraphicsInfo_pkmn_508,
+    &gEventObjectGraphicsInfo_pkmn_509,
+    &gEventObjectGraphicsInfo_pkmn_510,
+    &gEventObjectGraphicsInfo_pkmn_511,
+    &gEventObjectGraphicsInfo_pkmn_512,
+    &gEventObjectGraphicsInfo_pkmn_513,
+    &gEventObjectGraphicsInfo_pkmn_514,
+    &gEventObjectGraphicsInfo_pkmn_515,
+    &gEventObjectGraphicsInfo_pkmn_516,
+    &gEventObjectGraphicsInfo_pkmn_517,
+    &gEventObjectGraphicsInfo_pkmn_518,
+    &gEventObjectGraphicsInfo_pkmn_519,
+    &gEventObjectGraphicsInfo_pkmn_520,
+    &gEventObjectGraphicsInfo_pkmn_521,
+    &gEventObjectGraphicsInfo_pkmn_522,
+    &gEventObjectGraphicsInfo_pkmn_523,
+    &gEventObjectGraphicsInfo_pkmn_524,
+    &gEventObjectGraphicsInfo_pkmn_525,
+    &gEventObjectGraphicsInfo_pkmn_526,
+    &gEventObjectGraphicsInfo_pkmn_527,
+    &gEventObjectGraphicsInfo_pkmn_528,
+    &gEventObjectGraphicsInfo_pkmn_529,
+    &gEventObjectGraphicsInfo_pkmn_530,
+    &gEventObjectGraphicsInfo_pkmn_531,
+    &gEventObjectGraphicsInfo_pkmn_532,
+    &gEventObjectGraphicsInfo_pkmn_533,
+    &gEventObjectGraphicsInfo_pkmn_534,
+    &gEventObjectGraphicsInfo_pkmn_535,
+    &gEventObjectGraphicsInfo_pkmn_536,
+    &gEventObjectGraphicsInfo_pkmn_537,
+    &gEventObjectGraphicsInfo_pkmn_538,
+    &gEventObjectGraphicsInfo_pkmn_539,
+    &gEventObjectGraphicsInfo_pkmn_540,
+    &gEventObjectGraphicsInfo_pkmn_541,
+    &gEventObjectGraphicsInfo_pkmn_542,
+    &gEventObjectGraphicsInfo_pkmn_543,
+    &gEventObjectGraphicsInfo_pkmn_544,
+    &gEventObjectGraphicsInfo_pkmn_545,
+    &gEventObjectGraphicsInfo_pkmn_546,
+    &gEventObjectGraphicsInfo_pkmn_547,
+    &gEventObjectGraphicsInfo_pkmn_548,
+    &gEventObjectGraphicsInfo_pkmn_549,
+    &gEventObjectGraphicsInfo_pkmn_550,
+    &gEventObjectGraphicsInfo_pkmn_551,
+    &gEventObjectGraphicsInfo_pkmn_552,
+    &gEventObjectGraphicsInfo_pkmn_553,
+    &gEventObjectGraphicsInfo_pkmn_554,
+    &gEventObjectGraphicsInfo_pkmn_555,
+    &gEventObjectGraphicsInfo_pkmn_556,
+    &gEventObjectGraphicsInfo_pkmn_557,
+    &gEventObjectGraphicsInfo_pkmn_558,
+    &gEventObjectGraphicsInfo_pkmn_559,
+    &gEventObjectGraphicsInfo_pkmn_560,
+    &gEventObjectGraphicsInfo_pkmn_561,
+    &gEventObjectGraphicsInfo_pkmn_562,
+    &gEventObjectGraphicsInfo_pkmn_563,
+    &gEventObjectGraphicsInfo_pkmn_564,
+    &gEventObjectGraphicsInfo_pkmn_565,
+    &gEventObjectGraphicsInfo_pkmn_566,
+    &gEventObjectGraphicsInfo_pkmn_567,
+    &gEventObjectGraphicsInfo_pkmn_568,
+    &gEventObjectGraphicsInfo_pkmn_569,
+    &gEventObjectGraphicsInfo_pkmn_570,
+    &gEventObjectGraphicsInfo_pkmn_571,
+    &gEventObjectGraphicsInfo_pkmn_572,
+    &gEventObjectGraphicsInfo_pkmn_573,
+    &gEventObjectGraphicsInfo_pkmn_574,
+    &gEventObjectGraphicsInfo_pkmn_575,
+    &gEventObjectGraphicsInfo_pkmn_576,
+    &gEventObjectGraphicsInfo_pkmn_577,
+    &gEventObjectGraphicsInfo_pkmn_578,
+    &gEventObjectGraphicsInfo_pkmn_579,
+    &gEventObjectGraphicsInfo_pkmn_580,
+    &gEventObjectGraphicsInfo_pkmn_581,
+    &gEventObjectGraphicsInfo_pkmn_582,
+    &gEventObjectGraphicsInfo_pkmn_583,
+    &gEventObjectGraphicsInfo_pkmn_584,
+    &gEventObjectGraphicsInfo_pkmn_585,
+    &gEventObjectGraphicsInfo_pkmn_586,
+    &gEventObjectGraphicsInfo_pkmn_587,
+    &gEventObjectGraphicsInfo_pkmn_588,
+    &gEventObjectGraphicsInfo_pkmn_589,
+    &gEventObjectGraphicsInfo_pkmn_590,
+    &gEventObjectGraphicsInfo_pkmn_591,
+    &gEventObjectGraphicsInfo_pkmn_592,
+    &gEventObjectGraphicsInfo_pkmn_593,
+    &gEventObjectGraphicsInfo_pkmn_594,
+    &gEventObjectGraphicsInfo_pkmn_595,
+    &gEventObjectGraphicsInfo_pkmn_596,
+    &gEventObjectGraphicsInfo_pkmn_597,
+    &gEventObjectGraphicsInfo_pkmn_598,
+    &gEventObjectGraphicsInfo_pkmn_599,
+    &gEventObjectGraphicsInfo_pkmn_600,
+    &gEventObjectGraphicsInfo_pkmn_601,
+    &gEventObjectGraphicsInfo_pkmn_602,
+    &gEventObjectGraphicsInfo_pkmn_603,
+    &gEventObjectGraphicsInfo_pkmn_604,
+    &gEventObjectGraphicsInfo_pkmn_605,
+    &gEventObjectGraphicsInfo_pkmn_606,
+    &gEventObjectGraphicsInfo_pkmn_607,
+    &gEventObjectGraphicsInfo_pkmn_608,
+    &gEventObjectGraphicsInfo_pkmn_609,
+    &gEventObjectGraphicsInfo_pkmn_610,
+    &gEventObjectGraphicsInfo_pkmn_611,
+    &gEventObjectGraphicsInfo_pkmn_612,
+    &gEventObjectGraphicsInfo_pkmn_613,
+    &gEventObjectGraphicsInfo_pkmn_614,
+    &gEventObjectGraphicsInfo_pkmn_615,
+    &gEventObjectGraphicsInfo_pkmn_616,
+    &gEventObjectGraphicsInfo_pkmn_617,
+    &gEventObjectGraphicsInfo_pkmn_618,
+    &gEventObjectGraphicsInfo_pkmn_619,
+    &gEventObjectGraphicsInfo_pkmn_620,
+    &gEventObjectGraphicsInfo_pkmn_621,
+    &gEventObjectGraphicsInfo_pkmn_622,
+    &gEventObjectGraphicsInfo_pkmn_623,
+    &gEventObjectGraphicsInfo_pkmn_624,
+    &gEventObjectGraphicsInfo_pkmn_625,
+    &gEventObjectGraphicsInfo_pkmn_626,
+    &gEventObjectGraphicsInfo_pkmn_627,
+    &gEventObjectGraphicsInfo_pkmn_628,
+    &gEventObjectGraphicsInfo_pkmn_629,
+    &gEventObjectGraphicsInfo_pkmn_630,
+    &gEventObjectGraphicsInfo_pkmn_631,
+    &gEventObjectGraphicsInfo_pkmn_632,
+    &gEventObjectGraphicsInfo_pkmn_633,
+    &gEventObjectGraphicsInfo_pkmn_634,
+    &gEventObjectGraphicsInfo_pkmn_635,
+    &gEventObjectGraphicsInfo_pkmn_636,
+    &gEventObjectGraphicsInfo_pkmn_637,
+    &gEventObjectGraphicsInfo_pkmn_638,
+    &gEventObjectGraphicsInfo_pkmn_639,
+    &gEventObjectGraphicsInfo_pkmn_640,
+    &gEventObjectGraphicsInfo_pkmn_641,
+    &gEventObjectGraphicsInfo_pkmn_642,
+    &gEventObjectGraphicsInfo_pkmn_643,
+    &gEventObjectGraphicsInfo_pkmn_644,
+    &gEventObjectGraphicsInfo_pkmn_645,
+    &gEventObjectGraphicsInfo_pkmn_646,
+    &gEventObjectGraphicsInfo_pkmn_647,
+    &gEventObjectGraphicsInfo_pkmn_648,
+    &gEventObjectGraphicsInfo_pkmn_649,
+    &gEventObjectGraphicsInfo_pkmn_650,
+    &gEventObjectGraphicsInfo_pkmn_651,
+    &gEventObjectGraphicsInfo_pkmn_652,
+    &gEventObjectGraphicsInfo_pkmn_653,
+    &gEventObjectGraphicsInfo_pkmn_654,
+    &gEventObjectGraphicsInfo_pkmn_655,
+    &gEventObjectGraphicsInfo_pkmn_656,
+    &gEventObjectGraphicsInfo_pkmn_657,
+    &gEventObjectGraphicsInfo_pkmn_658,
+    &gEventObjectGraphicsInfo_pkmn_659,
+    &gEventObjectGraphicsInfo_pkmn_660,
+    &gEventObjectGraphicsInfo_pkmn_661,
+    &gEventObjectGraphicsInfo_pkmn_662,
+    &gEventObjectGraphicsInfo_pkmn_663,
+    &gEventObjectGraphicsInfo_pkmn_664,
+    &gEventObjectGraphicsInfo_pkmn_665,
+    &gEventObjectGraphicsInfo_pkmn_666,
+    &gEventObjectGraphicsInfo_pkmn_667,
+    &gEventObjectGraphicsInfo_pkmn_668,
+    &gEventObjectGraphicsInfo_pkmn_669,
+    &gEventObjectGraphicsInfo_pkmn_670,
+    &gEventObjectGraphicsInfo_pkmn_671,
+    &gEventObjectGraphicsInfo_pkmn_672,
+    &gEventObjectGraphicsInfo_pkmn_673,
+    &gEventObjectGraphicsInfo_pkmn_674,
+    &gEventObjectGraphicsInfo_pkmn_675,
+    &gEventObjectGraphicsInfo_pkmn_676,
+    &gEventObjectGraphicsInfo_pkmn_677,
+    &gEventObjectGraphicsInfo_pkmn_678,
+    &gEventObjectGraphicsInfo_pkmn_679,
+    &gEventObjectGraphicsInfo_pkmn_680,
+    &gEventObjectGraphicsInfo_pkmn_681,
+    &gEventObjectGraphicsInfo_pkmn_682,
+    &gEventObjectGraphicsInfo_pkmn_683,
+    &gEventObjectGraphicsInfo_pkmn_684,
+    &gEventObjectGraphicsInfo_pkmn_685,
+    &gEventObjectGraphicsInfo_pkmn_686,
+    &gEventObjectGraphicsInfo_pkmn_687,
+    &gEventObjectGraphicsInfo_pkmn_688,
+    &gEventObjectGraphicsInfo_pkmn_689,
+    &gEventObjectGraphicsInfo_pkmn_690,
+    &gEventObjectGraphicsInfo_pkmn_691,
+    &gEventObjectGraphicsInfo_pkmn_692,
+    &gEventObjectGraphicsInfo_pkmn_693,
+    &gEventObjectGraphicsInfo_pkmn_694,
+    &gEventObjectGraphicsInfo_pkmn_695,
+    &gEventObjectGraphicsInfo_pkmn_696,
+    &gEventObjectGraphicsInfo_pkmn_697,
+    &gEventObjectGraphicsInfo_pkmn_698,
+    &gEventObjectGraphicsInfo_pkmn_699,
+    &gEventObjectGraphicsInfo_pkmn_700,
+    &gEventObjectGraphicsInfo_pkmn_701,
+    &gEventObjectGraphicsInfo_pkmn_702,
+    &gEventObjectGraphicsInfo_pkmn_703,
+    &gEventObjectGraphicsInfo_pkmn_704,
+    &gEventObjectGraphicsInfo_pkmn_705,
+    &gEventObjectGraphicsInfo_pkmn_706,
+    &gEventObjectGraphicsInfo_pkmn_707,
+    &gEventObjectGraphicsInfo_pkmn_708,
+    &gEventObjectGraphicsInfo_pkmn_709,
+    &gEventObjectGraphicsInfo_pkmn_710,
+    &gEventObjectGraphicsInfo_pkmn_711,
+    &gEventObjectGraphicsInfo_pkmn_712,
+    &gEventObjectGraphicsInfo_pkmn_713,
+    &gEventObjectGraphicsInfo_pkmn_714,
+    &gEventObjectGraphicsInfo_pkmn_715,
+    &gEventObjectGraphicsInfo_pkmn_716,
+    &gEventObjectGraphicsInfo_pkmn_717,
+    &gEventObjectGraphicsInfo_pkmn_718,
+    &gEventObjectGraphicsInfo_pkmn_719,
+    &gEventObjectGraphicsInfo_pkmn_720,
+    &gEventObjectGraphicsInfo_pkmn_721,
+    &gEventObjectGraphicsInfo_pkmn_722,
+    &gEventObjectGraphicsInfo_pkmn_723,
+    &gEventObjectGraphicsInfo_pkmn_724,
+    &gEventObjectGraphicsInfo_pkmn_725,
+    &gEventObjectGraphicsInfo_pkmn_726,
+    &gEventObjectGraphicsInfo_pkmn_727,
+    &gEventObjectGraphicsInfo_pkmn_728,
+    &gEventObjectGraphicsInfo_pkmn_729,
+    &gEventObjectGraphicsInfo_pkmn_730,
+    &gEventObjectGraphicsInfo_pkmn_731,
+    &gEventObjectGraphicsInfo_pkmn_732,
+    &gEventObjectGraphicsInfo_pkmn_733,
+    &gEventObjectGraphicsInfo_pkmn_734,
+    &gEventObjectGraphicsInfo_pkmn_735,
+    &gEventObjectGraphicsInfo_pkmn_736,
+    &gEventObjectGraphicsInfo_pkmn_737,
+    &gEventObjectGraphicsInfo_pkmn_738,
+    &gEventObjectGraphicsInfo_pkmn_739,
+    &gEventObjectGraphicsInfo_pkmn_740,
+    &gEventObjectGraphicsInfo_pkmn_741,
+    &gEventObjectGraphicsInfo_pkmn_742,
+    &gEventObjectGraphicsInfo_pkmn_743,
+    &gEventObjectGraphicsInfo_pkmn_744,
+    &gEventObjectGraphicsInfo_pkmn_745,
+    &gEventObjectGraphicsInfo_pkmn_746,
+    &gEventObjectGraphicsInfo_pkmn_747,
+    &gEventObjectGraphicsInfo_pkmn_748,
+    &gEventObjectGraphicsInfo_pkmn_749,
+    &gEventObjectGraphicsInfo_pkmn_750,
+    &gEventObjectGraphicsInfo_pkmn_751,
+    &gEventObjectGraphicsInfo_pkmn_752,
+    &gEventObjectGraphicsInfo_pkmn_753,
+    &gEventObjectGraphicsInfo_pkmn_754,
+    &gEventObjectGraphicsInfo_pkmn_755,
+    &gEventObjectGraphicsInfo_pkmn_756,
+    &gEventObjectGraphicsInfo_pkmn_757,
+    &gEventObjectGraphicsInfo_pkmn_758,
+    &gEventObjectGraphicsInfo_pkmn_759,
+    &gEventObjectGraphicsInfo_pkmn_760,
+    &gEventObjectGraphicsInfo_pkmn_761,
+    &gEventObjectGraphicsInfo_pkmn_762,
+    &gEventObjectGraphicsInfo_pkmn_763,
+    &gEventObjectGraphicsInfo_pkmn_764,
+    &gEventObjectGraphicsInfo_pkmn_765,
+    &gEventObjectGraphicsInfo_pkmn_766,
+    &gEventObjectGraphicsInfo_pkmn_767,
+    &gEventObjectGraphicsInfo_pkmn_768,
+    &gEventObjectGraphicsInfo_pkmn_769,
+    &gEventObjectGraphicsInfo_pkmn_770,
+    &gEventObjectGraphicsInfo_pkmn_771,
+    &gEventObjectGraphicsInfo_pkmn_772,
+    &gEventObjectGraphicsInfo_pkmn_773,
+    &gEventObjectGraphicsInfo_pkmn_774,
+    &gEventObjectGraphicsInfo_pkmn_775,
+    &gEventObjectGraphicsInfo_pkmn_776,
+    &gEventObjectGraphicsInfo_pkmn_777,
+    &gEventObjectGraphicsInfo_pkmn_778,
+    &gEventObjectGraphicsInfo_pkmn_779,
+    &gEventObjectGraphicsInfo_pkmn_780,
+    &gEventObjectGraphicsInfo_pkmn_781,
+    &gEventObjectGraphicsInfo_pkmn_782,
+    &gEventObjectGraphicsInfo_pkmn_783,
+    &gEventObjectGraphicsInfo_pkmn_784,
+    &gEventObjectGraphicsInfo_pkmn_785,
+    &gEventObjectGraphicsInfo_pkmn_786,
+    &gEventObjectGraphicsInfo_pkmn_787,
+    &gEventObjectGraphicsInfo_pkmn_788,
+    &gEventObjectGraphicsInfo_pkmn_789,
+    &gEventObjectGraphicsInfo_pkmn_790,
+    &gEventObjectGraphicsInfo_pkmn_791,
+    &gEventObjectGraphicsInfo_pkmn_792,
+    &gEventObjectGraphicsInfo_pkmn_793,
+    &gEventObjectGraphicsInfo_pkmn_794,
+    &gEventObjectGraphicsInfo_pkmn_795,
+    &gEventObjectGraphicsInfo_pkmn_796,
+    &gEventObjectGraphicsInfo_pkmn_797,
+    &gEventObjectGraphicsInfo_pkmn_798,
+    &gEventObjectGraphicsInfo_pkmn_799,
+    &gEventObjectGraphicsInfo_pkmn_800,
+    &gEventObjectGraphicsInfo_pkmn_801,
+    &gEventObjectGraphicsInfo_pkmn_802,
+    &gEventObjectGraphicsInfo_pkmn_803,
+    &gEventObjectGraphicsInfo_pkmn_804,
+    &gEventObjectGraphicsInfo_pkmn_805,
+    &gEventObjectGraphicsInfo_pkmn_806,
+    &gEventObjectGraphicsInfo_pkmn_807
 };
 
 const struct EventObjectGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {

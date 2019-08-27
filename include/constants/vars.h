@@ -3,6 +3,61 @@
 
 #define VARS_START 0x4000
 
+//这些是圣光白罪恶黑的变数
+#define VAR_OPENING_STATE                    0x404E
+#define VAR_RESCUE_VIVIAN_STATE              0x4052
+#define VAR_CURRENT_SECRET_BASE              0x4054
+#define VAR_STARTER_GENERATION               0x4055
+#define VAR_MEET_PROF_TUCKER                 0x4056 // Unused Var
+#define VAR_UNUSED_0x4059                    0x4059 // Unused Var
+#define VAR_UNUSED_0x405B                    0x405B // Unused Var
+#define VAR_UNUSED_0x405C                    0x405C // Unused Var
+#define VAR_UNUSED_0x405F                    0x405F // Unused Var
+#define VAR_UNUSED_0x4061                    0x4061 // Unused Var
+#define VAR_UNUSED_0x4062                    0x4062 // Unused Var
+#define VAR_UNUSED_0x4064                    0x4064 // Unused Var
+#define VAR_UNUSED_0x4065                    0x4065 // Unused Var
+#define VAR_UNUSED_0x4066                    0x4066 // Unused Var
+#define VAR_UNUSED_0x4067                    0x4067 // Unused Var
+#define VAR_UNUSED_0x4068                    0x4068 // Unused Var
+#define VAR_UNUSED_0x406A                    0x406A // Unused Var
+#define VAR_UNUSED_0x406B                    0x406B // Unused Var
+#define VAR_UNUSED_0x406C                    0x406C // Unused Var
+#define VAR_UNUSED_0x406D                    0x406D // Unused Var
+#define VAR_UNUSED_0x406E                    0x406E // Unused Var
+#define VAR_UNUSED_0x4070                    0x4070 // Unused Var
+#define VAR_UNUSED_0x4073                    0x4073 // Unused Var
+#define VAR_UNUSED_0x4075                    0x4075 // Unused Var
+#define VAR_UNUSED_0x4076                    0x4076 // Unused Var
+#define VAR_UNUSED_0x4077                    0x4077 // Unused Var
+#define VAR_UNUSED_0x4078                    0x4078 // Unused Var
+#define VAR_UNUSED_0x4079                    0x4079 // Unused Var
+#define VAR_UNUSED_0x407A                    0x407A // Unused Var
+#define VAR_UNUSED_0x407C                    0x407C // Unused Var
+#define VAR_UNUSED_0x407D                    0x407D // Unused Var
+#define VAR_UNUSED_0x407E                    0x407E // Unused Var
+#define VAR_UNUSED_0x407F                    0x407F // Unused Var
+#define VAR_UNUSED_0x4080                    0x4080 // Unused Var
+#define VAR_UNUSED_0x4081                    0x4081 // Unused Var
+#define VAR_UNUSED_0x4083                    0x4083 // Unused Var
+#define VAR_UNUSED_0x408B                    0x408B // Unused Var
+#define VAR_UNUSED_0x4091                    0x4091 // Unused Var
+#define VAR_UNUSED_0x409B                    0x409B // Unused Var
+#define VAR_UNUSED_0x409D                    0x409D // Unused Var
+#define VAR_UNUSED_0x40A1                    0x40A1 // Unused var
+#define VAR_UNUSED_0x40A8                    0x40A8 // Unused Var
+#define VAR_UNUSED_0x40B8                    0x40B8 // Unused Var
+#define VAR_UNUSED_0x40BB                    0x40BB // Unused Var
+#define VAR_UNUSED_0x40F7                    0x40F7 // Unused Var
+#define VAR_UNUSED_0x40F8                    0x40F8 // Unused Var
+#define VAR_UNUSED_0x40F9                    0x40F9 // Unused Var
+#define VAR_UNUSED_0x40FA                    0x40FA // Unused Var
+#define VAR_UNUSED_0x40FB                    0x40FB // Unused Var
+#define VAR_UNUSED_0x40FC                    0x40FC // Unused Var
+#define VAR_UNUSED_0x40FD                    0x40FD // Unused Var
+#define VAR_UNUSED_0x40FE                    0x40FE // Unused Var
+#define VAR_UNUSED_0x40FF                    0x40FF // Unused Var
+
 // temporary vars
 // The first 0x10 vars are are temporary--they are cleared every time a map is loaded.
 #define VAR_TEMP_0                 0x4000

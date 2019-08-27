@@ -2,6 +2,14 @@
 #define GUARD_CONSTANTS_OPPONENTS_H
 
 #define TRAINER_NONE              0
+//SWSB 训练师编号
+#define TRAINER_LANCE_1         1
+#define TRAINER_MARLIN          2
+#define TRAINER_GUBEI           3
+#define TRAINER_FURUOLA         4
+#define TRAINERS_COUNT          5
+
+//原版编号，暂时保留防止build崩溃
 #define TRAINER_SAWYER_1          1
 #define TRAINER_GRUNT_1           2
 #define TRAINER_GRUNT_2           3
@@ -856,7 +864,5 @@
 #define TRAINER_LEAF            852
 #define TRAINER_BRENDAN_16      853
 #define TRAINER_MAY_16          854
-
-#define TRAINERS_COUNT          855
 
 #endif  // GUARD_CONSTANTS_OPPONENTS_H

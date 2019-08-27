@@ -1,8 +1,8 @@
 #ifndef GUARD_FIELD_EVENT_OBJ_H
 #define GUARD_FIELD_EVENT_OBJ_H
 
-#define NUM_OBJECT_GRAPHICS_INFO 239
-#define SPRITE_VAR 240
+#define NUM_OBJECT_GRAPHICS_INFO 1046
+#define SPRITE_VAR 1047
 
 enum SpinnerRunnerFollowPatterns
 {
@@ -62,11 +62,10 @@ extern const struct SpriteFrameImage gEventObjectPicTable_PechaBerryTree[];
 extern const struct OamData gEventObjectBaseOam_32x8;
 extern const struct OamData gEventObjectBaseOam_32x32;
 extern const struct SpriteTemplate *const gFieldEffectObjectTemplatePointers[];
-extern const u8 gReflectionEffectPaletteMap[];
 
-extern const u8 *const gBerryTreeEventObjectGraphicsIdTablePointers[];
+extern const u16 *const gBerryTreeEventObjectGraphicsIdTablePointers[];
 extern const struct SpriteFrameImage *const gBerryTreePicTablePointers[];
-extern const u8 *const gBerryTreePaletteSlotTablePointers[];
+extern const u16 *const gBerryTreePaletteTagTablePointers[];
 
 void ResetEventObjects(void);
 u8 GetMoveDirectionAnimNum(u8);
@@ -76,8 +75,6 @@ u8 GetEventObjectIdByXY(s16, s16);
 void SetEventObjectDirection(struct EventObject *, u8);
 u8 GetFirstInactiveEventObjectId(void);
 void RemoveEventObjectByLocalIdAndMap(u8, u8, u8);
-void LoadPlayerObjectReflectionPalette(u16, u8);
-void LoadSpecialObjectReflectionPalette(u16, u8);
 void TryMoveEventObjectToMapCoords(u8, u8, u8, s16, s16);
 void PatchObjectPalette(u16, u8);
 void sub_808E16C(s16, s16);
@@ -88,17 +85,17 @@ void sub_80930E0(s16 *, s16 *, s16, s16);
 void EventObjectClearHeldMovement(struct EventObject *);
 void EventObjectClearHeldMovementIfActive(struct EventObject *);
 void TrySpawnEventObjects(s16, s16);
-u8 sprite_new(u8 graphicsId, u8 a1, s16 x, s16 y, u8 z, u8 direction);
-u8 AddPseudoEventObject(u16, void (*)(struct Sprite *), s16 x, s16 y, u8 subpriority);
+u8 sprite_new(u16 graphicsId, u8 a1, s16 x, s16 y, u8 z, u8 direction);
+u8 AddPseudoEventObject(u16 graphicsId, void (*)(struct Sprite *), s16 x, s16 y, u8 subpriority);
 u8 TrySpawnEventObject(u8, u8, u8);
-u8 SpawnSpecialEventObjectParameterized(u8 graphicsId, u8 movementBehavior, u8 localId, s16 x, s16 y, u8 z);
+u8 SpawnSpecialEventObjectParameterized(u16 graphicsId, u8 movementBehavior, u8 localId, s16 x, s16 y, u8 z);
 u8 SpawnSpecialEventObject(struct EventObjectTemplate *);
 void SetSpritePosToMapCoords(s16, s16, s16 *, s16 *);
 void CameraObjectReset1(void);
-void EventObjectSetGraphicsId(struct EventObject *, u8 graphicsId);
+void EventObjectSetGraphicsId(struct EventObject *, u16 graphicsId);
 void EventObjectTurn(struct EventObject *, u8);
 void EventObjectTurnByLocalIdAndMap(u8, u8, u8, u8);
-const struct EventObjectGraphicsInfo *GetEventObjectGraphicsInfo(u8 graphicsId);
+const struct EventObjectGraphicsInfo *GetEventObjectGraphicsInfo(u16 graphicsId);
 void npc_by_local_id_and_map_set_field_1_bit_x20(u8, u8, u8, u8);
 void FreeAndReserveObjectSpritePalettes(void);
 void sub_808E82C(u8, u8, u8, s16, s16);
@@ -197,6 +194,7 @@ void UpdateEventObjectSpriteVisibility(struct Sprite *sprite, bool8 invisible);
 s16 sub_809773C(s16 a1);
 s16 sub_8097728(s16 a1);
 void CameraObjectReset2(void);
+void LoadEventObjectPalette(u16 paletteTag);
 u8 EventObjectGetBerryTreeId(u8 eventObjectId);
 void sub_8092EF0(u8 mapId, u8 mapNumber, u8 mapGroup);
 bool8 IsBerryTreeSparkling(u8, u8, u8);
@@ -417,9 +415,10 @@ u8 MovementType_RunInPlace_Step0(struct EventObject *, struct Sprite *);
 u8 MovementType_Invisible_Step0(struct EventObject *, struct Sprite *);
 u8 MovementType_Invisible_Step1(struct EventObject *, struct Sprite *);
 u8 MovementType_Invisible_Step2(struct EventObject *, struct Sprite *);
+
 void sub_8097C44(u8 var, bool32 var2);
 bool32 sub_8097C8C(u8 var);
-void sub_8097BB4(u8 var1, u8 graphicsId);
+void sub_8097BB4(u8 var1, u16 graphicsId);
 void sub_8097CC4(u8 var1, u8 var2);
 bool32 sub_8097D9C(u8 var);
 

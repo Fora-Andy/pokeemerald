@@ -58,7 +58,7 @@
 	.byte 9		@5
 	.byte 9		@6
 	.byte 8		@7
-	.byte 9		@8
+	.byte 10	@8
 	.byte 9		@9
 	.byte 8		@:
 	.byte 8		@;
@@ -66,7 +66,7 @@
 	.byte 8		@!
 	.byte 8		@,
 	.byte 8		@.
-	.byte 8		@[
+	.byte 6		@[
 	.byte 8		@]
 	.byte 7		@'
 	.byte 8		@.

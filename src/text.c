@@ -2450,9 +2450,9 @@ void DecompressGlyphFont0(u16 glyphId, bool32 isJapanese)
 		if (glyphId >= 0x1000)	//汉字判定
 		{
 			glyphs = gFont0ChineseGlyphs + (0x20 * (glyphId-0x1000));
-      if (glyphId >= 0x2B92)
+      if (glyphId >= 0x2B5E)
       {
-        gUnknown_03002F90.unk80 = gFont0ChineseGlyphWidths[glyphId-0x2B92];
+        gUnknown_03002F90.unk80 = gFont0ChineseGlyphWidths[glyphId-0x2B5E];
       }
       else //汉字
       {
@@ -2510,9 +2510,9 @@ void DecompressGlyphFont7(u16 glyphId, bool32 isJapanese)
 		if (glyphId >= 0x1000)	//汉字判定
 		{
 			glyphs = gFont0ChineseGlyphs + (0x20 * (glyphId-0x1000));
-      if (glyphId >= 0x2B92)
+      if (glyphId >= 0x2B5E)
       {
-        gUnknown_03002F90.unk80 = gFont0ChineseGlyphWidths[glyphId-0x2B92];
+        gUnknown_03002F90.unk80 = gFont0ChineseGlyphWidths[glyphId-0x2B5E];
       }
       else //汉字
       {
@@ -2569,9 +2569,9 @@ void DecompressGlyphFont8(u16 glyphId, bool32 isJapanese)
 		if (glyphId >= 0x1000)	//汉字判定
 		{
 			glyphs = gFont0ChineseGlyphs + (0x20 * (glyphId-0x1000));
-      if (glyphId >= 0x2B92)
+      if (glyphId >= 0x2B5E)
       {
-        gUnknown_03002F90.unk80 = gFont0ChineseGlyphWidths[glyphId-0x2B92];
+        gUnknown_03002F90.unk80 = gFont0ChineseGlyphWidths[glyphId-0x2B5E];
       }
       else //汉字
       {
@@ -2630,9 +2630,9 @@ void DecompressGlyphFont2(u16 glyphId, bool32 isJapanese)
 		if (glyphId >= 0x1000)	//汉字判定
 		{
 			glyphs = gFont1ChineseGlyphs + (0x20 * (glyphId-0x1000));
-      if (glyphId >= 0x2B92)
+      if (glyphId >= 0x2B5E)
       {
-        gUnknown_03002F90.unk80 = gFont1ChineseGlyphWidths[glyphId-0x2B92];
+        gUnknown_03002F90.unk80 = gFont1ChineseGlyphWidths[glyphId-0x2B5E];
       }
       else //汉字
       {
@@ -2690,9 +2690,9 @@ void DecompressGlyphFont1(u16 glyphId, bool32 isJapanese)
 			if (glyphId >= 0x1000)	//汉字判定
 		{
 			glyphs = gFont1ChineseGlyphs + (0x20 * (glyphId-0x1000));
-      if (glyphId >= 0x2B92)
+      if (glyphId >= 0x2B5E)
       {
-        gUnknown_03002F90.unk80 = gFont1ChineseGlyphWidths[glyphId-0x2B92];
+        gUnknown_03002F90.unk80 = gFont1ChineseGlyphWidths[glyphId-0x2B5E];
       }
       else //汉字
       {

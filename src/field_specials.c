@@ -4309,7 +4309,8 @@ void NamingScreen(void)
 	DoNamingScreen(0, gSaveBlock2Ptr->playerName, gSaveBlock2Ptr->playerGender, 0, 0, CB2_ReturnToFieldContinueScriptPlayMapMusic);
 
 }
-/*
+
+
 void GenerateSeedFirstTime(void)
 {
   int i;
@@ -4317,4 +4318,3 @@ void GenerateSeedFirstTime(void)
       gSaveBlock2Ptr->SeedID[i] = Random() % 255;
 
 }
-*/

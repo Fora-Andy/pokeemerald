@@ -26,7 +26,7 @@ AtroposKohlrabiGarden_EventScript9::
  removeobject 3
  setflag FLAG_HIDE_VIVIAN_OUTSIDE
  setvar VAR_RESCUE_VIVIAN_STATE, 4
- @special GenerateSeedFirstTime
+ special GenerateSeedFirstTime
  release
  end
 

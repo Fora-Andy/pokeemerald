@@ -530,7 +530,8 @@ static bool8 TryGenerateWildMonSWSB(const struct WildPokemonInfo *wildMonInfo, u
     if (gMapHeader.mapLayoutId != LAYOUT_BATTLE_FRONTIER_BATTLE_PIKE_RANDOM_ROOM3 && flags & WILD_CHECK_KEEN_EYE && !IsAbilityAllowingEncounter(level))
         return FALSE;
 
-    //Night Exclusive
+
+    //夜间限定
     if (gBaseStats[speciesID].type1 == TYPE_GHOST || gBaseStats[speciesID].type2 == TYPE_GHOST)
     {
         if (GetTimeLapse(hour) == TIME_MIDNIGHT
@@ -542,6 +543,17 @@ static bool8 TryGenerateWildMonSWSB(const struct WildPokemonInfo *wildMonInfo, u
         }
         return FALSE;
     }
+
+    //记录连锁
+    if (VarGet(VAR_CHAIN_SPECIES) == speciesID)
+    {
+      VarSet(VAR_CHAIN_COUNT, (VarGet(VAR_CHAIN_COUNT)+1));
+    }
+    else
+    {
+      VarSet(VAR_CHAIN_COUNT, 0);
+    }
+    VarSet(VAR_CHAIN_SPECIES, speciesID);
 
     CreateWildMon(speciesID, level);
     return TRUE;

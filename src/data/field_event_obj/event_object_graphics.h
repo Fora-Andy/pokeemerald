@@ -1988,3 +1988,5 @@ const u16 gEventObjectPalette_pkmn_804[] = INCBIN_U16("graphics/event_objects/pi
 const u16 gEventObjectPalette_pkmn_805[] = INCBIN_U16("graphics/event_objects/pics/pokemon_swsb/pkmn_805.gbapal");
 const u16 gEventObjectPalette_pkmn_806[] = INCBIN_U16("graphics/event_objects/pics/pokemon_swsb/pkmn_806.gbapal");
 const u16 gEventObjectPalette_pkmn_807[] = INCBIN_U16("graphics/event_objects/pics/pokemon_swsb/pkmn_807.gbapal");
+const u32 gEventObjectPic_Vivian[] = INCBIN_U32("graphics/event_objects/pics/people/Vivian.4bpp");
+const u16 gEventObjectPalette_Vivian[] = INCBIN_U16("graphics/event_objects/pics/people/Vivian.gbapal");

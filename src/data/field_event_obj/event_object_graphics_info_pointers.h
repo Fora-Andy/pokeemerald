@@ -1044,7 +1044,8 @@ const struct EventObjectGraphicsInfo *const gEventObjectGraphicsInfoPointers[] =
     &gEventObjectGraphicsInfo_pkmn_804,
     &gEventObjectGraphicsInfo_pkmn_805,
     &gEventObjectGraphicsInfo_pkmn_806,
-    &gEventObjectGraphicsInfo_pkmn_807
+    &gEventObjectGraphicsInfo_pkmn_807,
+    &gEventObjectGraphicsInfo_Vivian
 };
 
 const struct EventObjectGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {

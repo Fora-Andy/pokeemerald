@@ -15,7 +15,7 @@
 #include "constants/field_effects.h"
 #include "constants/songs.h"
 
-#define EVENT_OBJ_PAL_TAG_NONE 0x14FF // duplicate of define in event_object_movement.c
+#define EVENT_OBJ_PAL_TAG_NONE 0x1FFF // duplicate of define in event_object_movement.c
 
 static void UpdateObjectReflectionSprite(struct Sprite *);
 static void LoadObjectReflectionPalette(struct EventObject *eventObject, struct Sprite *sprite);

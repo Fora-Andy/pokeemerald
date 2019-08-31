@@ -3115,3 +3115,6 @@ $(EVENTOBJGFXDIR)/pokemon_swsb/pkmn_806.4bpp: %.4bpp: %.png
 
 $(EVENTOBJGFXDIR)/pokemon_swsb/pkmn_807.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
+
+$(EVENTOBJGFXDIR)/people/Vivian.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4

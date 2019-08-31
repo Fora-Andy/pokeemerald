@@ -1047,27 +1047,27 @@
 #define EVENT_OBJ_GFX_PKMN_805                       1043
 #define EVENT_OBJ_GFX_PKMN_806                       1044
 #define EVENT_OBJ_GFX_PKMN_807                       1045
-#define EVENT_OBJ_GFX_BARD_2                     1046
-
+#define EVENT_OBJ_GFX_Vivian                       1046
+#define EVENT_OBJ_GFX_BARD_2                     1047
 // These are dynamic object gfx ids.
 // They correspond with the values of the VAR_OBJ_GFX_ID_X vars.
 // More info about them in include/constants/vars.h
-#define EVENT_OBJ_GFX_VAR_0 1047
-#define EVENT_OBJ_GFX_VAR_1 1048
-#define EVENT_OBJ_GFX_VAR_2 1049
-#define EVENT_OBJ_GFX_VAR_3 1050
-#define EVENT_OBJ_GFX_VAR_4 1051
-#define EVENT_OBJ_GFX_VAR_5 1052
-#define EVENT_OBJ_GFX_VAR_6 1053
-#define EVENT_OBJ_GFX_VAR_7 1054
-#define EVENT_OBJ_GFX_VAR_8 1055
-#define EVENT_OBJ_GFX_VAR_9 1056
-#define EVENT_OBJ_GFX_VAR_A 1057
-#define EVENT_OBJ_GFX_VAR_B 1058
-#define EVENT_OBJ_GFX_VAR_C 1059
-#define EVENT_OBJ_GFX_VAR_D 1060
-#define EVENT_OBJ_GFX_VAR_E 1061
-#define EVENT_OBJ_GFX_VAR_F 1062
+#define EVENT_OBJ_GFX_VAR_0 1048
+#define EVENT_OBJ_GFX_VAR_1 1049
+#define EVENT_OBJ_GFX_VAR_2 1050
+#define EVENT_OBJ_GFX_VAR_3 1051
+#define EVENT_OBJ_GFX_VAR_4 1052
+#define EVENT_OBJ_GFX_VAR_5 1053
+#define EVENT_OBJ_GFX_VAR_6 1054
+#define EVENT_OBJ_GFX_VAR_7 1055
+#define EVENT_OBJ_GFX_VAR_8 1056
+#define EVENT_OBJ_GFX_VAR_9 1057
+#define EVENT_OBJ_GFX_VAR_A 1058
+#define EVENT_OBJ_GFX_VAR_B 1059
+#define EVENT_OBJ_GFX_VAR_C 1060
+#define EVENT_OBJ_GFX_VAR_D 1061
+#define EVENT_OBJ_GFX_VAR_E 1062
+#define EVENT_OBJ_GFX_VAR_F 1063
 
 #define SHADOW_SIZE_S   0
 #define SHADOW_SIZE_M   1

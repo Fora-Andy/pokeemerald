@@ -13,7 +13,7 @@
 	.byte 11	@M
 	.byte 10	@N
 	.byte 10	@O
-	.byte 8		@P
+	.byte 10		@P
 	.byte 10	@Q
 	.byte 10	@R
 	.byte 8		@S

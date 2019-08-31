@@ -282,13 +282,19 @@ const u8 gText_PokeBallsPocket[] = _("宝可梦球");
 const u8 gText_TMHMPocket[] = _("TMs & HMs");
 const u8 gText_BerriesPocket[] = _("树果");
 const u8 gText_KeyItemsPocket[] = _("重要道具");
+const u8 gText_MedicinePocket[] = _("药品");
+const u8 gText_MegaStonePocket[] = _("超级进化");
+const u8 gText_ZCrystalPocket[] = _("Z纯晶");
 
 const u8 *const gPocketNamesStringsTable[] =
 {
     gText_ItemsPocket,
+    gText_MedicinePocket,
     gText_PokeBallsPocket,
     gText_TMHMPocket,
     gText_BerriesPocket,
+    gText_MegaStonePocket,
+    gText_ZCrystalPocket,
     gText_KeyItemsPocket
 };
 

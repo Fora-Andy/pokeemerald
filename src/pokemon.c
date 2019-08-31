@@ -2403,6 +2403,102 @@ void CreateMon(struct Pokemon *mon, u16 species, u8 level, u8 fixedIV, u8 hasFix
     CalculateMonStats(mon);
 }
 
+static u32 CheckShinyMon(u32 pid)
+{
+	u16 chance = 1;	//Default 1/4096 rate
+  u16 chain = VarGet(VAR_CHAIN_COUNT);
+
+  if (chain <= 40)
+    chance += (8192/(8200-chain*200));
+  else
+    chance += (8192/(8200-40*200)); //防止数据溢出
+
+	if (CheckBagHasItem(ITEM_SHINY_CHARM, 1) > 0)
+		chance += 3;
+
+	if (FlagGet(SHINY_CREATION_FLAG))
+		chance = 4097;
+    FlagClear(SHINY_CREATION_FLAG);
+
+	if (Random() % 4097 < chance)		//Nominal 1/4096
+	{
+		// make shiny
+		u8 WithinShinyOdd = Random() % 8;
+		u32 playerId = T1_READ_32(gSaveBlock2Ptr->playerTrainerId);
+		u16 sid = HIHALF(playerId);
+		u16 tid = LOHALF(playerId);
+		pid = (((WithinShinyOdd ^ (sid ^ tid)) ^ LOHALF(pid)) << 16) | LOHALF(pid);
+	}
+	return pid;
+};
+
+static void RemoveIVIndexFromList(u8 *ivs, u8 selectedIv)
+{
+    s32 i, j;
+    u8 temp[NUM_STATS];
+
+    ivs[selectedIv] = 0xFF;
+    for (i = 0; i < NUM_STATS; i++)
+    {
+        temp[i] = ivs[i];
+    }
+
+    j = 0;
+    for (i = 0; i < NUM_STATS; i++)
+    {
+        if (temp[i] != 0xFF)
+            ivs[j++] = temp[i];
+    }
+}
+
+static void SetFullIVRandomly(struct BoxPokemon *boxMon, u8 number)
+{
+  //这部分其实是用遗传的代码改过来的
+  u8 i;
+  u8 selectedIvs[number];
+  u8 availableIVs[NUM_STATS];
+  u8 iv = 31;
+
+  for (i = 0; i < NUM_STATS; i++)
+  {
+      availableIVs[i] = i;
+  }
+
+  for (i = 0; i < ARRAY_COUNT(selectedIvs); i++)
+  {
+      // Randomly pick an IV from the available list.
+      selectedIvs[i] = availableIVs[Random() % (NUM_STATS - i)];
+
+      // Remove the selected IV index from the available IV indices.
+      RemoveIVIndexFromList(availableIVs, i);
+  }
+
+  for (i = 0; i < ARRAY_COUNT(selectedIvs); i++)
+  {
+      switch (selectedIvs[i])
+      {
+          case 0:
+              SetBoxMonData(boxMon, MON_DATA_HP_IV, &iv);
+              break;
+          case 1:
+              SetBoxMonData(boxMon, MON_DATA_ATK_IV, &iv);
+              break;
+          case 2:
+              SetBoxMonData(boxMon, MON_DATA_DEF_IV, &iv);
+              break;
+          case 3:
+              SetBoxMonData(boxMon, MON_DATA_SPEED_IV, &iv);
+              break;
+          case 4:
+              SetBoxMonData(boxMon, MON_DATA_SPATK_IV, &iv);
+              break;
+          case 5:
+              SetBoxMonData(boxMon, MON_DATA_SPDEF_IV, &iv);
+              break;
+      }
+  }
+}
+
 void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, u8 hasFixedPersonality, u32 fixedPersonality, u8 otIdType, u32 fixedOtId)
 {
     u8 speciesName[POKEMON_NAME_LENGTH + 1];
@@ -2417,6 +2513,7 @@ void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, 
     else
         personality = Random32();
 
+	  personality = CheckShinyMon(personality);
     SetBoxMonData(boxMon, MON_DATA_PERSONALITY, &personality);
 
     //Determine original trainer ID
@@ -2473,6 +2570,7 @@ void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, 
     else
     {
         u32 iv;
+        u8 chain = VarGet(VAR_CHAIN_COUNT);
         value = Random();
 
         iv = value & 0x1F;
@@ -2490,13 +2588,34 @@ void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, 
         SetBoxMonData(boxMon, MON_DATA_SPATK_IV, &iv);
         iv = (value & 0x7C00) >> 10;
         SetBoxMonData(boxMon, MON_DATA_SPDEF_IV, &iv);
+
+        //连锁个体
+        if(chain>=10 && chain <20)
+              SetFullIVRandomly(boxMon, 1);
+        else if(chain>=20 && chain <30)
+              SetFullIVRandomly(boxMon, 2);
+        else if(chain>=30 && chain <40)
+              SetFullIVRandomly(boxMon, 3);
+        else if(chain>=40 && chain <50)
+              SetFullIVRandomly(boxMon, 4);
+        else if(chain>=50)
+              SetFullIVRandomly(boxMon, 5);
     }
 
-    if (gBaseStats[species].abilities[1])
+    //隐藏特性
+		if (FlagGet(HIDDEN_ABILITY_FLAG))
     {
-        value = personality & 1;
-        SetBoxMonData(boxMon, MON_DATA_ABILITY_NUM, &value);
+			value = 2;
+      FlagClear(HIDDEN_ABILITY_FLAG);
     }
+		else
+    {
+      if (gBaseStats[species].abilities[1])
+      {
+          value = personality & 1;
+      }
+    }
+    SetBoxMonData(boxMon, MON_DATA_ABILITY_NUM, &value);
 
     GiveBoxMonInitialMoveset(boxMon);
 }

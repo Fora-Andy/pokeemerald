@@ -9,8 +9,8 @@
 #define VAR_CURRENT_SECRET_BASE              0x4054
 #define VAR_STARTER_GENERATION               0x4055
 #define VAR_MEET_PROF_TUCKER                 0x4056 // Unused Var
-#define VAR_UNUSED_0x4059                    0x4059 // Unused Var
-#define VAR_UNUSED_0x405B                    0x405B // Unused Var
+#define VAR_CHAIN_COUNT                      0x4059 // Unused Var
+#define VAR_CHAIN_SPECIES                    0x405B // Unused Var
 #define VAR_UNUSED_0x405C                    0x405C // Unused Var
 #define VAR_UNUSED_0x405F                    0x405F // Unused Var
 #define VAR_UNUSED_0x4061                    0x4061 // Unused Var

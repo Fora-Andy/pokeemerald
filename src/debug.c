@@ -225,7 +225,14 @@ static void DebugAction_DoWildBattle(u8 taskId)
 
 static void DebugAction_AddItem(u8 taskId)
 {
+  u16 i;
 	AddBagItem(ITEM_EXP_SHARE, 1);
+  AddBagItem(ITEM_POTION, 1);
+  AddBagItem(ITEM_NUGGET, 1);
+  AddBagItem(ITEM_TM07_HAIL, 1);
+  for (i = 397; i < 445; i++) {
+    AddBagItem(i, 1);
+  }
 }
 
 static void DebugAction_ShinyFlag(u8 taskId)

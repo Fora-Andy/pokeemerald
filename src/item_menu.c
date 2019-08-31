@@ -424,11 +424,11 @@ const struct WindowTemplate gUnknown_086141AC[] =
 // .text
 
 struct ListBuffer1 {
-    struct ListMenuItem subBuffers[100];
+    struct ListMenuItem subBuffers[108];
 };
 
 struct ListBuffer2 {
-    s8 name[100][24];
+    s8 name[108][24];
 };
 
 struct TempWallyStruct {
@@ -1490,6 +1490,21 @@ void sub_81AC644(u8 unused)
                     case BERRIES_POCKET:
                         gBagMenu->unk820 = gUnknown_0861403C;
                         gBagMenu->unk828 = 6;
+                        break;
+                    case MEDICINE_POCKET:
+                        gBagMenu->unk820 = &gBagMenu->unk824;
+                        gBagMenu->unk828 = 4;
+                        memcpy(&gBagMenu->unk824, &gUnknown_0861402C, 4);
+                        break;
+                    case MEGA_STONE_POCKET:
+                        gBagMenu->unk820 = &gBagMenu->unk824;
+                        gBagMenu->unk828 = 4;
+                        memcpy(&gBagMenu->unk824, &gUnknown_0861402C, 4);
+                        break;
+                    case Z_CRYSTAL_POCKET:
+                        gBagMenu->unk820 = &gBagMenu->unk824;
+                        gBagMenu->unk828 = 4;
+                        memcpy(&gBagMenu->unk824, &gUnknown_0861402C, 4);
                         break;
                 }
             }

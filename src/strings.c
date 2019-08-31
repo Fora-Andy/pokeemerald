@@ -283,7 +283,7 @@ const u8 gText_TMHMPocket[] = _("TMs & HMs");
 const u8 gText_BerriesPocket[] = _("树果");
 const u8 gText_KeyItemsPocket[] = _("重要道具");
 const u8 gText_MedicinePocket[] = _("药品");
-const u8 gText_MegaStonePocket[] = _("超级进化");
+const u8 gText_MegaStonePocket[] = _("进化石");
 const u8 gText_ZCrystalPocket[] = _("Z纯晶");
 
 const u8 *const gPocketNamesStringsTable[] =
@@ -291,10 +291,10 @@ const u8 *const gPocketNamesStringsTable[] =
     gText_ItemsPocket,
     gText_MedicinePocket,
     gText_PokeBallsPocket,
-    gText_TMHMPocket,
-    gText_BerriesPocket,
     gText_MegaStonePocket,
     gText_ZCrystalPocket,
+    gText_TMHMPocket,
+    gText_BerriesPocket,
     gText_KeyItemsPocket
 };
 
@@ -707,6 +707,9 @@ const u8 gText_Key_Items[] = _("重要道具");
 const u8 gText_Poke_Balls[] = _("宝可梦球");
 const u8 gText_TMs_Hms[] = _("TMs & HMs");
 const u8 gText_Berries2[] = _("树果");
+const u8 gText_Medicine[] = _("药品");
+const u8 gText_MegaStone[] = _("超级进化石");
+const u8 gText_ZCrystal[] = _("Z纯晶");
 const u8 gText_SomeonesPC[] = _("某人的电脑");
 const u8 gText_LanettesPC[] = _("真由美的电脑");
 const u8 gText_PlayersPC[] = _("{PLAYER}的电脑");

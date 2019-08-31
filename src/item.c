@@ -83,6 +83,15 @@ void SetBagItemsPointers(void)
 
     gBagPockets[BERRIES_POCKET].itemSlots = gSaveBlock1Ptr->bagPocket_Berries;
     gBagPockets[BERRIES_POCKET].capacity = BAG_BERRIES_COUNT;
+
+    gBagPockets[MEDICINE_POCKET].itemSlots = gSaveBlock1Ptr->bagPocket_Medicine;
+    gBagPockets[MEDICINE_POCKET].capacity = BAG_MEDICINE_COUNT;
+
+    gBagPockets[MEGA_STONE_POCKET].itemSlots = gSaveBlock1Ptr->bagPocket_MegaStone;
+    gBagPockets[MEGA_STONE_POCKET].capacity = BAG_MEGASTONE_COUNT;
+
+    gBagPockets[Z_CRYSTAL_POCKET].itemSlots = gSaveBlock1Ptr->bagPocket_ZCrystal;
+    gBagPockets[Z_CRYSTAL_POCKET].capacity = BAG_ZCRYSTAL_COUNT;
 }
 
 void CopyItemName(u16 itemId, u8 *dst)
@@ -200,10 +209,10 @@ bool8 CheckBagHasSpace(u16 itemId, u16 count)
         u16 ownedCount;
 
         pocket = ItemId_GetPocket(itemId) - 1;
-        if (pocket != BERRIES_POCKET)
-            slotCapacity = 99;
-        else
-            slotCapacity = 999;
+        //if (pocket != BERRIES_POCKET)
+            //slotCapacity = 99;
+        //else
+        slotCapacity = 999;
 
         // Check space in any existing item slots that already contain this item
         for (i = 0; i < gBagPockets[pocket].capacity; i++)
@@ -420,10 +429,10 @@ bool8 AddBagItem(u16 itemId, u16 count)
         newItems = AllocZeroed(itemPocket->capacity * sizeof(struct ItemSlot));
         memcpy(newItems, itemPocket->itemSlots, itemPocket->capacity * sizeof(struct ItemSlot));
 
-        if (pocket != BERRIES_POCKET)
-            slotCapacity = 99;
-        else
-            slotCapacity = 999;
+        //if (pocket != BERRIES_POCKET)
+            //slotCapacity = 99;
+        //else
+        slotCapacity = 999;
 
         for (i = 0; i < itemPocket->capacity; i++)
         {

@@ -1401,12 +1401,33 @@ EventScript_271AE3:: @ 8271AE3
 
 EventScript_271B08:: @ 8271B08
 	switch VAR_RESULT
-	case 1, EventScript_271B45
-	case 5, EventScript_271B55
-	case 2, EventScript_271B65
-	case 3, EventScript_271B75
-	case 4, EventScript_271B85
+	case 1, EventScript_271B45 			@ITEMS
+	case 2, EventScript_MedicinePocket
+	case 3, EventScript_271B65 			@POKE BALLS
+	case 4, EventScript_MegaStonePocket
+	case 6, EventScript_ZCrystalPocket
+	case 5, EventScript_271B85 			@BERRIES
+	case 7, EventScript_271B75 			@TM & HMs
+	case 8, EventScript_271B55 			@KEY ITEMS
 	end
+
+EventScript_MedicinePocket::
+	bufferstdstring 2, 30
+	compare VAR_0x8007, 1
+	call_if_eq EventScript_271BAF
+	return
+
+ EventScript_MegaStonePocket::
+	bufferstdstring 2, 31
+	compare VAR_0x8007, 1
+	call_if_eq EventScript_271BAF
+	return
+
+ EventScript_ZCrystalPocket::
+	bufferstdstring 2, 32
+	compare VAR_0x8007, 1
+	call_if_eq EventScript_271BAF
+	return
 
 EventScript_271B45:: @ 8271B45
 	bufferstdstring 2, 14

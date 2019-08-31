@@ -82,13 +82,34 @@ static const union AnimCmd sSpriteAnim_Bag_Berries[] =
     ANIMCMD_END
 };
 
+static const union AnimCmd sSpriteAnim_Bag_Medicines[] =
+{
+    ANIMCMD_FRAME(64, 4),
+    ANIMCMD_END
+};
+
+static const union AnimCmd sSpriteAnim_Bag_MegaStones[] =
+{
+    ANIMCMD_FRAME(128, 4),
+    ANIMCMD_END
+};
+
+static const union AnimCmd sSpriteAnim_Bag_ZCrystals[] =
+{
+    ANIMCMD_FRAME(192, 4),
+    ANIMCMD_END
+};
+
 static const union AnimCmd *const sBagSpriteAnimTable[] =
 {
     sSpriteAnim_Bag_Closed,
     sSpriteAnim_Bag_Items,
+    sSpriteAnim_Bag_Medicines,
     sSpriteAnim_Bag_Pokeballs,
     sSpriteAnim_Bag_TMsHMs,
     sSpriteAnim_Bag_Berries,
+    sSpriteAnim_Bag_MegaStones,
+    sSpriteAnim_Bag_ZCrystals,
     sSpriteAnim_Bag_KeyItems
 };
 

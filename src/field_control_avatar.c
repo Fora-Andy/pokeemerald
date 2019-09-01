@@ -138,6 +138,12 @@ void FieldGetPlayerInput(struct FieldInput *input, u16 newKeys, u16 heldKeys)
         input->input_field_1_2 = TRUE;
         input->pressedSelectButton = FALSE;
     }
+
+    if ((heldKeys & L_BUTTON) && input->pressedSelectButton)
+    {
+        input->input_field_1_3 = TRUE;
+        input->pressedSelectButton = FALSE;
+    }
 #endif
 }
 
@@ -203,6 +209,13 @@ int ProcessPlayerFieldInput(struct FieldInput *input)
     {
         PlaySE(SE_WIN_OPEN);
         Debug_ShowMainMenu();
+        return TRUE;
+    }
+
+    if (input->input_field_1_3)
+    {
+        PlaySE(SE_WIN_OPEN);
+        DebugWE_ShowMainMenu();
         return TRUE;
     }
 #endif

@@ -120,6 +120,7 @@ SECTIONS {
         src/reset_rtc_screen.o(.text);
         src/start_menu.o(.text);
         src/debug.o(.text);
+		src/debug_wild_encounter.o(.text);
         src/tileset_anims.o(.text);
         src/palette.o(.text);
         src/sound.o(.text);
@@ -483,6 +484,7 @@ SECTIONS {
         src/reset_rtc_screen.o(.rodata);
         src/start_menu.o(.rodata);
 		src/debug.o(.rodata);
+		src/debug_wild_encounter.o(.rodata);
         src/tileset_anims.o(.rodata);
         src/palette.o(.rodata);
         src/sound.o(.rodata);

@@ -7168,6 +7168,29 @@ gText_082C877B:: @ 82C877B
 	.string "你已经完成它了!\n"
 	.string "你一直在为这个好好努力了吧!$"
 
+@debug use
+EventScript_BufferChainCount::
+	bufferspeciesname 0, VAR_CHAIN_SPECIES
+	buffernumberstring 1, VAR_CHAIN_COUNT
+	msgbox tEXTchainbuffer, MSGBOX_NPC
+	release
+	end
+	
+EventScript_SetWildBattle::
+	scrollingmultichoice 0, 1, 1, 6, TRUE
+	copyvar VAR_DEBUG_USE, VAR_RESULT
+	bufferspeciesname 0, VAR_DEBUG_USE
+	msgbox tEXTtestbuffer, MSGBOX_NPC
+	release
+	end
+	
+tEXTtestbuffer:
+	.string "{STR_VAR_1}$"
+	
+tEXTchainbuffer:
+	.string "{STR_VAR_1}\n"
+	.string "{STR_VAR_2}$"
+
 	.align 2
 	.include "data/text/save.inc"
 	.include "data/text/birch_speech.inc"

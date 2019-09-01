@@ -10,6 +10,7 @@
 #include "menu.h"
 #include "pokedex.h"
 #include "random.h"
+#include "event_scripts.h"
 #include "script.h"
 #include "script_pokemon_80F8.h"
 #include "sound.h"
@@ -27,10 +28,7 @@ static void DebugAction_FullPokedex(u8);
 static void DebugAction_AddPokemon(u8);
 static void DebugAction_AddRareCandy(u8);
 static void DebugAction_AddMasterBall(u8);
-static void DebugAction_DoWildBattle(u8);
 static void DebugAction_AddItem(u8);
-static void DebugAction_ShinyFlag(u8);
-static void DebugAction_HiddenAbilityFlag(u8);
 static void DebugAction_Cancel(u8);
 static void DebugTask_HandleMainMenuInput(u8);
 
@@ -39,10 +37,7 @@ enum {
     DEBUG_MENU_ADDPOKEMON,
 	  DEBUG_MENU_ADDRARECANDY,
 	  DEBUG_MENU_ADDMASTERBALL,
-	  DEBUG_MENU_DOWILDBATTLE,
 	  DEBUG_MENU_ADDITEM,
-  	DEBUG_MENU_SHINYFLAG,
-    DEBUG_MENU_HIDDENABILITYFLAG,
     DEBUG_MENU_ITEM_CANCEL,
 };
 
@@ -50,10 +45,7 @@ static const u8 gDebugText_FullPokedex[] = _("全图鉴");
 static const u8 gDebugText_AddPokemon[] = _("随机宝可梦");
 static const u8 gDebugText_AddRareCandy[] = _("神奇糖果");
 static const u8 gDebugText_AddMasterBall[] = _("宝可梦球");
-static const u8 gDebugText_DoWildBattle[] = _("野生对战");
 static const u8 gDebugText_AddItem[] = _("学习装置");
-static const u8 gDebugText_ShinyFlag[] = _("闪光FLAG");
-static const u8 gDebugText_HiddenAbilityFlag[] = _("梦特性FLAG");
 static const u8 gDebugText_Cancel[] = _("退出");
 
 static const struct ListMenuItem sDebugMenuItems[] =
@@ -62,10 +54,7 @@ static const struct ListMenuItem sDebugMenuItems[] =
 	[DEBUG_MENU_ADDPOKEMON] = {gDebugText_AddPokemon, DEBUG_MENU_ADDPOKEMON},
 	[DEBUG_MENU_ADDRARECANDY] = {gDebugText_AddRareCandy, DEBUG_MENU_ADDRARECANDY},
 	[DEBUG_MENU_ADDMASTERBALL] = {gDebugText_AddMasterBall, DEBUG_MENU_ADDMASTERBALL},
-	[DEBUG_MENU_DOWILDBATTLE] = {gDebugText_DoWildBattle, DEBUG_MENU_DOWILDBATTLE},
 	[DEBUG_MENU_ADDITEM] = {gDebugText_AddItem, DEBUG_MENU_ADDITEM},
-	[DEBUG_MENU_SHINYFLAG] = {gDebugText_ShinyFlag, DEBUG_MENU_SHINYFLAG},
-	[DEBUG_MENU_HIDDENABILITYFLAG] = {gDebugText_HiddenAbilityFlag, DEBUG_MENU_HIDDENABILITYFLAG},
   [DEBUG_MENU_ITEM_CANCEL] = {gDebugText_Cancel, DEBUG_MENU_ITEM_CANCEL}
 };
 
@@ -75,10 +64,7 @@ static void (*const sDebugMenuActions[])(u8) =
 	[DEBUG_MENU_ADDPOKEMON] = DebugAction_AddPokemon,
 	[DEBUG_MENU_ADDRARECANDY] = DebugAction_AddRareCandy,
 	[DEBUG_MENU_ADDMASTERBALL] = DebugAction_AddMasterBall,
-	[DEBUG_MENU_DOWILDBATTLE] = DebugAction_DoWildBattle,
 	[DEBUG_MENU_ADDITEM] = DebugAction_AddItem,
-	[DEBUG_MENU_SHINYFLAG] = DebugAction_ShinyFlag,
-	[DEBUG_MENU_HIDDENABILITYFLAG] = DebugAction_HiddenAbilityFlag,
   [DEBUG_MENU_ITEM_CANCEL] = DebugAction_Cancel
 };
 
@@ -215,14 +201,6 @@ static void DebugAction_AddMasterBall(u8 taskId)
 	AddBagItem(ITEM_PREMIER_BALL, 999);
 }
 
-static void DebugAction_DoWildBattle(u8 taskId)
-{
-	u16 species = Random() % 808;
-    u8 level = 50;
-	CreateWildMon(species, level);
-    BattleSetup_StartScriptedWildBattle();
-}
-
 static void DebugAction_AddItem(u8 taskId)
 {
   u16 i;
@@ -233,23 +211,6 @@ static void DebugAction_AddItem(u8 taskId)
   for (i = 397; i < 445; i++) {
     AddBagItem(i, 1);
   }
-}
-
-static void DebugAction_ShinyFlag(u8 taskId)
-{
-	if (FlagGet(SHINY_CREATION_FLAG) == TRUE)
-		FlagClear(SHINY_CREATION_FLAG);
-	else
-		FlagSet(SHINY_CREATION_FLAG);
-}
-
-
-static void DebugAction_HiddenAbilityFlag(u8 taskId)
-{
-	if (FlagGet(HIDDEN_ABILITY_FLAG) == TRUE)
-		FlagClear(HIDDEN_ABILITY_FLAG);
-	else
-		FlagSet(HIDDEN_ABILITY_FLAG);
 }
 
 static void DebugAction_FullPokedex(u8 taskId)

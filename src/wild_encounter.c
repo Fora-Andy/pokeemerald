@@ -530,6 +530,12 @@ static bool8 TryGenerateWildMonSWSB(const struct WildPokemonInfo *wildMonInfo, u
     if (gMapHeader.mapLayoutId != LAYOUT_BATTLE_FRONTIER_BATTLE_PIKE_RANDOM_ROOM3 && flags & WILD_CHECK_KEEN_EYE && !IsAbilityAllowingEncounter(level))
         return FALSE;
 
+    if (GetTimeLapse(hour) == TIME_MIDNIGHT
+    || GetTimeLapse(hour) == TIME_NIGHT
+    || GetTimeLapse(hour) == TIME_NIGHTFALL)
+    {
+      FlagSet(HIDDEN_ABILITY_FLAG);
+    }
 
     //夜间限定
     if (gBaseStats[speciesID].type1 == TYPE_GHOST || gBaseStats[speciesID].type2 == TYPE_GHOST)
@@ -729,7 +735,7 @@ bool8 StandardWildEncounter(u16 currMetaTileBehavior, u16 previousMetaTileBehavi
                     if (MetatileBehavior_IsTallGrass(currMetaTileBehavior) == TRUE &&  Random() % 100 < 40 && !GetSafariZoneFlag() && GetMonsStateToDoubles() == PLAYER_HAS_TWO_USABLE_MONS)
                     {
           						struct Pokemon mon1 = gEnemyParty[0];
-                      if (MetatileBehavior_IsTallGrass(currMetaTileBehavior) == TRUE &&  Random() % 100 < 50 )
+                      if (MetatileBehavior_IsTallGrass(currMetaTileBehavior) == TRUE &&  Random() % 100 < 15 )
                           FlagSet(HIDDEN_ABILITY_FLAG);
           						TryGenerateWildMonSWSB(gWildMonHeaders[headerId].landMonsInfo, WILD_AREA_LAND, WILD_CHECK_KEEN_EYE, headerId);
           						gEnemyParty[1] = mon1;

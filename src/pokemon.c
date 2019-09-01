@@ -2505,6 +2505,7 @@ void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, 
     u32 personality;
     u32 value;
     u16 checksum;
+    u8 chain = VarGet(VAR_CHAIN_COUNT);
 
     ZeroBoxMonData(boxMon);
 
@@ -2570,7 +2571,6 @@ void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, 
     else
     {
         u32 iv;
-        u8 chain = VarGet(VAR_CHAIN_COUNT);
         value = Random();
 
         iv = value & 0x1F;
@@ -2602,19 +2602,28 @@ void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, 
               SetFullIVRandomly(boxMon, 5);
     }
 
+    value = 0;
+    if(gBaseStats[species].abilities[1]!= ABILITY_NONE)
+    {
+        value = personality / 65536 % 2;
+    }
+
     //隐藏特性
-		if (FlagGet(HIDDEN_ABILITY_FLAG))
+    if(chain>=5 && chain <10 && Random() % 100 <= 5)
+          value = 2;
+    else if(chain>=10 && chain <15 && Random() % 100 <= 10)
+          value = 2;
+    else if(chain>=15 && chain <20 && Random() % 100 <= 15)
+          value = 2;
+    else if(chain>=20 && Random() % 100 <= 20)
+          value = 2;
+
+		if(FlagGet(HIDDEN_ABILITY_FLAG))
     {
 			value = 2;
       FlagClear(HIDDEN_ABILITY_FLAG);
     }
-		else
-    {
-      if (gBaseStats[species].abilities[1])
-      {
-          value = personality & 1;
-      }
-    }
+
     SetBoxMonData(boxMon, MON_DATA_ABILITY_NUM, &value);
 
     GiveBoxMonInitialMoveset(boxMon);

@@ -586,4 +586,7 @@ extern const u8 EventScript_275B38[];
 // trainer hill
 extern const u8 EventScript_2C83F0[];
 
+extern const u8 EventScript_SetWildBattle[];
+extern const u8 EventScript_BufferChainCount[];
+
 #endif // GUARD_EVENT_SCRIPTS_H

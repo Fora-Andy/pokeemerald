@@ -11869,3 +11869,87 @@ const struct SpriteFrameImage gEventObjectPicTable_Vivian[] = {
     overworld_frame(gEventObjectPic_Vivian, 4, 4, 7),
     overworld_frame(gEventObjectPic_Vivian, 4, 4, 8),
 };
+
+const struct SpriteFrameImage gEventObjectPicTable_WhiteSkuldNormal[] = {
+    overworld_frame(gEventObjectPic_WhiteSkuldNormal, 4, 4, 0),
+    overworld_frame(gEventObjectPic_WhiteSkuldNormal, 4, 4, 1),
+    overworld_frame(gEventObjectPic_WhiteSkuldNormal, 4, 4, 2),
+    overworld_frame(gEventObjectPic_WhiteSkuldNormal, 4, 4, 3),
+    overworld_frame(gEventObjectPic_WhiteSkuldNormal, 4, 4, 4),
+    overworld_frame(gEventObjectPic_WhiteSkuldNormal, 4, 4, 5),
+    overworld_frame(gEventObjectPic_WhiteSkuldNormal, 4, 4, 6),
+    overworld_frame(gEventObjectPic_WhiteSkuldNormal, 4, 4, 7),
+    overworld_frame(gEventObjectPic_WhiteSkuldNormal, 4, 4, 8),
+    overworld_frame(gEventObjectPic_WhiteSkuldRunning, 4, 4, 0),
+    overworld_frame(gEventObjectPic_WhiteSkuldRunning, 4, 4, 1),
+    overworld_frame(gEventObjectPic_WhiteSkuldRunning, 4, 4, 2),
+    overworld_frame(gEventObjectPic_WhiteSkuldRunning, 4, 4, 3),
+    overworld_frame(gEventObjectPic_WhiteSkuldRunning, 4, 4, 4),
+    overworld_frame(gEventObjectPic_WhiteSkuldRunning, 4, 4, 5),
+    overworld_frame(gEventObjectPic_WhiteSkuldRunning, 4, 4, 6),
+    overworld_frame(gEventObjectPic_WhiteSkuldRunning, 4, 4, 7),
+    overworld_frame(gEventObjectPic_WhiteSkuldRunning, 4, 4, 8),
+};
+
+const struct SpriteFrameImage gEventObjectPicTable_WhiteSkuldMachBike[] = {
+    overworld_frame(gEventObjectPic_WhiteSkuldMachBike, 4, 4, 0),
+    overworld_frame(gEventObjectPic_WhiteSkuldMachBike, 4, 4, 1),
+    overworld_frame(gEventObjectPic_WhiteSkuldMachBike, 4, 4, 2),
+    overworld_frame(gEventObjectPic_WhiteSkuldMachBike, 4, 4, 3),
+    overworld_frame(gEventObjectPic_WhiteSkuldMachBike, 4, 4, 4),
+    overworld_frame(gEventObjectPic_WhiteSkuldMachBike, 4, 4, 5),
+    overworld_frame(gEventObjectPic_WhiteSkuldMachBike, 4, 4, 6),
+    overworld_frame(gEventObjectPic_WhiteSkuldMachBike, 4, 4, 7),
+    overworld_frame(gEventObjectPic_WhiteSkuldMachBike, 4, 4, 8),
+};
+
+const struct SpriteFrameImage gEventObjectPicTable_WhiteSkuldSurfing[] = {
+    overworld_frame(gEventObjectPic_WhiteSkuldSurfing, 4, 4, 0),
+    overworld_frame(gEventObjectPic_WhiteSkuldSurfing, 4, 4, 2),
+    overworld_frame(gEventObjectPic_WhiteSkuldSurfing, 4, 4, 4),
+    overworld_frame(gEventObjectPic_WhiteSkuldSurfing, 4, 4, 0),
+    overworld_frame(gEventObjectPic_WhiteSkuldSurfing, 4, 4, 0),
+    overworld_frame(gEventObjectPic_WhiteSkuldSurfing, 4, 4, 2),
+    overworld_frame(gEventObjectPic_WhiteSkuldSurfing, 4, 4, 2),
+    overworld_frame(gEventObjectPic_WhiteSkuldSurfing, 4, 4, 4),
+    overworld_frame(gEventObjectPic_WhiteSkuldSurfing, 4, 4, 4),
+    overworld_frame(gEventObjectPic_WhiteSkuldSurfing, 4, 4, 1),
+    overworld_frame(gEventObjectPic_WhiteSkuldSurfing, 4, 4, 3),
+    overworld_frame(gEventObjectPic_WhiteSkuldSurfing, 4, 4, 5),
+};
+
+const struct SpriteFrameImage gEventObjectPicTable_WhiteSkuldFieldMove[] = {
+    overworld_frame(gEventObjectPic_WhiteSkuldFieldMove, 4, 4, 0),
+    overworld_frame(gEventObjectPic_WhiteSkuldFieldMove, 4, 4, 1),
+    overworld_frame(gEventObjectPic_WhiteSkuldFieldMove, 4, 4, 2),
+    overworld_frame(gEventObjectPic_WhiteSkuldFieldMove, 4, 4, 3),
+    overworld_frame(gEventObjectPic_WhiteSkuldFieldMove, 4, 4, 4),
+};
+
+const struct SpriteFrameImage gEventObjectPicTable_WhiteSkuldFishing[] = {
+    overworld_frame(gEventObjectPic_WhiteSkuldFishing, 4, 4, 0),
+    overworld_frame(gEventObjectPic_WhiteSkuldFishing, 4, 4, 1),
+    overworld_frame(gEventObjectPic_WhiteSkuldFishing, 4, 4, 2),
+    overworld_frame(gEventObjectPic_WhiteSkuldFishing, 4, 4, 3),
+    overworld_frame(gEventObjectPic_WhiteSkuldFishing, 4, 4, 4),
+    overworld_frame(gEventObjectPic_WhiteSkuldFishing, 4, 4, 5),
+    overworld_frame(gEventObjectPic_WhiteSkuldFishing, 4, 4, 6),
+    overworld_frame(gEventObjectPic_WhiteSkuldFishing, 4, 4, 7),
+    overworld_frame(gEventObjectPic_WhiteSkuldFishing, 4, 4, 8),
+    overworld_frame(gEventObjectPic_WhiteSkuldFishing, 4, 4, 9),
+    overworld_frame(gEventObjectPic_WhiteSkuldFishing, 4, 4, 10),
+    overworld_frame(gEventObjectPic_WhiteSkuldFishing, 4, 4, 11),
+};
+
+
+const struct SpriteFrameImage gEventObjectPicTable_WhiteSkuldWatering[] = {
+    overworld_frame(gEventObjectPic_WhiteSkuldWatering, 4, 4, 0),
+    overworld_frame(gEventObjectPic_WhiteSkuldWatering, 4, 4, 2),
+    overworld_frame(gEventObjectPic_WhiteSkuldWatering, 4, 4, 4),
+    overworld_frame(gEventObjectPic_WhiteSkuldWatering, 4, 4, 1),
+    overworld_frame(gEventObjectPic_WhiteSkuldWatering, 4, 4, 1),
+    overworld_frame(gEventObjectPic_WhiteSkuldWatering, 4, 4, 3),
+    overworld_frame(gEventObjectPic_WhiteSkuldWatering, 4, 4, 3),
+    overworld_frame(gEventObjectPic_WhiteSkuldWatering, 4, 4, 5),
+    overworld_frame(gEventObjectPic_WhiteSkuldWatering, 4, 4, 5),
+};

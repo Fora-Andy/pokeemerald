@@ -2609,16 +2609,16 @@ void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, 
     }
 
     //隐藏特性
-    if(chain>=5 && chain <10 && Random() % 100 <= 5)
+    if(chain>=5 && chain <10 && gBaseStats[species].abilityHidden != ABILITY_NONE && Random() % 100 <= 5)
           value = 2;
-    else if(chain>=10 && chain <15 && Random() % 100 <= 10)
+    else if(chain>=10 && chain <15 && gBaseStats[species].abilityHidden != ABILITY_NONE && Random() % 100 <= 10)
           value = 2;
-    else if(chain>=15 && chain <20 && Random() % 100 <= 15)
+    else if(chain>=15 && chain <20 && gBaseStats[species].abilityHidden != ABILITY_NONE && Random() % 100 <= 15)
           value = 2;
-    else if(chain>=20 && Random() % 100 <= 20)
+    else if(chain>=20 && gBaseStats[species].abilityHidden != ABILITY_NONE && Random() % 100 <= 20)
           value = 2;
 
-		if(FlagGet(HIDDEN_ABILITY_FLAG))
+		if(FlagGet(HIDDEN_ABILITY_FLAG) && gBaseStats[species].abilityHidden != ABILITY_NONE)
     {
 			value = 2;
       FlagClear(HIDDEN_ABILITY_FLAG);

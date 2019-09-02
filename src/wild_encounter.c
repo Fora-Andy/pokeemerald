@@ -534,7 +534,8 @@ static bool8 TryGenerateWildMonSWSB(const struct WildPokemonInfo *wildMonInfo, u
     || GetTimeLapse(hour) == TIME_NIGHT
     || GetTimeLapse(hour) == TIME_NIGHTFALL)
     {
-      FlagSet(HIDDEN_ABILITY_FLAG);
+      if(Random()%100 < 20)
+        FlagSet(HIDDEN_ABILITY_FLAG);
     }
 
     //夜间限定

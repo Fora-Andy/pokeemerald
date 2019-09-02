@@ -1045,7 +1045,13 @@ const struct EventObjectGraphicsInfo *const gEventObjectGraphicsInfoPointers[] =
     &gEventObjectGraphicsInfo_pkmn_805,
     &gEventObjectGraphicsInfo_pkmn_806,
     &gEventObjectGraphicsInfo_pkmn_807,
-    &gEventObjectGraphicsInfo_Vivian
+    &gEventObjectGraphicsInfo_Vivian,
+    &gEventObjectGraphicsInfo_WhiteSkuldNormal,
+    &gEventObjectGraphicsInfo_WhiteSkuldMachBike,
+    &gEventObjectGraphicsInfo_WhiteSkuldSurfing,
+    &gEventObjectGraphicsInfo_WhiteSkuldFieldMove,
+    &gEventObjectGraphicsInfo_WhiteSkuldFishing,
+    &gEventObjectGraphicsInfo_WhiteSkuldWatering
 };
 
 const struct EventObjectGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {

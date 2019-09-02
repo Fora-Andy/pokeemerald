@@ -1235,6 +1235,7 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define EVENT_OBJ_PAL_PKMN_806 5193 //pkmn_806
 #define EVENT_OBJ_PAL_PKMN_807 5194 //pkmn_807
 #define EVENT_OBJ_PAL_Vivian 5195
+#define EVENT_OBJ_PAL_WhiteSkuld 5196
 #define EVENT_OBJ_PAL_TAG_NONE 0x1FFF
 
 #include "data/field_event_obj/field_effect_object_template_pointers.h"
@@ -2089,6 +2090,7 @@ const struct SpritePalette sEventObjectSpritePalettes[] = {
     {gEventObjectPalette_pkmn_806, EVENT_OBJ_PAL_PKMN_806},
     {gEventObjectPalette_pkmn_807, EVENT_OBJ_PAL_PKMN_807},
     {gEventObjectPalette_Vivian, EVENT_OBJ_PAL_Vivian},
+    {gEventObjectPalette_WhiteSkuld, EVENT_OBJ_PAL_WhiteSkuld},
     {NULL,                  0x0000},
 };
 

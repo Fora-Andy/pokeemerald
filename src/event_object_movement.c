@@ -6451,7 +6451,7 @@ bool8 EventObjectSetHeldMovement(struct EventObject *eventObject, u8 movementAct
     eventObject->heldMovementFinished = FALSE;
     gSprites[eventObject->spriteId].data[2] = 0;
     // Add the following move to the follower if we are moving the player
-    if (eventObject-> localId == 0xFF && (
+    if (gPlayerAvatar.flags != (PLAYER_AVATAR_FLAG_MACH_BIKE) && eventObject-> localId == 0xFF && (
         movementActionId == MOVEMENT_ACTION_WALK_NORMAL_RIGHT
         || movementActionId == MOVEMENT_ACTION_WALK_NORMAL_LEFT
         || movementActionId == MOVEMENT_ACTION_WALK_NORMAL_UP
@@ -6464,7 +6464,7 @@ bool8 EventObjectSetHeldMovement(struct EventObject *eventObject, u8 movementAct
         || movementActionId == MOVEMENT_ACTION_JUMP_2_LEFT
         || movementActionId == MOVEMENT_ACTION_JUMP_2_RIGHT))
     {
-        MoveFollower (movementActionId);
+        MoveFollower(movementActionId);
     }
     return FALSE;
 }

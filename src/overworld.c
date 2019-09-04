@@ -1642,11 +1642,7 @@ void CB2_ReturnToField(void)
 
 void CB2_ReturnToFieldLocal(void)
 {
-    if(CanSpawnFollower() == 2)
-    {
-        SwapFollower();
-    }
-
+    TrySpawnFollower(0, 0, 0);
     if (sub_8086638(&gMain.state))
     {
         SetFieldVBlankCallback();

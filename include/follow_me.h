@@ -2,11 +2,9 @@
 #define FOLLOWER_EVENT_H
 
 extern struct FollowerAvatar gFollower;
-void SpawnFollower(s16 x, s16 y, u8 nextDirection);
-void SwapFollower();
+void TrySpawnFollower(s16 x, s16 y, u8 nextDirection);
 void DeleteFollower();
 void MoveFollower(u8 nextMovementId);
-u8 CanSpawnFollower();
 u16 GetFollowerGraphicID();
 
 struct FollowerAvatar

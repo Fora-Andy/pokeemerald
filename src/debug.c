@@ -45,7 +45,7 @@ static const u8 gDebugText_FullPokedex[] = _("全图鉴");
 static const u8 gDebugText_AddPokemon[] = _("随机宝可梦");
 static const u8 gDebugText_AddRareCandy[] = _("神奇糖果");
 static const u8 gDebugText_AddMasterBall[] = _("宝可梦球");
-static const u8 gDebugText_AddItem[] = _("学习装置");
+static const u8 gDebugText_AddItem[] = _("DEBUG道具");
 static const u8 gDebugText_Cancel[] = _("退出");
 
 static const struct ListMenuItem sDebugMenuItems[] =
@@ -206,9 +206,20 @@ static void DebugAction_AddItem(u8 taskId)
   u16 i;
 	AddBagItem(ITEM_EXP_SHARE, 1);
   AddBagItem(ITEM_POTION, 1);
-  AddBagItem(ITEM_NUGGET, 1);
-  AddBagItem(ITEM_TM07_HAIL, 1);
   for (i = 397; i < 445; i++) {
+    AddBagItem(i, 1);
+  }
+  for (i = 339; i < 356; i++) {
+    AddBagItem(i, 1);
+  }
+  for (i = 482; i < 581; i++) {
+    AddBagItem(i, 1);
+  }
+  for (i = 532; i < 539; i++) {
+    AddBagItem(i, 1);
+  }
+  AddBagItem(ITEM_SHINY_CHARM, 1);
+  for (i = 455; i < 469; i++) {
     AddBagItem(i, 1);
   }
 }

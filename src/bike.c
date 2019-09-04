@@ -4,6 +4,7 @@
 #include "field_player_avatar.h"
 #include "fieldmap.h"
 #include "field_specials.h"
+#include "follow_me.h"
 #include "metatile_behavior.h"
 #include "overworld.h"
 #include "sound.h"
@@ -987,6 +988,7 @@ void GetOnOffBike(u8 transitionFlags)
     }
     else
     {
+        DeleteFollower();
         SetPlayerAvatarTransitionFlags(transitionFlags);
         Overworld_SetSavedMusic(MUS_CYCLING);
         Overworld_ChangeMusicTo(MUS_CYCLING);

@@ -18,13 +18,36 @@ static u8 SanatizeMovementId(u8 movementId);
 
 EWRAM_DATA struct FollowerAvatar gFollower = {};
 
+static u8 CanSpawnFollower()
+{
+    struct Pokemon *pokemon = &gPlayerParty[GetFollowerPartyIndex()];
+    u8 i;
+
+    if (GetMonData(pokemon, MON_DATA_SPECIES2) == SPECIES_NONE)
+    {
+        return 0;
+    }
+
+    for (i = 0; i < EVENT_OBJECTS_COUNT; i++)
+    {
+        if (gEventObjects[i].active && gEventObjects[i].localId == EVENT_OBJ_ID_FOLLOWER)
+        {
+          if(gEventObjects[i].graphicsId != GetFollowerGraphicID())
+              return 2;
+          else
+              return 0;
+        }
+    }
+    return 1;
+}
+
 u16 GetFollowerGraphicID()
 {
   u16 species = GetMonData(&gPlayerParty[GetFollowerPartyIndex()], MON_DATA_SPECIES2, NULL);
     return EVENT_OBJ_GFX_PKMN_1 + SpeciesToNationalPokedexNum(species) - 1;
 }
 
-void SpawnFollower(s16 x, s16 y, u8 nextDirection)
+static void SpawnFollower(s16 x, s16 y, u8 nextDirection)
 {
     u8 followerObjectId;
     struct EventObject *followerEvent;
@@ -48,10 +71,25 @@ void SpawnFollower(s16 x, s16 y, u8 nextDirection)
     gFollower.nextMovementId = GetWalkNormalMovementAction(nextDirection);
 }
 
-void SwapFollower()
+static void SwapFollower()
 {
     struct EventObject *followerEventObj = &gEventObjects[gFollower.eventObjectId];
     followerEventObj->graphicsId = GetFollowerGraphicID();
+}
+
+void TrySpawnFollower(s16 x, s16 y, u8 nextDirection)
+{
+  switch (CanSpawnFollower())
+  {
+    case 1:
+      SpawnFollower(x, y, nextDirection);
+      break;
+    case 2:
+      SwapFollower();
+      break;
+    default:
+      break;
+  }
 }
 
 void DeleteFollower()
@@ -60,12 +98,13 @@ void DeleteFollower()
     struct SpriteFrameImage image;
     u8 paletteNum;
 
-    followerEventObj->active = FALSE;
-    image.size = GetEventObjectGraphicsInfo(followerEventObj->graphicsId)->size;
-    gSprites[followerEventObj->spriteId].images = &image;
-    paletteNum = gSprites[followerEventObj->spriteId].oam.paletteNum;
-    DestroySprite(&gSprites[followerEventObj->spriteId]);
-    FieldEffectFreePaletteIfUnused(paletteNum);
+  if (followerEventObj->active && followerEventObj->localId == EVENT_OBJ_ID_FOLLOWER)
+      followerEventObj->active = FALSE;
+      image.size = GetEventObjectGraphicsInfo(followerEventObj->graphicsId)->size;
+      gSprites[followerEventObj->spriteId].images = &image;
+      paletteNum = gSprites[followerEventObj->spriteId].oam.paletteNum;
+      DestroySprite(&gSprites[followerEventObj->spriteId]);
+      FieldEffectFreePaletteIfUnused(paletteNum);
 }
 
 void MoveFollower(u8 nextMovementId)
@@ -89,30 +128,6 @@ void MoveFollower(u8 nextMovementId)
     }
 }
 
-u8 CanSpawnFollower()
-{
-    struct Pokemon *pokemon = &gPlayerParty[GetFollowerPartyIndex()];
-    u8 i;
-
-    // Comprueba que el Pokémon exista
-    if (GetMonData(pokemon, MON_DATA_SPECIES2) == SPECIES_NONE)
-    {
-        return 0;
-    }
-
-    // Comprueba si se ha creado ya el evento del follower
-    for (i = 0; i < EVENT_OBJECTS_COUNT; i++)
-    {
-        if (gEventObjects[i].active && gEventObjects[i].localId == EVENT_OBJ_ID_FOLLOWER)
-        {
-          if(gEventObjects[i].graphicsId != GetFollowerGraphicID())
-              return 2;
-          else
-              return 0;
-        }
-    }
-    return 1;
-}
 
 static u8 GetFollowerPartyIndex()
 {

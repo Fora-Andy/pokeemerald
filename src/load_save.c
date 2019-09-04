@@ -1,6 +1,7 @@
 #include "global.h"
 #include "alloc.h"
 #include "berry_powder.h"
+#include "follow_me.h"
 #include "item.h"
 #include "load_save.h"
 #include "main.h"
@@ -189,7 +190,13 @@ void SaveEventObjects(void)
     int i;
 
     for (i = 0; i < EVENT_OBJECTS_COUNT; i++)
-        gSaveBlock1Ptr->eventObjects[i] = gEventObjects[i];
+        if (gEventObjects[i].active && gEventObjects[i].localId == EVENT_OBJ_ID_FOLLOWER)
+        {
+        }
+        else
+        {
+          gSaveBlock1Ptr->eventObjects[i] = gEventObjects[i];
+        }
 }
 
 void LoadEventObjects(void)

@@ -652,10 +652,7 @@ static void PlayerNotOnBikeMoving(u8 direction, u16 heldKeys)
     }
     else
     {
-        if(CanSpawnFollower() == 1)
-        {
-            SpawnFollower(gEventObjects[gPlayerAvatar.eventObjectId].currentCoords.x , gEventObjects[gPlayerAvatar.eventObjectId].currentCoords.y, direction);
-        }
+        TrySpawnFollower(gEventObjects[gPlayerAvatar.eventObjectId].currentCoords.x , gEventObjects[gPlayerAvatar.eventObjectId].currentCoords.y, direction);
         PlayerGoSpeed1(direction);
     }
 }

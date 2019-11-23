@@ -177,12 +177,12 @@
 #define MON_DATA_SPATK2            87
 #define MON_DATA_SPDEF2            88
 
+#define MIN_LEVEL 1
 #define MAX_LEVEL 100
 
 #define OT_ID_PLAYER_ID       0
 #define OT_ID_PRESET          1
 #define OT_ID_RANDOM_NO_SHINY 2
-
 
 #define MON_GIVEN_TO_PARTY      0
 #define MON_GIVEN_TO_PC         1
@@ -191,6 +191,9 @@
 #define PLAYER_HAS_TWO_USABLE_MONS     0
 #define PLAYER_HAS_ONE_MON             1
 #define PLAYER_HAS_ONE_USABLE_MON      2
+
+#define MON_ALREADY_KNOWS_MOVE  0xFFFE
+#define MON_HAS_MAX_MOVES       0xFFFF
 
 #define MON_MALE       0x00
 #define MON_FEMALE     0xFE

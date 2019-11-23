@@ -220,7 +220,7 @@ struct Apprentice
     u8 lvlMode:2; // + 1
     u8 field_1;
     u8 number;
-    struct ApprenticeMon party[3];
+    struct ApprenticeMon party[MULTI_PARTY_SIZE];
     u16 easyChatWords[6];
     u8 playerId[TRAINER_ID_LENGTH];
     u8 playerName[PLAYER_NAME_LENGTH];
@@ -282,7 +282,7 @@ struct BattleTowerEReaderTrainer
     /*0x10*/ u16 greeting[6];
     /*0x1C*/ u16 farewellPlayerLost[6];
     /*0x28*/ u16 farewellPlayerWon[6];
-    /*0x34*/ struct BattleTowerPokemon party[3];
+    /*0x34*/ struct BattleTowerPokemon party[FRONTIER_PARTY_SIZE];
     /*0xB8*/ u32 checksum;
 };
 
@@ -329,7 +329,7 @@ struct BattleFrontier
     /*0xCA9*/ u8 field_CA9_d:1;   // 0x20
     /*0xCA9*/ u8 field_CA9_e:1;   // 0x40
     /*0xCA9*/ u8 field_CA9_f:1;   // 0x80
-    /*0xCAA*/ u16 selectedPartyMons[3];
+    /*0xCAA*/ u16 selectedPartyMons[FRONTIER_PARTY_SIZE];
     /*0xCB0*/ u16 field_CB0;
     /*0xCB2*/ u16 curChallengeBattleNum; // In case of battle pyramid, the floor.
     /*0xCB4*/ u16 trainerIds[20];
@@ -356,7 +356,7 @@ struct BattleFrontier
     /*0xD14*/ u16 domeRecordWinStreaks[2][2];
     /*0xD1C*/ u16 domeTotalChampionships[2][2];
     /*0xD24*/ struct BattleDomeTrainer domeTrainers[DOME_TOURNAMENT_TRAINERS_COUNT];
-    /*0xD64*/ u16 domeMonIds[DOME_TOURNAMENT_TRAINERS_COUNT][3];
+    /*0xD64*/ u16 domeMonIds[DOME_TOURNAMENT_TRAINERS_COUNT][FRONTIER_PARTY_SIZE];
     /*0xDC4*/ u16 field_DC4;
     /*0xDC6*/ u16 field_DC6;
     /*0xDC8*/ u16 palaceWinStreaks[2][2];
@@ -375,7 +375,7 @@ struct BattleFrontier
     /*0xE10*/ u8 pikeHintedRoomIndex:3;
     /*0xE10*/ u8 pikeHintedRoomType:4;
     /*0xE10*/ u8 pikeHealingRoomsDisabled:1;
-    /*0xE12*/ u16 pikeHeldItemsBackup[3];
+    /*0xE12*/ u16 pikeHeldItemsBackup[FRONTIER_PARTY_SIZE];
     /*0xE18*/ u16 pyramidRewardItem;
     /*0xE1A*/ u16 pyramidWinStreaks[2];
     /*0xE1E*/ u16 pyramidRecordStreaks[2];
@@ -391,11 +391,11 @@ struct BattleFrontier
     /*0xEBA*/ u16 field_EBA;
     /*0xEBC*/ u32 battlesCount;
     /*0xEC0*/ u16 field_EC0[16];
-    /*0xEE0*/ u8 field_EE0;
+    /*0xEE0*/ u8 trainerFlags;
     /*0xEE1*/ u8 opponentName[2][PLAYER_NAME_LENGTH + 1];
     /*0xEF1*/ u8 field_EF1[2][4];
-    /*0xEF9*/ u8 field_EF9_0:7;
-    /*0xEF9*/ u8 field_EF9_1:1;
+    /*0xEF9*/ u8 unk_EF9:7;
+    /*0xEF9*/ u8 savedGame:1;
     /*0xEFA*/ u8 field_EFA;
     /*0xEFB*/ u8 field_EFB;
     /*0xEFC*/ struct FrontierMonData field_EFC[3];
@@ -419,7 +419,7 @@ struct PlayersApprentice
     /*0xB2*/ u8 field_B2_0:3;
     /*0xB2*/ u8 field_B2_1:2;
     /*0xB3*/ u8 field_B3;
-    /*0xB4*/ u8 monIds[3];
+    /*0xB4*/ u8 monIds[MULTI_PARTY_SIZE];
     /*0xB8*/ struct Sav2_B8 field_B8[9];
 };
 
@@ -594,9 +594,9 @@ struct MauvilleManCommon
 struct MauvilleManBard
 {
     /*0x00*/ u8 id;
-    /*0x02*/ u16 songLyrics[6];
-    /*0x0E*/ u16 temporaryLyrics[6];
-    /*0x1A*/ u8 playerName[8];
+    /*0x02*/ u16 songLyrics[BARD_SONG_LENGTH];
+    /*0x0E*/ u16 temporaryLyrics[BARD_SONG_LENGTH];
+    /*0x1A*/ u8 playerName[PLAYER_NAME_LENGTH + 1];
     /*0x22*/ u8 filler_2DB6[0x3];
     /*0x25*/ u8 playerTrainerId[TRAINER_ID_LENGTH];
     /*0x29*/ bool8 hasChangedSong;
@@ -608,10 +608,10 @@ struct MauvilleManStoryteller
     u8 id;
     bool8 alreadyRecorded;
     u8 filler2[2];
-    u8 gameStatIDs[4];
-    u8 trainerNames[4][7];
-    u8 statValues[4][4];
-    u8 language[4];
+    u8 gameStatIDs[NUM_STORYTELLER_TALES];
+    u8 trainerNames[NUM_STORYTELLER_TALES][PLAYER_NAME_LENGTH];
+    u8 statValues[NUM_STORYTELLER_TALES][4];
+    u8 language[NUM_STORYTELLER_TALES];
 };
 
 struct MauvilleManGiddy
@@ -634,10 +634,10 @@ struct MauvilleManHipster
 struct MauvilleOldManTrader
 {
     u8 id;
-    u8 decorIds[4];
-    u8 playerNames[4][11];
+    u8 decorIds[NUM_TRADER_ITEMS];
+    u8 playerNames[NUM_TRADER_ITEMS][11];
     u8 alreadyTraded;
-    u8 language[4];
+    u8 language[NUM_TRADER_ITEMS];
 };
 
 typedef union OldMan
@@ -806,15 +806,15 @@ struct SaveTrainerHill
 {
     /*0x3D64*/ u32 timer;
     /*0x3D68*/ u32 bestTime;
-    /*0x3D6C*/ u8 field_3D6C;
+    /*0x3D6C*/ u8 unk_3D6C;
     /*0x3D6D*/ u8 unused;
-    /*0x3D6E*/ u16 field_3D6E_0a:1; // 1
-    /*0x3D6E*/ u16 field_3D6E_0b:1; // 2
-    /*0x3D6E*/ u16 field_3D6E_0c:1; // 4
-    /*0x3D6E*/ u16 hasLost:1; // 8
-    /*0x3D6E*/ u16 maybeECardScanDuringChallenge:1; // x10
-    /*0x3D6E*/ u16 field_3D6E_0f:1; // x20
-    /*0x3D6E*/ u16 tag:2; // x40, x80 = xC0
+    /*0x3D6E*/ u16 receivedPrize:1;
+    /*0x3D6E*/ u16 checkedFinalTime:1;
+    /*0x3D6E*/ u16 spokeToOwner:1;
+    /*0x3D6E*/ u16 hasLost:1;
+    /*0x3D6E*/ u16 maybeECardScanDuringChallenge:1;
+    /*0x3D6E*/ u16 field_3D6E_0f:1;
+    /*0x3D6E*/ u16 tag:2;
 };
 
 struct MysteryEventStruct

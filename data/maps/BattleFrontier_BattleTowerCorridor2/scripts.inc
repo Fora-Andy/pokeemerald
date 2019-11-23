@@ -12,8 +12,8 @@ BattleFrontier_BattleTowerCorridor2_MapScript1_248D5A: @ 8248D5A
 	end
 
 BattleFrontier_BattleTowerCorridor2_EventScript_248D71:: @ 8248D71
-	setvar VAR_0x8004, 14
-	special sub_8161F74
+	setvar VAR_0x8004, BATTLE_TOWER_FUNC_14
+	special CallBattleTowerFunc
 	checkplayergender
 	compare VAR_RESULT, FEMALE
 	goto_if_eq BattleFrontier_BattleTowerCorridor2_EventScript_248D8B
@@ -68,8 +68,8 @@ BattleFrontier_BattleTowerCorridor2_EventScript_248DBC:: @ 8248DBC
 	applymovement 2, BattleFrontier_BattleTowerCorridor2_Movement_248ED5
 	waitmovement 0
 	delay 40
-	applymovement 3, Common_Movement_WalkInPlaceUp
-	applymovement 2, Common_Movement_WalkInPlaceUp
+	applymovement 3, Common_Movement_WalkInPlaceFastestUp
+	applymovement 2, Common_Movement_WalkInPlaceFastestUp
 	waitmovement 0
 	opendoor 7, 1
 	waitdooranim
